@@ -46,7 +46,7 @@ Possession quality persists across seasons despite roster turnover. Special team
 
 We train on season N and predict every game in season N+1, comparing the covariate-enhanced model against a base Whelan model with no covariates:
 
-| Train → Test | Base Whelan | Sticky (FF% + PP%) | $\delta$ Brier |
+| Train → Test | Base Whelan | Sticky (FF% + PP%) | $\Delta$ Brier |
 |:------------:|:-----------:|:-------------------:|:-------:|
 | 2022-23 → 2023-24 | 0.2456 | **0.2445** | −0.0010 |
 | 2023-24 → 2024-25 | 0.2319 | **0.2285** | −0.0033 |
