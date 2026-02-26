@@ -133,7 +133,25 @@ python brier_validation.py
 
 1. **Covariate extension** — Team strength is partially explained by observable metrics rather than being purely latent. This allows the model to identify teams winning unsustainably (lucky) or losing despite strong process (unlucky).
 
-2. **Ties as a fifth outcome** — NCAA conference games can end in a tie. The tie outcome is modeled with p = 1/2, o = 1 in the softmax, consistent with Davidson's original formulation.
+2. **Ties as a fifth outcome** — NCAA conference games can end in a tie. The tie outcome extends Whelan's 4-outcome softmax to a 5-category likelihood. For a game between teams *i* and *j*, the probability of outcome *k* is:
+
+$$P(\text{outcome } k \mid i, j) = \frac{\exp(s_k)}{\sum_{K} \exp(s_K)}$$
+
+where the linear predictor for outcome $k$ is defined as:$$s_k = p_k \cdot \gamma_{ij} + o_k \cdot \tau$$
+
+and the strength difference between the two teams is:$$\gamma_{ij} = \lambda_i - \lambda_j$$.
+ 
+The outcome parameters (pₖ, oₖ) encode the information content of each result:
+
+| Outcome | pₖ | oₖ | Interpretation |
+|---------|:--:|:--:|----------------|
+| Regulation Win | 1 | 0 | Full win, no overtime — strongest signal |
+| Overtime Win | 2/3 | 1 | Partial win, required extra time |
+| Tie | 1/2 | 1 | Draw, consistent with Davidson (1970) |
+| Overtime Loss | 1/3 | 1 | Partial loss, required extra time |
+| Regulation Loss | 0 | 0 | Full loss — strongest signal |
+
+The τ parameter controls the overall frequency of overtime outcomes. Posterior estimate: τ = −1.760 ± 0.085, meaning overtime results are rare relative to regulation outcomes (exp(−1.76) ≈ 0.17).
 
 3. **Monte Carlo simulation layer** — Posterior draws feed directly into a season and tournament simulator, propagating parameter uncertainty through to the final predictions.
 
