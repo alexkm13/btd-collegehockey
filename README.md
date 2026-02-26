@@ -22,7 +22,7 @@ All three are statistically significant. The model decomposes team strength into
 Each team's strength is modeled as:
 
 
-$$\lambda_i = \alpha_i + \beta_1 \cdot \text{FF\%}_{\text{close}} + \beta_2 \cdot \text{PP\%} + \beta_3 \cdot \text{GSAx/60}$$
+$\lambda_i = \alpha_i + \beta_1 \cdot \text{FF\%}_{\text{close}} + \beta_2 \cdot \text{PP\%} + \beta_3 \cdot \text{GSAx/60}$
 
 where αᵢ is a team specific intercept and the β coefficients are shared across all teams. Game outcomes follow a 5 category softmax which incl. regulation win, overtime win, tie, overtime loss, regulation loss, extending Whelan's 4-outcome model to handle NCAA ties.
 
