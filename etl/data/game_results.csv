@@ -1,0 +1,961 @@
+date,home_team,away_team,home_score,away_score,period,home_outcome,away_outcome
+2025-10-03,Boston College,Quinnipiac,3,4,3,RL,RW
+2025-10-03,Canisius,Clarkson,3,1,3,RW,RL
+2025-10-03,Michigan,Mercyhurst,11,1,3,RW,RL
+2025-10-03,Miami,Ferris State,6,4,3,RW,RL
+2025-10-03,Mass.-Lowell,Merrimack,4,0,3,RW,RL
+2025-10-04,Minnesota,Michigan Tech,6,3,3,RW,RL
+2025-10-04,Lindenwood,Wisconsin,0,3,3,RL,RW
+2025-10-04,Colorado College,Connecticut,4,2,3,RW,RL
+2025-10-04,Arizona State,Penn State,3,6,3,RL,RW
+2025-10-04,Alaska,Minnesota-Duluth,1,5,3,RL,RW
+2025-10-04,Alaska-Anchorage,Bemidji State,2,9,3,RL,RW
+2025-10-04,Stonehill,Lake Superior,3,5,3,RL,RW
+2025-10-04,Niagara,St. Lawrence,5,2,3,RW,RL
+2025-10-04,Miami,Ferris State,3,1,3,RW,RL
+2025-10-04,Boston University,Long Island,4,2,3,RW,RL
+2025-10-04,St. Cloud State,St. Thomas,3,4,3,RL,RW
+2025-10-04,Michigan,Mercyhurst,7,0,3,RW,RL
+2025-10-04,Massachusetts,Northern Michigan,5,3,3,RW,RL
+2025-10-04,Northeastern,Holy Cross,6,4,3,RW,RL
+2025-10-05,Colorado College,Connecticut,1,5,3,RL,RW
+2025-10-05,Arizona State,Penn State,2,4,3,RL,RW
+2025-10-05,Minnesota,Michigan Tech,3,5,3,RL,RW
+2025-10-05,Lindenwood,Wisconsin,2,7,3,RL,RW
+2025-10-05,Alaska-Anchorage,Bemidji State,0,5,3,RL,RW
+2025-10-05,Alaska,Minnesota-Duluth,1,4,3,RL,RW
+2025-10-05,Stonehill,Lake Superior,2,3,3,RL,RW
+2025-10-05,Massachusetts,Northern Michigan,4,1,3,RW,RL
+2025-10-05,Canisius,St. Lawrence,4,2,3,RW,RL
+2025-10-09,Penn State,Clarkson,4,6,3,RL,RW
+2025-10-09,Michigan State,New Hampshire,3,4,3,RL,RW
+2025-10-09,Western Michigan,Ferris State,2,3,3,RL,RW
+2025-10-10,Minnesota,Boston College,1,3,3,RL,RW
+2025-10-10,Niagara,Bowling Green,2,0,3,RW,RL
+2025-10-10,Quinnipiac,Alaska,1,2,3,RL,RW
+2025-10-10,Ohio State,Northern Michigan,5,2,3,RW,RL
+2025-10-10,Minnesota,Boston College,2,2,4,T,T
+2025-10-10,Boston University,Colgate,6,2,3,RW,RL
+2025-10-10,Maine,Holy Cross,5,2,3,RW,RL
+2025-10-10,Stonehill,Massachusetts,1,4,3,RL,RW
+2025-10-10,Providence,Michigan,1,5,3,RL,RW
+2025-10-10,Merrimack,Mass.-Lowell,4,1,3,RW,RL
+2025-10-10,Vermont,St. Lawrence,2,1,3,RW,RL
+2025-10-10,Mercyhurst,Union,2,5,3,RL,RW
+2025-10-10,RPI,Miami,3,5,3,RL,RW
+2025-10-10,Penn State,Clarkson,5,2,3,RW,RL
+2025-10-10,Ferris State,Western Michigan,4,6,3,RL,RW
+2025-10-10,Northeastern,Army,1,2,3,RL,RW
+2025-10-10,Canisius,Long Island,3,2,4,OW,OL
+2025-10-10,RIT,Sacred Heart,0,1,3,RL,RW
+2025-10-10,Lake Superior,Lindenwood,4,5,3,RL,RW
+2025-10-10,Michigan State,New Hampshire,2,0,3,RW,RL
+2025-10-11,Omaha,Minnesota State,6,2,3,RW,RL
+2025-10-11,Minnesota-Duluth,Augustana,4,1,3,RW,RL
+2025-10-11,North Dakota,St. Thomas,6,2,3,RW,RL
+2025-10-11,Bemidji State,St. Cloud State,2,3,3,RL,RW
+2025-10-11,Colorado College,Bentley,5,2,3,RW,RL
+2025-10-11,Air Force,Denver,1,1,4,T,T
+2025-10-11,Arizona State,Notre Dame,5,3,3,RW,RL
+2025-10-11,Mercyhurst,Union,3,5,3,RL,RW
+2025-10-11,Ohio State,Northern Michigan,3,1,3,RW,RL
+2025-10-11,Niagara,Bowling Green,5,2,3,RW,RL
+2025-10-11,RIT,Sacred Heart,1,6,3,RL,RW
+2025-10-11,Boston University,Colgate,2,2,4,T,T
+2025-10-11,RPI,Miami,0,5,3,RL,RW
+2025-10-11,Notre Dame,Quinnipiac,2,7,3,RL,RW
+2025-10-11,Lake Superior,Lindenwood,4,7,3,RL,RW
+2025-10-11,Maine,Holy Cross,6,0,3,RW,RL
+2025-10-11,Providence,Michigan,1,3,3,RL,RW
+2025-10-11,Air Force,Colorado College,2,4,3,RL,RW
+2025-10-11,Canisius,Long Island,1,6,3,RL,RW
+2025-10-11,Minnesota-Duluth,Augustana,0,4,3,RL,RW
+2025-10-11,St. Cloud State,Bemidji State,4,2,3,RW,RL
+2025-10-12,Omaha,Minnesota State,1,4,3,RL,RW
+2025-10-12,Denver,Bentley,6,0,3,RW,RL
+2025-10-12,Arizona State,Alaska,5,2,3,RW,RL
+2025-10-12,St. Lawrence,Vermont,5,2,3,RW,RL
+2025-10-12,Army,Stonehill,6,1,3,RW,RL
+2025-10-12,St. Thomas,North Dakota,2,5,3,RL,RW
+2025-10-14,Army,Canisius,1,3,3,RL,RW
+2025-10-16,Notre Dame,St. Lawrence,8,2,3,RW,RL
+2025-10-16,Michigan,Robert Morris,4,2,3,RW,RL
+2025-10-17,Wisconsin,Minnesota State,1,1,4,T,T
+2025-10-17,RPI,Boston College,1,5,3,RL,RW
+2025-10-17,Boston University,Michigan State,2,4,3,RL,RW
+2025-10-17,Quinnipiac,Maine,4,4,4,T,T
+2025-10-17,Massachusetts,Northeastern,2,4,3,RL,RW
+2025-10-17,Connecticut,Ohio State,3,2,3,RW,RL
+2025-10-17,Colgate,Canisius,2,4,3,RL,RW
+2025-10-17,Michigan,Robert Morris,10,2,3,RW,RL
+2025-10-17,Notre Dame,St. Lawrence,3,0,3,RW,RL
+2025-10-17,Northern Michigan,Colorado College,1,2,4,OL,OW
+2025-10-17,Mass.-Lowell,Western Michigan,1,2,3,RL,RW
+2025-10-17,Penn State,Long Island,5,4,4,OW,OL
+2025-10-18,St. Cloud State,Vermont,1,2,4,OL,OW
+2025-10-18,Union,Niagara,3,2,3,RW,RL
+2025-10-18,Wisconsin,Minnesota State,2,2,4,T,T
+2025-10-18,Bemidji State,Minnesota-Duluth,3,7,3,RL,RW
+2025-10-18,Augustana,Arizona State,4,2,3,RW,RL
+2025-10-18,North Dakota,Minnesota,5,2,3,RW,RL
+2025-10-18,Lindenwood,Denver,4,3,3,RW,RL
+2025-10-18,Air Force,St. Thomas,2,11,3,RL,RW
+2025-10-18,Alaska,Michigan Tech,1,3,3,RL,RW
+2025-10-18,Mercyhurst,Holy Cross,0,4,3,RL,RW
+2025-10-18,Quinnipiac,Maine,4,0,3,RW,RL
+2025-10-18,Connecticut,Ohio State,2,4,3,RL,RW
+2025-10-18,RPI,Providence,1,5,3,RL,RW
+2025-10-18,Sacred Heart,Stonehill,2,3,3,RL,RW
+2025-10-18,Merrimack,New Hampshire,5,1,3,RW,RL
+2025-10-18,Penn State,Long Island,3,0,3,RW,RL
+2025-10-18,Mass.-Lowell,Western Michigan,0,6,3,RL,RW
+2025-10-18,Northern Michigan,Colorado College,2,5,3,RL,RW
+2025-10-18,Boston University,Michigan State,3,4,4,OL,OW
+2025-10-18,St. Cloud State,Vermont,4,0,3,RW,RL
+2025-10-18,Minnesota-Duluth,Bemidji State,5,1,3,RW,RL
+2025-10-18,Colgate,Canisius,5,3,3,RW,RL
+2025-10-18,RIT,Clarkson,6,2,3,RW,RL
+2025-10-18,Augustana,Arizona State,5,2,3,RW,RL
+2025-10-18,North Dakota,Minnesota,1,5,3,RL,RW
+2025-10-18,Massachusetts,Bentley,5,4,4,OW,OL
+2025-10-19,Lindenwood,Denver,0,4,3,RL,RW
+2025-10-19,Union,Niagara,6,0,3,RW,RL
+2025-10-19,Air Force,St. Thomas,6,2,3,RW,RL
+2025-10-19,Alaska,Michigan Tech,5,1,3,RW,RL
+2025-10-21,Holy Cross,Quinnipiac,1,4,3,RL,RW
+2025-10-23,Michigan,Western Michigan,4,0,3,RW,RL
+2025-10-24,Ohio State,Sacred Heart,1,2,4,OL,OW
+2025-10-24,Boston College,Denver,3,7,3,RL,RW
+2025-10-24,Boston University,Connecticut,4,8,3,RL,RW
+2025-10-24,Maine,Colgate,2,3,3,RL,RW
+2025-10-24,New Hampshire,Long Island,3,2,4,OW,OL
+2025-10-24,Mercyhurst,Mass.-Lowell,0,4,3,RL,RW
+2025-10-24,Clarkson,North Dakota,5,2,3,RW,RL
+2025-10-24,Western Michigan,Michigan,5,2,3,RW,RL
+2025-10-24,Merrimack,Quinnipiac,4,1,3,RW,RL
+2025-10-24,Penn State,Stonehill,3,2,3,RW,RL
+2025-10-24,Army,Holy Cross,5,2,3,RW,RL
+2025-10-24,Bentley,Canisius,4,1,3,RW,RL
+2025-10-24,Notre Dame,Robert Morris,6,3,3,RW,RL
+2025-10-24,RIT,Air Force,5,1,3,RW,RL
+2025-10-24,Northern Michigan,Michigan State,0,4,3,RL,RW
+2025-10-24,Michigan Tech,Ferris State,5,1,3,RW,RL
+2025-10-24,Lake Superior,Bowling Green,1,4,3,RL,RW
+2025-10-25,Omaha,Massachusetts,4,5,3,RL,RW
+2025-10-25,Minnesota,Minnesota-Duluth,0,3,3,RL,RW
+2025-10-25,Minnesota State,RPI,4,2,3,RW,RL
+2025-10-25,St. Cloud State,Alaska-Anchorage,5,2,3,RW,RL
+2025-10-25,Wisconsin,Alaska,5,3,3,RW,RL
+2025-10-25,St. Thomas,Providence,2,2,4,T,T
+2025-10-25,Bemidji State,Augustana,1,0,4,OW,OL
+2025-10-25,Lindenwood,Miami,4,5,4,OL,OW
+2025-10-25,Army,Holy Cross,1,5,3,RL,RW
+2025-10-25,Connecticut,Boston University,1,3,3,RL,RW
+2025-10-25,Mercyhurst,Mass.-Lowell,3,4,3,RL,RW
+2025-10-25,Ohio State,Sacred Heart,3,0,3,RW,RL
+2025-10-25,RIT,Air Force,7,3,3,RW,RL
+2025-10-25,Penn State,Stonehill,4,2,3,RW,RL
+2025-10-25,Bentley,Canisius,3,0,3,RW,RL
+2025-10-25,Notre Dame,Robert Morris,2,2,4,T,T
+2025-10-25,Merrimack,Long Island,2,5,3,RL,RW
+2025-10-25,Northern Michigan,Michigan State,2,6,3,RL,RW
+2025-10-25,Michigan Tech,Ferris State,4,2,3,RW,RL
+2025-10-25,Lake Superior,Bowling Green,2,3,3,RL,RW
+2025-10-25,Maine,Colgate,3,2,4,OW,OL
+2025-10-25,New Hampshire,Quinnipiac,0,2,3,RL,RW
+2025-10-25,Northeastern,Denver,1,0,3,RW,RL
+2025-10-25,Clarkson,North Dakota,0,1,3,RL,RW
+2025-10-25,St. Cloud State,Alaska-Anchorage,5,1,3,RW,RL
+2025-10-25,Wisconsin,Alaska,4,1,3,RW,RL
+2025-10-25,Minnesota State,RPI,2,1,3,RW,RL
+2025-10-25,Bemidji State,Augustana,3,2,3,RW,RL
+2025-10-26,Omaha,Massachusetts,5,2,3,RW,RL
+2025-10-26,Minnesota,Minnesota-Duluth,1,4,3,RL,RW
+2025-10-26,St. Thomas,Providence,4,7,3,RL,RW
+2025-10-26,Lindenwood,Miami,4,5,4,OL,OW
+2025-10-30,Ohio State,Penn State,2,3,3,RL,RW
+2025-10-30,Boston College,Northeastern,1,4,3,RL,RW
+2025-10-30,Holy Cross,Sacred Heart,5,2,3,RW,RL
+2025-10-31,Wisconsin,Minnesota,5,2,3,RW,RL
+2025-10-31,Ohio State,Penn State,3,4,3,RL,RW
+2025-10-31,Northeastern,Boston College,3,0,3,RW,RL
+2025-10-31,Massachusetts,Cornell,2,1,3,RW,RL
+2025-10-31,Connecticut,Harvard,1,1,4,T,T
+2025-10-31,Providence,Mass.-Lowell,5,2,3,RW,RL
+2025-10-31,New Hampshire,Vermont,4,2,3,RW,RL
+2025-10-31,Miami,Arizona State,1,4,3,RL,RW
+2025-10-31,St. Lawrence,Lake Superior,3,3,4,T,T
+2025-10-31,Clarkson,Michigan Tech,6,4,3,RW,RL
+2025-10-31,Princeton,Alaska,5,2,3,RW,RL
+2025-10-31,Notre Dame,Michigan,3,5,3,RL,RW
+2025-10-31,Mercyhurst,Bentley,1,3,3,RL,RW
+2025-10-31,Holy Cross,Sacred Heart,2,2,4,T,T
+2025-10-31,Robert Morris,Niagara,4,2,3,RW,RL
+2025-10-31,Bowling Green,Bemidji State,4,4,4,T,T
+2025-10-31,Ferris State,Lindenwood,0,1,3,RL,RW
+2025-10-31,Maine,Boston University,5,4,4,OW,OL
+2025-10-31,Colgate,RIT,1,3,3,RL,RW
+2025-11-01,St. Cloud State,Western Michigan,5,6,3,RL,RW
+2025-11-01,North Dakota,Minnesota-Duluth,3,4,4,OL,OW
+2025-11-01,St. Thomas,Minnesota State,1,3,3,RL,RW
+2025-11-01,Augustana,Northern Michigan,2,1,3,RW,RL
+2025-11-01,Denver,Alaska-Anchorage,3,4,4,OL,OW
+2025-11-01,Colorado College,Omaha,2,3,3,RL,RW
+2025-11-01,Air Force,Brown,2,0,3,RW,RL
+2025-11-01,RPI,Union,0,3,3,RL,RW
+2025-11-01,Mass.-Lowell,Providence,5,1,3,RW,RL
+2025-11-01,Mercyhurst,Bentley,2,7,3,RL,RW
+2025-11-01,Massachusetts,Cornell,1,3,3,RL,RW
+2025-11-01,Connecticut,Merrimack,5,1,3,RW,RL
+2025-11-01,Miami,Arizona State,5,2,3,RW,RL
+2025-11-01,Notre Dame,Michigan,1,2,4,OL,OW
+2025-11-01,Niagara,Robert Morris,3,4,3,RL,RW
+2025-11-01,Bowling Green,Bemidji State,2,3,4,OL,OW
+2025-11-01,New Hampshire,Vermont,1,2,3,RL,RW
+2025-11-01,St. Lawrence,Michigan Tech,0,3,3,RL,RW
+2025-11-01,Clarkson,Lake Superior,2,6,3,RL,RW
+2025-11-01,St. Cloud State,Western Michigan,5,1,3,RW,RL
+2025-11-01,Air Force,Brown,4,3,3,RW,RL
+2025-11-01,Stonehill,Dartmouth,2,5,3,RL,RW
+2025-11-01,Princeton,Alaska,6,3,3,RW,RL
+2025-11-01,Wisconsin,Minnesota,4,0,3,RW,RL
+2025-11-01,Canisius,Army,2,2,4,T,T
+2025-11-01,North Dakota,Minnesota-Duluth,5,1,3,RW,RL
+2025-11-01,Minnesota State,St. Thomas,3,4,4,OL,OW
+2025-11-01,Augustana,Northern Michigan,3,1,3,RW,RL
+2025-11-01,Ferris State,Lindenwood,2,3,3,RL,RW
+2025-11-01,Maine,Boston University,8,5,3,RW,RL
+2025-11-01,Colgate,RIT,1,4,3,RL,RW
+2025-11-02,Denver,Alaska-Anchorage,6,0,3,RW,RL
+2025-11-02,Colorado College,Omaha,4,5,3,RL,RW
+2025-11-02,Dartmouth,Yale,6,1,3,RW,RL
+2025-11-05,Quinnipiac,Alaska,2,2,4,T,T
+2025-11-05,Harvard,Stonehill,6,2,3,RW,RL
+2025-11-07,Massachusetts,Maine,2,6,3,RL,RW
+2025-11-07,Holy Cross,Niagara,5,1,3,RW,RL
+2025-11-08,Vermont,Boston College,1,2,3,RL,RW
+2025-11-08,Boston University,Merrimack,3,2,4,OW,OL
+2025-11-08,Massachusetts,Maine,4,0,3,RW,RL
+2025-11-08,Connecticut,Providence,1,4,3,RL,RW
+2025-11-08,Western Michigan,Denver,1,3,3,RL,RW
+2025-11-08,Yale,Quinnipiac,4,2,3,RW,RL
+2025-11-08,Union,Clarkson,1,5,3,RL,RW
+2025-11-08,RPI,St. Lawrence,3,4,3,RL,RW
+2025-11-08,Dartmouth,Colgate,4,1,3,RW,RL
+2025-11-08,Brown,Princeton,2,1,3,RW,RL
+2025-11-08,Harvard,Cornell,1,3,3,RL,RW
+2025-11-08,Michigan,Wisconsin,7,4,3,RW,RL
+2025-11-08,Michigan State,Penn State,2,1,4,OW,OL
+2025-11-08,Sacred Heart,Air Force,1,4,3,RL,RW
+2025-11-08,Bentley,Army,3,3,4,T,T
+2025-11-08,Robert Morris,Long Island,3,6,3,RL,RW
+2025-11-08,Northeastern,Stonehill,2,0,3,RW,RL
+2025-11-08,RIT,Mercyhurst,4,1,3,RW,RL
+2025-11-08,Michigan Tech,Northern Michigan,4,1,3,RW,RL
+2025-11-08,Ferris State,Augustana,2,4,3,RL,RW
+2025-11-08,Mass.-Lowell,New Hampshire,0,2,3,RL,RW
+2025-11-08,Omaha,North Dakota,2,7,3,RL,RW
+2025-11-08,Minnesota,Notre Dame,3,0,3,RW,RL
+2025-11-08,Minnesota-Duluth,St. Cloud State,4,0,3,RW,RL
+2025-11-08,Minnesota State,Bowling Green,4,4,4,T,T
+2025-11-08,Bemidji State,Lake Superior,4,1,3,RW,RL
+2025-11-08,Arizona State,Colorado College,3,3,4,T,T
+2025-11-08,Holy Cross,Niagara,6,2,3,RW,RL
+2025-11-08,RPI,Clarkson,5,1,3,RW,RL
+2025-11-08,Michigan State,Penn State,5,0,3,RW,RL
+2025-11-08,RIT,Mercyhurst,3,2,3,RW,RL
+2025-11-08,Sacred Heart,Air Force,2,3,3,RL,RW
+2025-11-08,Merrimack,Boston University,4,5,3,RL,RW
+2025-11-08,Western Michigan,Denver,3,6,3,RL,RW
+2025-11-08,Northern Michigan,Michigan Tech,2,4,3,RL,RW
+2025-11-08,Ferris State,Augustana,2,0,3,RW,RL
+2025-11-09,Vermont,Boston College,0,5,3,RL,RW
+2025-11-09,Providence,Connecticut,2,2,4,T,T
+2025-11-09,New Hampshire,Mass.-Lowell,1,6,3,RL,RW
+2025-11-09,Arizona State,Colorado College,1,3,3,RL,RW
+2025-11-09,Yale,Princeton,2,1,4,OW,OL
+2025-11-09,Union,St. Lawrence,5,2,3,RW,RL
+2025-11-09,Harvard,Colgate,6,5,3,RW,RL
+2025-11-09,Brown,Quinnipiac,3,4,4,OL,OW
+2025-11-09,Dartmouth,Cornell,2,1,3,RW,RL
+2025-11-09,Robert Morris,Long Island,0,2,3,RL,RW
+2025-11-09,Northeastern,Stonehill,4,2,3,RW,RL
+2025-11-09,Minnesota-Duluth,St. Cloud State,3,2,4,OW,OL
+2025-11-09,Minnesota State,Bowling Green,1,1,4,T,T
+2025-11-09,Bemidji State,Lake Superior,3,2,4,OW,OL
+2025-11-09,Omaha,North Dakota,1,4,3,RL,RW
+2025-11-09,Michigan,Wisconsin,1,6,3,RL,RW
+2025-11-09,Minnesota,Notre Dame,4,1,3,RW,RL
+2025-11-09,Army,Bentley,2,3,3,RL,RW
+2025-11-12,St. Thomas,St. Cloud State,3,1,3,RW,RL
+2025-11-14,Niagara,Army,6,4,3,RW,RL
+2025-11-15,Boston College,Massachusetts,7,3,3,RW,RL
+2025-11-15,Maine,Vermont,7,0,3,RW,RL
+2025-11-15,Connecticut,Northeastern,4,2,3,RW,RL
+2025-11-15,Providence,Merrimack,4,2,3,RW,RL
+2025-11-15,RPI,New Hampshire,3,6,3,RL,RW
+2025-11-15,Union,Mass.-Lowell,7,1,3,RW,RL
+2025-11-15,St. Lawrence,Dartmouth,1,6,3,RL,RW
+2025-11-15,Clarkson,Harvard,1,2,3,RL,RW
+2025-11-15,Western Michigan,Miami,5,2,3,RW,RL
+2025-11-15,Cornell,Brown,4,1,3,RW,RL
+2025-11-15,Notre Dame,Michigan State,1,4,3,RL,RW
+2025-11-15,Bentley,Alaska-Anchorage,2,1,4,OW,OL
+2025-11-15,Sacred Heart,Canisius,6,1,3,RW,RL
+2025-11-15,Robert Morris,RIT,1,2,3,RL,RW
+2025-11-15,Lake Superior,Minnesota State,1,2,4,OL,OW
+2025-11-15,Michigan Tech,Bemidji State,2,2,4,T,T
+2025-11-15,Bowling Green,Ferris State,9,5,3,RW,RL
+2025-11-15,Colgate,Yale,4,3,4,OW,OL
+2025-11-15,Wisconsin,Ohio State,1,5,3,RL,RW
+2025-11-15,Minnesota-Duluth,Omaha,5,2,3,RW,RL
+2025-11-15,North Dakota,Arizona State,5,2,3,RW,RL
+2025-11-15,Minnesota,Long Island,2,6,3,RL,RW
+2025-11-15,Denver,Colorado College,2,1,4,OW,OL
+2025-11-15,Air Force,Holy Cross,2,3,3,RL,RW
+2025-11-15,Quinnipiac,Boston University,6,2,3,RW,RL
+2025-11-15,RPI,Mass.-Lowell,2,0,3,RW,RL
+2025-11-15,Clarkson,Dartmouth,1,3,3,RL,RW
+2025-11-15,Union,New Hampshire,6,0,3,RW,RL
+2025-11-15,Niagara,Army,4,1,3,RW,RL
+2025-11-15,Sacred Heart,Canisius,3,2,3,RW,RL
+2025-11-15,Merrimack,Providence,3,2,3,RW,RL
+2025-11-15,Western Michigan,Miami,6,2,3,RW,RL
+2025-11-15,Penn State,Michigan,4,2,3,RW,RL
+2025-11-15,Notre Dame,Michigan State,1,3,3,RL,RW
+2025-11-15,Minnesota,Long Island,6,3,3,RW,RL
+2025-11-15,Bentley,Alaska-Anchorage,2,3,3,RL,RW
+2025-11-15,Lake Superior,Minnesota State,2,4,3,RL,RW
+2025-11-15,Michigan Tech,Bemidji State,2,1,4,OW,OL
+2025-11-15,Bowling Green,Ferris State,5,2,3,RW,RL
+2025-11-16,Massachusetts,Boston College,0,4,3,RL,RW
+2025-11-16,Cornell,Yale,5,2,3,RW,RL
+2025-11-16,St. Lawrence,Harvard,3,4,3,RL,RW
+2025-11-16,Colgate,Brown,4,0,3,RW,RL
+2025-11-16,Princeton,Stonehill,3,2,3,RW,RL
+2025-11-16,Wisconsin,Ohio State,6,5,4,OW,OL
+2025-11-16,Robert Morris,RIT,2,3,3,RL,RW
+2025-11-16,Minnesota-Duluth,Omaha,0,2,3,RL,RW
+2025-11-16,North Dakota,Arizona State,2,4,3,RL,RW
+2025-11-16,Augustana,St. Thomas,4,4,5,T,T
+2025-11-16,Maine,Vermont,1,2,3,RL,RW
+2025-11-16,Northeastern,Connecticut,3,4,4,OL,OW
+2025-11-16,Colorado College,Denver,2,3,3,RL,RW
+2025-11-16,Air Force,Holy Cross,1,4,3,RL,RW
+2025-11-19,Niagara,RIT,2,1,4,OW,OL
+2025-11-19,Stonehill,Alaska-Anchorage,0,4,3,RL,RW
+2025-11-20,Brown,Alaska-Anchorage,5,2,3,RW,RL
+2025-11-21,Providence,Massachusetts,1,2,4,OL,OW
+2025-11-21,Holy Cross,Alaska-Anchorage,7,2,3,RW,RL
+2025-11-22,Boston College,Maine,7,3,3,RW,RL
+2025-11-22,Northeastern,Boston University,3,2,3,RW,RL
+2025-11-22,New Hampshire,Connecticut,1,4,3,RL,RW
+2025-11-22,Brown,Yale,4,2,3,RW,RL
+2025-11-22,Princeton,St. Lawrence,7,4,3,RW,RL
+2025-11-22,Colgate,RPI,2,1,3,RW,RL
+2025-11-22,Quinnipiac,Clarkson,4,1,3,RW,RL
+2025-11-22,Michigan,Ohio State,5,2,3,RW,RL
+2025-11-22,Army,Air Force,3,6,3,RL,RW
+2025-11-22,Bentley,RIT,3,2,3,RW,RL
+2025-11-22,Canisius,Mercyhurst,4,3,3,RW,RL
+2025-11-22,Long Island,Merrimack,2,6,3,RL,RW
+2025-11-22,Miami,St. Cloud State,6,5,4,OW,OL
+2025-11-22,Ferris State,Lake Superior,1,2,3,RL,RW
+2025-11-22,Omaha,Western Michigan,2,7,3,RL,RW
+2025-11-22,Minnesota,Penn State,3,2,3,RW,RL
+2025-11-22,Minnesota State,Michigan Tech,3,0,3,RW,RL
+2025-11-22,Bemidji State,Northern Michigan,7,3,3,RW,RL
+2025-11-22,St. Thomas,Bowling Green,2,3,4,OL,OW
+2025-11-22,Lindenwood,Robert Morris,6,2,3,RW,RL
+2025-11-22,Michigan State,Wisconsin,4,5,3,RL,RW
+2025-11-22,Colorado College,Minnesota-Duluth,2,4,3,RL,RW
+2025-11-22,Arizona State,Denver,1,7,3,RL,RW
+2025-11-22,Sacred Heart,Long Island,7,2,3,RW,RL
+2025-11-22,Vermont,Harvard,1,5,3,RL,RW
+2025-11-22,Miami,St. Cloud State,2,4,3,RL,RW
+2025-11-22,Connecticut,New Hampshire,3,4,3,RL,RW
+2025-11-23,Boston College,Maine,0,3,3,RL,RW
+2025-11-23,Boston University,Northeastern,4,3,4,OW,OL
+2025-11-23,Massachusetts,Providence,1,5,3,RL,RW
+2025-11-23,Arizona State,Denver,3,2,4,OW,OL
+2025-11-23,Yale,Brown,3,1,3,RW,RL
+2025-11-23,Colgate,Union,4,4,4,T,T
+2025-11-23,Quinnipiac,St. Lawrence,4,2,3,RW,RL
+2025-11-23,Cornell,RPI,6,1,3,RW,RL
+2025-11-23,Princeton,Clarkson,4,3,3,RW,RL
+2025-11-23,Michigan,Ohio State,8,1,3,RW,RL
+2025-11-23,Michigan State,Wisconsin,1,2,4,OL,OW
+2025-11-23,Army,Air Force,2,3,4,OL,OW
+2025-11-23,Canisius,Mercyhurst,5,1,3,RW,RL
+2025-11-23,Minnesota State,Michigan Tech,3,2,3,RW,RL
+2025-11-23,Bemidji State,Northern Michigan,6,2,3,RW,RL
+2025-11-23,Ferris State,Lake Superior,4,3,4,OW,OL
+2025-11-23,St. Thomas,Bowling Green,6,2,3,RW,RL
+2025-11-23,Lindenwood,Robert Morris,5,3,3,RW,RL
+2025-11-23,Colorado College,Minnesota-Duluth,2,1,4,OW,OL
+2025-11-23,Omaha,Western Michigan,2,4,3,RL,RW
+2025-11-23,Minnesota,Penn State,1,2,3,RL,RW
+2025-11-23,Holy Cross,Alaska-Anchorage,1,0,3,RW,RL
+2025-11-25,Connecticut,Stonehill,3,3,4,T,T
+2025-11-26,Army,Bentley,1,3,3,RL,RW
+2025-11-26,Merrimack,Notre Dame,4,5,3,RL,RW
+2025-11-26,Quinnipiac,Holy Cross,7,6,4,OW,OL
+2025-11-27,Michigan State,Colgate,5,2,3,RW,RL
+2025-11-28,Sacred Heart,Union,1,8,3,RL,RW
+2025-11-28,Boston College,Notre Dame,5,3,3,RW,RL
+2025-11-28,Canisius,Air Force,3,6,3,RL,RW
+2025-11-28,Miami,RIT,4,0,3,RW,RL
+2025-11-28,Alaska,St. Lawrence,2,0,3,RW,RL
+2025-11-28,Michigan State,Colgate,4,1,3,RW,RL
+2025-11-28,Arizona State,Ohio State,3,2,4,OW,OL
+2025-11-28,Dartmouth,Vermont,7,2,3,RW,RL
+2025-11-28,Niagara,RPI,1,4,3,RL,RW
+2025-11-29,Yale,Omaha,2,1,3,RW,RL
+2025-11-29,Harvard,Michigan,1,5,3,RL,RW
+2025-11-29,Mercyhurst,Robert Morris,1,3,3,RL,RW
+2025-11-29,Northern Michigan,Minnesota State,0,4,3,RL,RW
+2025-11-29,Michigan Tech,St. Thomas,3,3,4,T,T
+2025-11-29,Lake Superior,Augustana,2,1,3,RW,RL
+2025-11-29,Bowling Green,Princeton,4,1,3,RW,RL
+2025-11-29,Clarkson,Mass.-Lowell,2,0,3,RW,RL
+2025-11-29,Bemidji State,North Dakota,3,5,3,RL,RW
+2025-11-29,Lindenwood,Long Island,5,2,3,RW,RL
+2025-11-29,Colorado College,Providence,3,2,3,RW,RL
+2025-11-29,RIT,Sacred Heart,0,3,3,RL,RW
+2025-11-29,Canisius,Air Force,3,3,4,T,T
+2025-11-29,Miami,Union,3,2,3,RW,RL
+2025-11-29,Army,Massachusetts,5,4,3,RW,RL
+2025-11-29,St. Lawrence,Mass.-Lowell,3,7,3,RL,RW
+2025-11-29,Quinnipiac,Stonehill,3,2,3,RW,RL
+2025-11-29,Northeastern,Brown,4,1,3,RW,RL
+2025-11-29,Dartmouth,Merrimack,1,0,3,RW,RL
+2025-11-29,Bentley,New Hampshire,0,3,3,RL,RW
+2025-11-29,Niagara,RPI,2,3,3,RL,RW
+2025-11-29,Northern Michigan,Minnesota State,2,3,3,RL,RW
+2025-11-29,Michigan Tech,St. Thomas,1,2,3,RL,RW
+2025-11-29,Lake Superior,Augustana,1,2,3,RL,RW
+2025-11-29,Bowling Green,Princeton,4,3,3,RW,RL
+2025-11-30,Arizona State,Ohio State,4,3,4,OW,OL
+2025-11-30,Yale,Omaha,1,3,3,RL,RW
+2025-11-30,Harvard,Michigan,3,4,4,OL,OW
+2025-11-30,Robert Morris,Mercyhurst,1,1,4,T,T
+2025-11-30,North Dakota,Bemidji State,2,1,4,OW,OL
+2025-11-30,Lindenwood,Long Island,2,5,3,RL,RW
+2025-11-30,Clarkson,Alaska,2,3,3,RL,RW
+2025-11-30,Cornell,Boston University,1,2,3,RL,RW
+2025-11-30,Colorado College,Providence,1,2,2,OL,OW
+2025-11-30,Denver,Minnesota,5,6,4,OL,OW
+2025-12-05,Ohio State,Minnesota,3,6,3,RL,RW
+2025-12-05,Ohio State,Minnesota,6,5,4,OW,OL
+2025-12-06,Boston University,Vermont,2,1,3,RW,RL
+2025-12-06,Maine,New Hampshire,0,1,3,RL,RW
+2025-12-06,Merrimack,Connecticut,0,3,3,RL,RW
+2025-12-06,Western Michigan,Minnesota-Duluth,1,4,3,RL,RW
+2025-12-06,Harvard,Yale,3,2,3,RW,RL
+2025-12-06,Union,Princeton,1,5,3,RL,RW
+2025-12-06,St. Lawrence,Colgate,2,4,3,RL,RW
+2025-12-06,RPI,Quinnipiac,1,5,3,RL,RW
+2025-12-06,Clarkson,Cornell,4,1,3,RW,RL
+2025-12-06,Dartmouth,Brown,7,3,3,RW,RL
+2025-12-06,Notre Dame,Wisconsin,4,7,3,RL,RW
+2025-12-06,Sacred Heart,Army,3,3,4,T,T
+2025-12-06,Bentley,Niagara,1,3,3,RL,RW
+2025-12-06,RIT,Canisius,3,1,3,RW,RL
+2025-12-06,Bowling Green,Northern Michigan,2,3,3,RL,RW
+2025-12-06,Mass.-Lowell,Boston College,1,3,3,RL,RW
+2025-12-06,St. Cloud State,North Dakota,3,4,3,RL,RW
+2025-12-06,Minnesota State,Ferris State,5,1,3,RW,RL
+2025-12-06,St. Thomas,Lake Superior,3,5,3,RL,RW
+2025-12-06,Augustana,Bemidji State,3,1,3,RW,RL
+2025-12-06,Denver,Miami,4,0,3,RW,RL
+2025-12-06,Air Force,Robert Morris,4,1,3,RW,RL
+2025-12-06,Alaska-Anchorage,Stonehill,2,3,3,RL,RW
+2025-12-06,Holy Cross,Mercyhurst,4,1,3,RW,RL
+2025-12-06,Connecticut,Merrimack,5,2,3,RW,RL
+2025-12-06,Bentley,Niagara,3,2,3,RW,RL
+2025-12-06,Union,Quinnipiac,4,0,3,RW,RL
+2025-12-06,Notre Dame,Wisconsin,2,9,3,RL,RW
+2025-12-06,Sacred Heart,Army,0,2,3,RL,RW
+2025-12-06,Boston University,Vermont,2,3,3,RL,RW
+2025-12-06,RPI,Princeton,0,4,3,RL,RW
+2025-12-06,Air Force,Robert Morris,3,6,3,RL,RW
+2025-12-06,Bowling Green,Northern Michigan,4,3,4,OW,OL
+2025-12-07,Boston College,Mass.-Lowell,3,1,3,RW,RL
+2025-12-07,Maine,New Hampshire,2,3,3,RL,RW
+2025-12-07,Northeastern,Massachusetts,3,2,4,OW,OL
+2025-12-07,Western Michigan,Minnesota-Duluth,3,2,4,OW,OL
+2025-12-07,St. Cloud State,North Dakota,2,4,3,RL,RW
+2025-12-07,Dartmouth,Yale,6,1,3,RW,RL
+2025-12-07,St. Lawrence,Cornell,2,7,3,RL,RW
+2025-12-07,Clarkson,Colgate,5,3,3,RW,RL
+2025-12-07,Harvard,Brown,7,3,3,RW,RL
+2025-12-07,Michigan,Michigan State,1,3,3,RL,RW
+2025-12-07,Canisius,RIT,4,2,3,RW,RL
+2025-12-07,Minnesota State,Ferris State,1,4,3,RL,RW
+2025-12-07,St. Thomas,Lake Superior,4,1,3,RW,RL
+2025-12-07,Denver,Miami,5,2,3,RW,RL
+2025-12-07,Alaska-Anchorage,Stonehill,3,4,4,OL,OW
+2025-12-07,Augustana,Bemidji State,4,4,4,T,T
+2025-12-07,Northeastern,Massachusetts,0,2,3,RL,RW
+2025-12-10,Brown,Providence,2,4,3,RL,RW
+2025-12-11,Maine,Mass.-Lowell,5,4,4,OW,OL
+2025-12-13,Miami,Colorado College,4,4,4,T,T
+2025-12-13,Dartmouth,Army,3,0,3,RW,RL
+2025-12-13,Merrimack,Yale,4,1,3,RW,RL
+2025-12-13,Northern Michigan,St. Thomas,0,2,3,RL,RW
+2025-12-13,Ferris State,Michigan Tech,2,3,3,RL,RW
+2025-12-13,St. Cloud State,Denver,1,5,3,RL,RW
+2025-12-13,Minnesota-Duluth,Arizona State,3,1,3,RW,RL
+2025-12-13,Augustana,Minnesota State,3,1,3,RW,RL
+2025-12-13,North Dakota,Omaha,4,1,3,RW,RL
+2025-12-13,Union,Alaska,3,2,3,RW,RL
+2025-12-13,Vermont,Army,0,3,3,RL,RW
+2025-12-13,Merrimack,Long Island,4,2,3,RW,RL
+2025-12-13,Miami,Colorado College,3,3,4,T,T
+2025-12-13,Minnesota-Duluth,Arizona State,3,6,3,RL,RW
+2025-12-13,Northern Michigan,St. Thomas,3,4,3,RL,RW
+2025-12-13,Ferris State,Michigan Tech,2,5,3,RL,RW
+2025-12-13,Maine,Lindenwood,5,0,3,RW,RL
+2025-12-14,Northeastern,Boston University,3,4,3,RL,RW
+2025-12-14,St. Cloud State,Denver,4,3,3,RW,RL
+2025-12-14,North Dakota,Omaha,3,1,3,RW,RL
+2025-12-14,Augustana,Minnesota State,4,4,4,T,T
+2025-12-14,Maine,Lindenwood,7,2,3,RW,RL
+2025-12-14,New Hampshire,Dartmouth,3,2,4,OW,OL
+2025-12-20,Augustana,Omaha,7,4,3,RW,RL
+2025-12-21,Augustana,Omaha,1,4,3,RL,RW
+2025-12-27,Dartmouth,Arizona State,1,5,3,RL,RW
+2025-12-28,Princeton,Brown,5,4,4,OW,OL
+2025-12-28,Dartmouth,Arizona State,4,1,3,RW,RL
+2025-12-28,Miami,Michigan Tech,2,5,3,RL,RW
+2025-12-28,Long Island,Army,4,4,4,T,T
+2025-12-28,Wisconsin,Lake Superior,3,2,3,RW,RL
+2025-12-29,Ferris State,Michigan State,2,5,3,RL,RW
+2025-12-29,Western Michigan,Boston College,5,3,3,RW,RL
+2025-12-29,Ferris State,Miami,2,4,3,RL,RW
+2025-12-29,Boston College,Lake Superior,4,3,3,RW,RL
+2025-12-29,Vermont,Merrimack,4,5,3,RL,RW
+2025-12-29,Clarkson,RIT,3,2,3,RW,RL
+2025-12-30,Michigan Tech,Michigan State,1,4,3,RL,RW
+2025-12-30,Wisconsin,Western Michigan,1,4,3,RL,RW
+2025-12-30,Sacred Heart,Robert Morris,5,2,3,RW,RL
+2025-12-31,Connecticut,Long Island,4,1,3,RW,RL
+2026-01-02,Michigan Tech,Air Force,2,8,3,RL,RW
+2026-01-02,Minnesota State,Mass.-Lowell,1,3,3,RL,RW
+2026-01-02,Ohio State,Bowling Green,2,2,4,T,T
+2026-01-03,Providence,Alaska,5,2,3,RW,RL
+2026-01-03,St. Lawrence,Stonehill,2,6,3,RL,RW
+2026-01-03,Notre Dame,Western Michigan,0,4,3,RL,RW
+2026-01-03,Cornell,Omaha,6,4,3,RW,RL
+2026-01-03,Quinnipiac,Harvard,9,1,3,RW,RL
+2026-01-03,Princeton,Dartmouth,5,4,3,RW,RL
+2026-01-03,Army,Northeastern,5,2,3,RW,RL
+2026-01-03,Bentley,Holy Cross,2,2,4,T,T
+2026-01-03,North Dakota,Mercyhurst,2,0,3,RW,RL
+2026-01-03,Augustana,Colorado College,3,2,3,RW,RL
+2026-01-03,St. Thomas,Ferris State,5,3,3,RW,RL
+2026-01-03,Lindenwood,Canisius,5,2,3,RW,RL
+2026-01-03,Denver,Maine,2,5,3,RL,RW
+2026-01-03,Arizona State,Alaska-Anchorage,7,2,3,RW,RL
+2026-01-03,St. Cloud State,Yale,6,2,3,RW,RL
+2026-01-03,Long Island,Connecticut,1,3,3,RL,RW
+2026-01-03,Robert Morris,Sacred Heart,1,3,3,RL,RW
+2026-01-03,Lindenwood,Canisius,3,4,3,RL,RW
+2026-01-03,Providence,Alaska,1,5,3,RL,RW
+2026-01-03,St. Lawrence,Stonehill,3,3,4,T,T
+2026-01-03,Michigan Tech,Alaska-Anchorage,5,0,3,RW,RL
+2026-01-03,Vermont,RPI,3,0,3,RW,RL
+2026-01-03,Niagara,Clarkson,2,6,3,RL,RW
+2026-01-03,Western Michigan,Notre Dame,4,0,3,RW,RL
+2026-01-03,Lake Superior,Northern Michigan,2,1,4,OW,OL
+2026-01-03,Bowling Green,Ohio State,5,3,3,RW,RL
+2026-01-03,Yale,Minnesota State,3,4,3,RL,RW
+2026-01-04,New Hampshire,Colgate,2,3,3,RL,RW
+2026-01-04,Cornell,Omaha,3,2,3,RW,RL
+2026-01-04,Quinnipiac,Dartmouth,5,3,3,RW,RL
+2026-01-04,Brown,Merrimack,2,3,3,RL,RW
+2026-01-04,Princeton,Harvard,3,2,3,RW,RL
+2026-01-04,RIT,Penn State,1,0,3,RW,RL
+2026-01-04,Holy Cross,Bentley,3,8,3,RL,RW
+2026-01-04,North Dakota,Mercyhurst,6,1,3,RW,RL
+2026-01-04,Augustana,Colorado College,4,2,3,RW,RL
+2026-01-04,St. Thomas,Ferris State,8,4,3,RW,RL
+2026-01-04,Denver,Maine,3,3,4,T,T
+2026-01-04,Arizona State,Air Force,5,2,3,RW,RL
+2026-01-04,Mass.-Lowell,St. Cloud State,2,3,3,RL,RW
+2026-01-04,Penn State,RIT,7,3,3,RW,RL
+2026-01-04,Lake Superior,Northern Michigan,2,1,3,RW,RL
+2026-01-05,New Hampshire,Colgate,3,2,3,RW,RL
+2026-01-09,Penn State,Minnesota,3,0,3,RW,RL
+2026-01-09,Niagara,Sacred Heart,4,5,4,OL,OW
+2026-01-09,Ohio State,Michigan State,2,6,3,RL,RW
+2026-01-10,Massachusetts,Boston University,0,1,3,RL,RW
+2026-01-10,Providence,Maine,6,1,3,RW,RL
+2026-01-10,Connecticut,Mass.-Lowell,3,5,3,RL,RW
+2026-01-10,Vermont,Northeastern,3,2,3,RW,RL
+2026-01-10,Yale,St. Lawrence,8,1,3,RW,RL
+2026-01-10,Quinnipiac,Union,7,2,3,RW,RL
+2026-01-10,Princeton,RPI,5,2,3,RW,RL
+2026-01-10,Brown,Clarkson,2,3,3,RL,RW
+2026-01-10,Cornell,Alaska,7,1,3,RW,RL
+2026-01-10,Dartmouth,Harvard,5,4,3,RW,RL
+2026-01-10,Michigan,Notre Dame,5,2,3,RW,RL
+2026-01-10,Mercyhurst,Army,3,0,3,RW,RL
+2026-01-10,RIT,Robert Morris,4,1,3,RW,RL
+2026-01-10,Northern Michigan,Augustana,0,3,3,RL,RW
+2026-01-10,Ferris State,Bowling Green,1,3,3,RL,RW
+2026-01-10,Omaha,St. Cloud State,6,2,3,RW,RL
+2026-01-10,Wisconsin,Alaska-Anchorage,5,0,3,RW,RL
+2026-01-10,Minnesota-Duluth,Lindenwood,6,3,3,RW,RL
+2026-01-10,Bemidji State,Michigan Tech,2,5,3,RL,RW
+2026-01-10,Denver,Western Michigan,1,4,3,RL,RW
+2026-01-10,Arizona State,Miami,1,2,4,OL,OW
+2026-01-10,Colorado College,North Dakota,3,2,4,OW,OL
+2026-01-10,Air Force,Bentley,1,5,3,RL,RW
+2026-01-10,Brown,St. Lawrence,4,1,3,RW,RL
+2026-01-10,Ohio State,Michigan State,2,1,3,RW,RL
+2026-01-10,Mercyhurst,Army,0,5,3,RL,RW
+2026-01-10,Niagara,Sacred Heart,2,4,3,RL,RW
+2026-01-10,RIT,Robert Morris,3,2,4,OW,OL
+2026-01-10,Boston University,Massachusetts,0,2,3,RL,RW
+2026-01-10,Providence,Maine,3,0,3,RW,RL
+2026-01-10,Penn State,Minnesota,5,2,3,RW,RL
+2026-01-10,Wisconsin,Alaska-Anchorage,3,2,3,RW,RL
+2026-01-10,Northern Michigan,Augustana,0,2,3,RL,RW
+2026-01-11,Mass.-Lowell,Connecticut,1,5,3,RL,RW
+2026-01-11,Vermont,Northeastern,5,3,3,RW,RL
+2026-01-11,Arizona State,Miami,1,0,3,RW,RL
+2026-01-11,Yale,Clarkson,2,3,3,RL,RW
+2026-01-11,Princeton,Union,2,4,3,RL,RW
+2026-01-11,Quinnipiac,RPI,4,3,4,OW,OL
+2026-01-11,Cornell,Alaska,5,2,3,RW,RL
+2026-01-11,Michigan,Notre Dame,7,4,3,RW,RL
+2026-01-11,Holy Cross,Merrimack,2,5,3,RL,RW
+2026-01-11,Air Force,Bentley,1,3,3,RL,RW
+2026-01-11,Minnesota-Duluth,Lindenwood,8,4,3,RW,RL
+2026-01-11,Minnesota State,St. Thomas,2,4,3,RL,RW
+2026-01-11,Bemidji State,Michigan Tech,3,4,3,RL,RW
+2026-01-11,Ferris State,Bowling Green,1,5,3,RL,RW
+2026-01-11,Denver,Western Michigan,2,6,3,RL,RW
+2026-01-11,Omaha,St. Cloud State,1,2,3,RL,RW
+2026-01-11,Colorado College,North Dakota,2,5,3,RL,RW
+2026-01-11,Stonehill,Long Island,2,3,3,RL,RW
+2026-01-13,Harvard,Boston University,1,4,3,RL,RW
+2026-01-16,Wisconsin,Michigan State,3,4,3,RL,RW
+2026-01-17,Boston College,Providence,3,4,4,OL,OW
+2026-01-17,Boston University,Mass.-Lowell,3,4,4,OL,OW
+2026-01-17,Merrimack,Massachusetts,2,4,3,RL,RW
+2026-01-17,Connecticut,Vermont,4,1,3,RW,RL
+2026-01-17,New Hampshire,Northeastern,0,4,3,RL,RW
+2026-01-17,RPI,Yale,3,8,3,RL,RW
+2026-01-17,Union,Brown,4,0,3,RW,RL
+2026-01-17,Harvard,St. Lawrence,5,1,3,RW,RL
+2026-01-17,Dartmouth,Clarkson,2,2,4,T,T
+2026-01-17,Colgate,Quinnipiac,1,5,3,RL,RW
+2026-01-17,Cornell,Princeton,2,1,3,RW,RL
+2026-01-17,Penn State,Notre Dame,4,1,3,RW,RL
+2026-01-17,Army,Robert Morris,3,2,4,OW,OL
+2026-01-17,Sacred Heart,Bentley,3,2,3,RW,RL
+2026-01-17,Canisius,RIT,5,3,3,RW,RL
+2026-01-17,Mercyhurst,Niagara,3,0,3,RW,RL
+2026-01-17,Miami,Omaha,3,0,3,RW,RL
+2026-01-17,Holy Cross,Air Force,3,2,4,OW,OL
+2026-01-17,Michigan Tech,Minnesota State,3,1,3,RW,RL
+2026-01-17,Bowling Green,Lake Superior,3,1,3,RW,RL
+2026-01-17,St. Cloud State,Minnesota-Duluth,6,0,3,RW,RL
+2026-01-17,Minnesota,Michigan,1,5,3,RL,RW
+2026-01-17,Wisconsin,Michigan State,1,4,3,RL,RW
+2026-01-17,North Dakota,Denver,5,0,3,RW,RL
+2026-01-17,St. Thomas,Bemidji State,5,1,3,RW,RL
+2026-01-17,Augustana,Ferris State,4,0,3,RW,RL
+2026-01-17,Lindenwood,Stonehill,6,2,3,RW,RL
+2026-01-17,Alaska,Alaska-Anchorage,1,1,4,T,T
+2026-01-17,Connecticut,Vermont,2,4,3,RL,RW
+2026-01-17,RPI,Brown,4,1,3,RW,RL
+2026-01-17,Army,Robert Morris,0,3,3,RL,RW
+2026-01-17,Union,Yale,1,4,3,RL,RW
+2026-01-17,Sacred Heart,Bentley,4,4,4,T,T
+2026-01-17,Niagara,Mercyhurst,2,4,3,RL,RW
+2026-01-17,Mass.-Lowell,Boston University,0,3,3,RL,RW
+2026-01-17,Miami,Omaha,6,2,3,RW,RL
+2026-01-17,Michigan Tech,Minnesota State,4,1,3,RW,RL
+2026-01-18,Providence,Boston College,4,3,3,RW,RL
+2026-01-18,Massachusetts,Merrimack,3,1,3,RW,RL
+2026-01-18,St. Cloud State,Minnesota-Duluth,3,5,3,RL,RW
+2026-01-18,North Dakota,Denver,2,3,3,RL,RW
+2026-01-18,Dartmouth,St. Lawrence,4,0,3,RW,RL
+2026-01-18,Harvard,Clarkson,2,1,3,RW,RL
+2026-01-18,Colgate,Princeton,2,0,3,RW,RL
+2026-01-18,Cornell,Quinnipiac,1,4,3,RL,RW
+2026-01-18,Minnesota,Michigan,2,3,4,OL,OW
+2026-01-18,Holy Cross,Air Force,2,5,3,RL,RW
+2026-01-18,RIT,Canisius,1,4,3,RL,RW
+2026-01-18,Bowling Green,Lake Superior,0,1,3,RL,RW
+2026-01-18,Augustana,Ferris State,4,3,4,OW,OL
+2026-01-18,Penn State,Notre Dame,6,3,3,RW,RL
+2026-01-18,St. Thomas,Bemidji State,3,2,3,RW,RL
+2026-01-18,Lindenwood,Stonehill,5,1,3,RW,RL
+2026-01-18,Alaska,Alaska-Anchorage,4,1,3,RW,RL
+2026-01-18,Northeastern,New Hampshire,5,2,3,RW,RL
+2026-01-19,Harvard,Union,4,0,3,RW,RL
+2026-01-23,Merrimack,Northeastern,4,1,3,RW,RL
+2026-01-23,Quinnipiac,Sacred Heart,5,1,3,RW,RL
+2026-01-23,Niagara,RIT,2,4,3,RL,RW
+2026-01-24,Boston College,New Hampshire,5,2,3,RW,RL
+2026-01-24,Providence,Boston University,4,3,3,RW,RL
+2026-01-24,Vermont,Massachusetts,0,4,3,RL,RW
+2026-01-24,Clarkson,St. Lawrence,5,5,4,T,T
+2026-01-24,Colgate,Harvard,1,3,3,RL,RW
+2026-01-24,Cornell,Dartmouth,2,1,4,OW,OL
+2026-01-24,Michigan State,Minnesota,3,1,3,RW,RL
+2026-01-24,Notre Dame,Ohio State,2,4,3,RL,RW
+2026-01-24,Mercyhurst,Canisius,3,4,3,RL,RW
+2026-01-24,Robert Morris,Holy Cross,5,2,3,RW,RL
+2026-01-24,Merrimack,Northeastern,3,1,3,RW,RL
+2026-01-24,Mass.-Lowell,Maine,0,2,3,RL,RW
+2026-01-24,Northern Michigan,Michigan Tech,2,8,3,RL,RW
+2026-01-24,Lake Superior,St. Thomas,4,7,3,RL,RW
+2026-01-24,Yale,Connecticut,2,5,3,RL,RW
+2026-01-24,Omaha,Colorado College,3,1,3,RW,RL
+2026-01-24,Wisconsin,Penn State,2,7,3,RL,RW
+2026-01-24,Minnesota-Duluth,Western Michigan,3,4,3,RL,RW
+2026-01-24,Bemidji State,Bowling Green,1,3,3,RL,RW
+2026-01-24,Denver,St. Cloud State,2,4,3,RL,RW
+2026-01-24,Arizona State,North Dakota,4,7,3,RL,RW
+2026-01-24,Alaska-Anchorage,Long Island,2,6,3,RL,RW
+2026-01-24,Alaska,Lindenwood,5,2,3,RW,RL
+2026-01-24,Yale,Sacred Heart,2,3,3,RL,RW
+2026-01-24,Notre Dame,Ohio State,6,1,3,RW,RL
+2026-01-24,RIT,Niagara,3,3,4,T,T
+2026-01-24,Bentley,Princeton,2,2,4,T,T
+2026-01-24,Michigan State,Minnesota,3,2,3,RW,RL
+2026-01-24,Mass.-Lowell,Maine,5,6,4,OL,OW
+2026-01-24,Michigan Tech,Northern Michigan,2,3,3,RL,RW
+2026-01-24,Lake Superior,St. Thomas,0,5,3,RL,RW
+2026-01-25,New Hampshire,Boston College,0,3,3,RL,RW
+2026-01-25,Boston University,Providence,0,4,3,RL,RW
+2026-01-25,Vermont,Massachusetts,0,1,3,RL,RW
+2026-01-25,Arizona State,North Dakota,3,5,3,RL,RW
+2026-01-25,St. Lawrence,Clarkson,5,2,3,RW,RL
+2026-01-25,Stonehill,Brown,3,2,4,OW,OL
+2026-01-25,Cornell,Harvard,4,1,3,RW,RL
+2026-01-25,Robert Morris,Holy Cross,1,0,3,RW,RL
+2026-01-25,Minnesota-Duluth,Western Michigan,3,4,4,OL,OW
+2026-01-25,Minnesota State,Augustana,4,1,3,RW,RL
+2026-01-25,Bemidji State,Bowling Green,1,5,3,RL,RW
+2026-01-25,Connecticut,Quinnipiac,4,2,3,RW,RL
+2026-01-25,Denver,St. Cloud State,6,0,3,RW,RL
+2026-01-25,Omaha,Colorado College,1,3,3,RL,RW
+2026-01-25,Wisconsin,Penn State,1,3,3,RL,RW
+2026-01-25,Alaska-Anchorage,Long Island,0,4,3,RL,RW
+2026-01-25,Alaska,Lindenwood,4,7,3,RL,RW
+2026-01-30,Holy Cross,Army,2,3,4,OL,OW
+2026-01-30,Penn State,Michigan State,3,6,3,RL,RW
+2026-01-30,Ohio State,Michigan,4,6,3,RL,RW
+2026-01-31,Yale,Cornell,2,5,3,RL,RW
+2026-01-31,Dartmouth,Union,4,2,3,RW,RL
+2026-01-31,Harvard,RPI,3,1,3,RW,RL
+2026-01-31,Brown,Colgate,3,3,4,T,T
+2026-01-31,Western Michigan,Omaha,5,2,3,RW,RL
+2026-01-31,Robert Morris,Bentley,0,5,3,RL,RW
+2026-01-31,Mercyhurst,RIT,2,2,4,T,T
+2026-01-31,Minnesota,Wisconsin,4,1,3,RW,RL
+2026-01-31,St. Thomas,Michigan Tech,4,2,3,RW,RL
+2026-01-31,Denver,Minnesota-Duluth,4,3,3,RW,RL
+2026-01-31,Colorado College,Arizona State,5,6,4,OL,OW
+2026-01-31,Air Force,Sacred Heart,5,2,3,RW,RL
+2026-01-31,Alaska,Long Island,5,1,3,RW,RL
+2026-01-31,Penn State,Michigan State,4,5,4,OL,OW
+2026-01-31,Brown,Cornell,2,4,3,RL,RW
+2026-01-31,Ohio State,Michigan,2,3,4,OL,OW
+2026-01-31,Mercyhurst,RIT,1,3,3,RL,RW
+2026-01-31,Western Michigan,Omaha,1,4,3,RL,RW
+2026-01-31,Ferris State,Minnesota State,3,4,3,RL,RW
+2026-01-31,Northern Michigan,Bemidji State,1,7,3,RL,RW
+2026-01-31,Bowling Green,Notre Dame,2,2,4,T,T
+2026-02-01,Maine,Providence,2,3,4,OL,OW
+2026-02-01,New Hampshire,Merrimack,3,3,4,T,T
+2026-02-01,Yale,Colgate,3,6,3,RL,RW
+2026-02-01,St. Lawrence,Princeton,6,2,3,RW,RL
+2026-02-01,Dartmouth,RPI,3,1,3,RW,RL
+2026-02-01,Clarkson,Quinnipiac,3,3,4,T,T
+2026-02-01,St. Cloud State,Miami,1,3,3,RL,RW
+2026-02-01,Minnesota,Wisconsin,8,4,3,RW,RL
+2026-02-01,Robert Morris,Bentley,3,3,4,T,T
+2026-02-01,Niagara,Canisius,3,4,4,OL,OW
+2026-02-01,Air Force,Sacred Heart,2,0,3,RW,RL
+2026-02-01,Augustana,Lake Superior,4,1,3,RW,RL
+2026-02-01,Vermont,Stonehill,2,0,3,RW,RL
+2026-02-01,Denver,Minnesota-Duluth,1,0,4,OW,OL
+2026-02-01,Colorado College,Arizona State,4,1,3,RW,RL
+2026-02-01,St. Thomas,Michigan Tech,3,4,3,RL,RW
+2026-02-01,Alaska,Long Island,5,1,3,RW,RL
+2026-02-01,Mass.-Lowell,Massachusetts,4,6,3,RL,RW
+2026-02-02,Boston College,Harvard,5,1,3,RW,RL
+2026-02-03,Northeastern,Boston University,2,2,4,T,T
+2026-02-04,Stonehill,Merrimack,5,9,3,RL,RW
+2026-02-06,Niagara,Air Force,1,2,4,OL,OW
+2026-02-07,Boston College,Vermont,1,6,3,RL,RW
+2026-02-07,Boston University,Maine,3,2,4,OW,OL
+2026-02-07,Northeastern,Connecticut,0,2,3,RL,RW
+2026-02-07,New Hampshire,Providence,1,6,3,RL,RW
+2026-02-07,Princeton,Yale,3,1,3,RW,RL
+2026-02-07,St. Lawrence,Union,1,4,3,RL,RW
+2026-02-07,Clarkson,RPI,3,4,3,RL,RW
+2026-02-07,Quinnipiac,Brown,9,1,3,RW,RL
+2026-02-07,Harvard,Dartmouth,1,3,3,RL,RW
+2026-02-07,Michigan,Michigan State,4,3,4,OW,OL
+2026-02-07,Army,RIT,6,2,3,RW,RL
+2026-02-07,Holy Cross,Bentley,2,4,3,RL,RW
+2026-02-07,Robert Morris,Canisius,1,0,3,RW,RL
+2026-02-07,Sacred Heart,Mercyhurst,5,1,3,RW,RL
+2026-02-07,Stonehill,Lindenwood,1,3,3,RL,RW
+2026-02-07,Miami,Western Michigan,3,2,4,OW,OL
+2026-02-07,Michigan Tech,Augustana,3,2,4,OW,OL
+2026-02-07,Bowling Green,St. Thomas,2,3,4,OL,OW
+2026-02-07,Mass.-Lowell,Massachusetts,3,1,3,RW,RL
+2026-02-07,Colgate,Cornell,2,5,3,RL,RW
+2026-02-07,Minnesota,Ohio State,2,6,3,RL,RW
+2026-02-07,Wisconsin,Notre Dame,6,5,4,OW,OL
+2026-02-07,Minnesota-Duluth,North Dakota,3,2,4,OW,OL
+2026-02-07,Bemidji State,Ferris State,3,6,3,RL,RW
+2026-02-07,Colorado College,Denver,2,2,4,T,T
+2026-02-07,Arizona State,St. Cloud State,1,4,3,RL,RW
+2026-02-07,Alaska-Anchorage,Alaska,1,4,3,RL,RW
+2026-02-07,Sacred Heart,Mercyhurst,1,2,3,RL,RW
+2026-02-07,Clarkson,Union,8,7,4,OW,OL
+2026-02-07,Army,RIT,2,3,4,OL,OW
+2026-02-07,Michigan Tech,Augustana,4,3,3,RW,RL
+2026-02-07,Bentley,Holy Cross,1,4,3,RL,RW
+2026-02-07,Miami,Western Michigan,1,3,3,RL,RW
+2026-02-07,Niagara,Air Force,4,2,3,RW,RL
+2026-02-07,Bowling Green,St. Thomas,3,1,3,RW,RL
+2026-02-07,Michigan State,Michigan,5,2,3,RW,RL
+2026-02-08,Providence,Vermont,6,1,3,RW,RL
+2026-02-08,Arizona State,St. Cloud State,3,4,3,RL,RW
+2026-02-08,Quinnipiac,Yale,8,0,3,RW,RL
+2026-02-08,St. Lawrence,RPI,7,3,3,RW,RL
+2026-02-08,Cornell,Colgate,2,3,4,OL,OW
+2026-02-08,Princeton,Brown,5,3,3,RW,RL
+2026-02-08,Robert Morris,Canisius,6,4,3,RW,RL
+2026-02-08,Minnesota-Duluth,North Dakota,1,4,3,RL,RW
+2026-02-08,Bemidji State,Ferris State,4,3,4,OW,OL
+2026-02-08,Massachusetts,Mass.-Lowell,5,2,3,RW,RL
+2026-02-08,Stonehill,Lindenwood,5,1,3,RW,RL
+2026-02-08,Wisconsin,Notre Dame,5,4,3,RW,RL
+2026-02-08,Denver,Colorado College,4,1,3,RW,RL
+2026-02-08,Minnesota,Ohio State,1,2,3,RL,RW
+2026-02-08,Alaska-Anchorage,Alaska,3,2,4,OW,OL
+2026-02-09,Harvard,Northeastern,4,1,3,RW,RL
+2026-02-10,Boston College,Boston University,6,2,3,RW,RL
+2026-02-11,Bentley,Army,4,3,4,OW,OL
+2026-02-11,RIT,Niagara,2,1,3,RW,RL
+2026-02-13,Long Island,Stonehill,1,3,3,RL,RW
+2026-02-13,Niagara,Robert Morris,5,2,3,RW,RL
+2026-02-13,Michigan,Penn State,4,4,4,T,T
+2026-02-13,Ohio State,Wisconsin,2,4,3,RL,RW
+2026-02-14,Merrimack,Boston College,4,2,3,RW,RL
+2026-02-14,New Hampshire,Boston University,4,1,3,RW,RL
+2026-02-14,Maine,Connecticut,0,2,3,RL,RW
+2026-02-14,Providence,Northeastern,2,4,3,RL,RW
+2026-02-14,Vermont,Mass.-Lowell,2,4,3,RL,RW
+2026-02-14,Western Michigan,Arizona State,6,2,3,RW,RL
+2026-02-14,Yale,Dartmouth,4,4,4,T,T
+2026-02-14,Union,Colgate,7,6,3,RW,RL
+2026-02-14,RPI,Cornell,1,1,4,T,T
+2026-02-14,Brown,Harvard,2,2,4,T,T
+2026-02-14,Notre Dame,Minnesota,2,2,4,T,T
+2026-02-14,Bentley,Sacred Heart,0,4,3,RL,RW
+2026-02-14,Canisius,Holy Cross,3,4,3,RL,RW
+2026-02-14,Ferris State,Northern Michigan,4,4,4,T,T
+2026-02-14,Lake Superior,Michigan Tech,2,2,4,T,T
+2026-02-14,Omaha,Denver,2,5,3,RL,RW
+2026-02-14,St. Cloud State,Colorado College,6,5,4,OW,OL
+2026-02-14,North Dakota,Miami,1,0,3,RW,RL
+2026-02-14,Minnesota State,Bemidji State,1,0,3,RW,RL
+2026-02-14,Augustana,Bowling Green,0,1,3,RL,RW
+2026-02-14,Lindenwood,Alaska-Anchorage,4,5,3,RL,RW
+2026-02-14,Air Force,Mercyhurst,3,3,4,T,T
+2026-02-14,Long Island,Stonehill,5,3,3,RW,RL
+2026-02-14,Brown,Dartmouth,4,3,3,RW,RL
+2026-02-14,Canisius,Holy Cross,5,3,3,RW,RL
+2026-02-14,Michigan,Penn State,6,3,3,RW,RL
+2026-02-14,Providence,Northeastern,4,1,3,RW,RL
+2026-02-14,Boston University,New Hampshire,5,3,3,RW,RL
+2026-02-14,Vermont,Mass.-Lowell,2,5,3,RL,RW
+2026-02-14,Western Michigan,Arizona State,7,2,3,RW,RL
+2026-02-14,Notre Dame,Minnesota,3,2,3,RW,RL
+2026-02-14,Bentley,Sacred Heart,5,1,3,RW,RL
+2026-02-14,Ferris State,Northern Michigan,6,0,3,RW,RL
+2026-02-14,Lake Superior,Michigan Tech,4,5,4,OL,OW
+2026-02-15,Boston College,Merrimack,4,2,3,RW,RL
+2026-02-15,Maine,Connecticut,3,3,4,T,T
+2026-02-15,Yale,Harvard,3,2,4,OW,OL
+2026-02-15,Union,Cornell,4,1,3,RW,RL
+2026-02-15,RPI,Colgate,6,1,3,RW,RL
+2026-02-15,St. Cloud State,Colorado College,1,4,3,RL,RW
+2026-02-15,Quinnipiac,Princeton,4,1,3,RW,RL
+2026-02-15,Robert Morris,Niagara,5,1,3,RW,RL
+2026-02-15,Air Force,Mercyhurst,5,4,3,RW,RL
+2026-02-15,North Dakota,Miami,4,3,4,OW,OL
+2026-02-15,Minnesota State,Bemidji State,0,1,4,OL,OW
+2026-02-15,Augustana,Bowling Green,4,2,3,RW,RL
+2026-02-15,Lindenwood,Alaska-Anchorage,4,2,3,RW,RL
+2026-02-15,Ohio State,Wisconsin,3,2,3,RW,RL
+2026-02-15,Omaha,Denver,1,3,3,RL,RW
+2026-02-15,Princeton,Quinnipiac,1,4,3,RL,RW
+2026-02-20,Michigan State,Notre Dame,4,2,3,RW,RL
+2026-02-20,Miami,Minnesota-Duluth,2,5,3,RL,RW
+2026-02-20,Michigan State,Notre Dame,8,2,3,RW,RL
+2026-02-21,Boston College,Connecticut,5,2,3,RW,RL
+2026-02-21,Maine,Merrimack,5,3,3,RW,RL
+2026-02-21,Massachusetts,New Hampshire,4,0,3,RW,RL
+2026-02-21,Vermont,Providence,2,5,3,RL,RW
+2026-02-21,Mass.-Lowell,Northeastern,0,2,3,RL,RW
+2026-02-21,Clarkson,Yale,4,1,3,RW,RL
+2026-02-21,Union,Harvard,4,1,3,RW,RL
+2026-02-21,St. Lawrence,Brown,3,1,3,RW,RL
+2026-02-21,RPI,Dartmouth,1,3,3,RL,RW
+2026-02-21,Princeton,Colgate,1,1,4,T,T
+2026-02-21,Quinnipiac,Cornell,1,6,3,RL,RW
+2026-02-21,Canisius,Robert Morris,1,4,3,RL,RW
+2026-02-21,Sacred Heart,Holy Cross,5,1,3,RW,RL
+2026-02-21,Mercyhurst,Niagara,3,2,3,RW,RL
+2026-02-21,Stonehill,Long Island,5,1,3,RW,RL
+2026-02-21,RIT,Bentley,3,4,3,RL,RW
+2026-02-21,Bowling Green,Minnesota State,4,5,3,RL,RW
+2026-02-21,Northern Michigan,Lake Superior,5,7,3,RL,RW
+2026-02-21,Wisconsin,Michigan,4,1,3,RW,RL
+2026-02-21,North Dakota,St. Cloud State,4,4,4,T,T
+2026-02-21,St. Thomas,Augustana,3,3,4,T,T
+2026-02-21,Penn State,Ohio State,11,4,3,RW,RL
+2026-02-21,Arizona State,Omaha,2,4,3,RL,RW
+2026-02-21,Colorado College,Western Michigan,1,1,4,T,T
+2026-02-21,Air Force,Army,3,4,3,RL,RW
+2026-02-21,Alaska-Anchorage,Alaska,3,4,3,RL,RW
+2026-02-21,Connecticut,Boston College,1,2,4,OL,OW
+2026-02-21,Clarkson,Brown,4,3,4,OW,OL
+2026-02-21,Canisius,Robert Morris,7,0,3,RW,RL
+2026-02-21,Union,Dartmouth,3,3,4,T,T
+2026-02-21,Sacred Heart,Holy Cross,5,2,3,RW,RL
+2026-02-21,Mass.-Lowell,Northeastern,2,8,3,RL,RW
+2026-02-21,Miami,Minnesota-Duluth,1,4,3,RL,RW
+2026-02-21,Bowling Green,Minnesota State,1,1,4,T,T
+2026-02-21,Northern Michigan,Lake Superior,2,5,3,RL,RW
+2026-02-22,Maine,Merrimack,5,2,3,RW,RL
+2026-02-22,New Hampshire,Massachusetts,1,0,3,RW,RL
+2026-02-22,Arizona State,Omaha,6,3,3,RW,RL
+2026-02-22,St. Lawrence,Yale,5,2,3,RW,RL
+2026-02-22,RPI,Harvard,3,1,3,RW,RL
+2026-02-22,Quinnipiac,Colgate,5,2,3,RW,RL
+2026-02-22,Princeton,Cornell,4,2,3,RW,RL
+2026-02-22,Wisconsin,Michigan,1,3,3,RL,RW
+2026-02-22,Niagara,Mercyhurst,3,1,3,RW,RL
+2026-02-22,Stonehill,Long Island,3,2,3,RW,RL
+2026-02-22,Air Force,Army,0,0,4,T,T
+2026-02-22,North Dakota,St. Cloud State,6,4,3,RW,RL
+2026-02-22,Vermont,Providence,3,5,3,RL,RW
+2026-02-22,Colorado College,Western Michigan,0,2,3,RL,RW
+2026-02-22,Penn State,Ohio State,5,4,4,OW,OL
+2026-02-22,St. Thomas,Augustana,0,4,3,RL,RW
+2026-02-22,Alaska-Anchorage,Alaska,2,6,3,RL,RW
