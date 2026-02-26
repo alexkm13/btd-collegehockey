@@ -16,7 +16,6 @@ Output:
 """
 
 import pandas as pd
-import numpy as np
 from scipy import stats
 
 
@@ -24,7 +23,7 @@ def load_data() -> pd.DataFrame:
     df = pd.read_csv("data/covariates_all.csv")
     print(f"Loaded {len(df)} rows across seasons: {df['season'].unique()}")
     print(f"Columns: {list(df.columns)}")
-    print(f"Teams per season:")
+    print("Teams per season:")
     print(df.groupby("season")["Team"].count())
     print()
     return df
@@ -54,18 +53,18 @@ def compute_stickiness(df: pd.DataFrame, covariate: str) -> pd.DataFrame:
             print(f"  WARNING: Only {len(merged)} teams matched for {s1} -> {s2}")
             continue
 
-        r, p = stats.pearsonr(
-            merged[f"{covariate}_prev"], merged[f"{covariate}_curr"]
-        )
+        r, p = stats.pearsonr(merged[f"{covariate}_prev"], merged[f"{covariate}_curr"])
 
-        results.append({
-            "covariate": covariate,
-            "season_pair": f"{s1} -> {s2}",
-            "n_teams": len(merged),
-            "pearson_r": round(r, 3),
-            "p_value": round(p, 4),
-            "r_squared": round(r ** 2, 3),
-        })
+        results.append(
+            {
+                "covariate": covariate,
+                "season_pair": f"{s1} -> {s2}",
+                "n_teams": len(merged),
+                "pearson_r": round(r, 3),
+                "p_value": round(p, 4),
+                "r_squared": round(r**2, 3),
+            }
+        )
 
         print(f"  {s1} -> {s2}: r = {r:.3f} (p = {p:.4f}, n = {len(merged)})")
 
@@ -81,37 +80,43 @@ def main():
     for cov in covariates:
         if cov not in df.columns or df[cov].isna().all():
             print(f"\nSKIPPING {cov} -- no data available")
-            print(f"  (You may need to fix column mapping in scrape_historical.py)")
+            print("  (You may need to fix column mapping in scrape_historical.py)")
             continue
 
-        print(f"\n{'='*50}")
+        print(f"\n{'=' * 50}")
         print(f"Stickiness: {cov}")
-        print(f"{'='*50}")
+        print(f"{'=' * 50}")
 
         results = compute_stickiness(df, cov)
         all_results.append(results)
 
     if all_results:
         df_results = pd.concat(all_results, ignore_index=True)
-        print(f"\n\n{'='*60}")
+        print(f"\n\n{'=' * 60}")
         print("STICKINESS SUMMARY")
-        print(f"{'='*60}")
+        print(f"{'=' * 60}")
         print(df_results.to_string(index=False))
 
         # Average r across season pairs per covariate
-        print(f"\nAverage Pearson r by covariate:")
+        print("\nAverage Pearson r by covariate:")
         avg = df_results.groupby("covariate")["pearson_r"].mean()
         for cov, r in avg.items():
-            label = "STICKY" if abs(r) > 0.4 else "MODERATE" if abs(r) > 0.2 else "NOT STICKY"
+            label = (
+                "STICKY"
+                if abs(r) > 0.4
+                else "MODERATE"
+                if abs(r) > 0.2
+                else "NOT STICKY"
+            )
             print(f"  {cov:15s}: r = {r:.3f}  [{label}]")
 
         df_results.to_csv("data/stickiness_results.csv", index=False)
-        print(f"\nSaved: data/stickiness_results.csv")
+        print("\nSaved: data/stickiness_results.csv")
 
         # Interpretation for the paper
-        print(f"\n{'='*60}")
+        print(f"\n{'=' * 60}")
         print("INTERPRETATION FOR PAPER")
-        print(f"{'='*60}")
+        print(f"{'=' * 60}")
         print("""
 If FF%_close r > 0.5:
   → Possession quality is a durable program-level trait.

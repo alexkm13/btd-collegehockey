@@ -39,8 +39,8 @@ OUTCOME_MAP = {"RW": 0, "OW": 1, "T": 2, "OL": 3, "RL": 4}
 
 # softmax score coefficients per outcome (from home team i's perspective)
 # x^I = p^I * gamma_ij + o^I * tau
-P_COEFS = np.array([1.0, 2/3, 1/2, 1/3, 0.0])   # strength weight
-O_COEFS = np.array([0.0, 1.0, 1.0, 1.0, 0.0])    # overtime flag
+P_COEFS = np.array([1.0, 2 / 3, 1 / 2, 1 / 3, 0.0])  # strength weight
+O_COEFS = np.array([0.0, 1.0, 1.0, 1.0, 0.0])  # overtime flag
 
 
 def load_data(games_path: str, covariates_path: str):
@@ -103,9 +103,9 @@ def build_model(data: dict) -> pm.Model:
       outcome ~ Categorical(softmax(scores))
     """
     n_teams = data["n_teams"]
-    X = data["X"]                  # (n_teams, 3) standardized covariates
-    home_idx = data["home_idx"]    # (n_games,)
-    away_idx = data["away_idx"]    # (n_games,)
+    X = data["X"]  # (n_teams, 3) standardized covariates
+    home_idx = data["home_idx"]  # (n_games,)
+    away_idx = data["away_idx"]  # (n_games,)
     outcome_idx = data["outcome_idx"]  # (n_games,)
 
     with pm.Model() as model:
@@ -140,9 +140,6 @@ def build_model(data: dict) -> pm.Model:
         # Broadcast: gamma is (n_games,), p_coefs is (5,)
         # Result: (n_games, 5)
         scores = gamma[:, None] * p_coefs[None, :] + tau * o_coefs[None, :]
-
-        # Log-softmax for numerical stability
-        log_probs = pm.math.log_softmax(scores, axis=1)
 
         # ── Likelihood ──────────────────────────────────────────
         # Custom categorical: pick the log-prob of the observed outcome
@@ -196,8 +193,10 @@ def summarize_results(trace, data: dict):
         p_pos = (beta_samples[:, i] > 0).mean()
         # convert to original scale: beta_orig = beta_std / X_std
         beta_orig = mean / X_std[i]
-        print(f"  {col:12s}: β = {mean:+.3f} ± {sd:.3f}  (P(β>0) = {p_pos:.1%})  "
-              f"[per 1 unit orig: {beta_orig:+.4f}]")
+        print(
+            f"  {col:12s}: β = {mean:+.3f} ± {sd:.3f}  (P(β>0) = {p_pos:.1%})  "
+            f"[per 1 unit orig: {beta_orig:+.4f}]"
+        )
 
     # overtime parameter
     tau_samples = trace.posterior["tau"].values.flatten()
@@ -217,8 +216,10 @@ def summarize_results(trace, data: dict):
     for rank, i in enumerate(ranking, 1):
         ci_lo = np.percentile(lam_samples[:, i], 2.5)
         ci_hi = np.percentile(lam_samples[:, i], 97.5)
-        print(f"{rank:4d}  {teams[i]:25s}  {lam_mean[i]:+8.3f}  {lam_sd[i]:6.3f}  "
-              f"[{ci_lo:+.3f}, {ci_hi:+.3f}]")
+        print(
+            f"{rank:4d}  {teams[i]:25s}  {lam_mean[i]:+8.3f}  {lam_sd[i]:6.3f}  "
+            f"[{ci_lo:+.3f}, {ci_hi:+.3f}]"
+        )
 
     return {
         "lam_samples": lam_samples,
@@ -232,10 +233,20 @@ def summarize_results(trace, data: dict):
 
 def main():
     parser = argparse.ArgumentParser(description="Fit BTD model")
-    parser.add_argument("--samples", type=int, default=2000, help="Posterior samples per chain")
+    parser.add_argument(
+        "--samples", type=int, default=2000, help="Posterior samples per chain"
+    )
     parser.add_argument("--chains", type=int, default=4, help="Number of MCMC chains")
-    parser.add_argument("--games", default="../etl/data/game_results.csv", help="Path to game results CSV")
-    parser.add_argument("--covariates", default="../etl/data/team_covariates.csv", help="Path to team covariates CSV")
+    parser.add_argument(
+        "--games",
+        default="../etl/data/game_results.csv",
+        help="Path to game results CSV",
+    )
+    parser.add_argument(
+        "--covariates",
+        default="../etl/data/team_covariates.csv",
+        help="Path to team covariates CSV",
+    )
     args = parser.parse_args()
 
     # load data

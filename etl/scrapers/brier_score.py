@@ -7,7 +7,7 @@ import warnings
 warnings.filterwarnings("ignore", category=FutureWarning)
 
 OUTCOME_MAP = {"RW": 0, "OW": 1, "T": 2, "OL": 3, "RL": 4}
-P_COEFS = np.array([1.0, 2/3, 1/2, 1/3, 0.0])
+P_COEFS = np.array([1.0, 2 / 3, 1 / 2, 1 / 3, 0.0])
 O_COEFS = np.array([0.0, 1.0, 1.0, 1.0, 0.0])
 
 ESPN_TO_CHN = {
@@ -76,6 +76,7 @@ ESPN_TO_CHN = {
     "Yale Bulldogs": "Yale",
 }
 
+
 def load_season(season_label: str):
     """Load CHN covariates and ESPN games for a given season."""
     chn = pd.read_csv(f"data/chn_{season_label}.csv")
@@ -96,7 +97,9 @@ def load_season(season_label: str):
     return chn, espn
 
 
-def prepare_model_data(games: pd.DataFrame, covariates: pd.DataFrame, cov_cols: list[str]):
+def prepare_model_data(
+    games: pd.DataFrame, covariates: pd.DataFrame, cov_cols: list[str]
+):
     """
     Build arrays for PyMC model from games and covariates.
     Only includes games where both teams have covariates.
@@ -136,6 +139,7 @@ def prepare_model_data(games: pd.DataFrame, covariates: pd.DataFrame, cov_cols: 
         "n_covariates": len(cov_cols),
     }
 
+
 def build_btd_model(data: dict) -> pm.Model:
     """Build BTD model. If n_covariates=0, this is the base Whelan model."""
     n_teams = data["n_teams"]
@@ -170,7 +174,9 @@ def build_btd_model(data: dict) -> pm.Model:
     return model
 
 
-def fit_btd(data: dict, samples: int = 1000, chains: int = 4) -> pm.backends.base.MultiTrace:
+def fit_btd(
+    data: dict, samples: int = 1000, chains: int = 4
+) -> pm.backends.base.MultiTrace:
     """Fit the BTD model and return the trace."""
     model = build_btd_model(data)
     with model:
@@ -186,7 +192,10 @@ def fit_btd(data: dict, samples: int = 1000, chains: int = 4) -> pm.backends.bas
         )
     return trace
 
-def predict_game_probs(trace, train_data: dict, home_team: str, away_team: str) -> np.ndarray:
+
+def predict_game_probs(
+    trace, train_data: dict, home_team: str, away_team: str
+) -> np.ndarray:
     """Predict P(home wins) for a single game using posterior samples."""
     team_to_idx = train_data["team_to_idx"]
 
@@ -263,7 +272,9 @@ def evaluate_model(
     brier = compute_brier_score(predictions)
     n_pred = len(predictions)
 
-    print(f"  {model_name}: Brier = {brier:.4f} ({n_pred} games predicted, {skipped} skipped)")
+    print(
+        f"  {model_name}: Brier = {brier:.4f} ({n_pred} games predicted, {skipped} skipped)"
+    )
 
     return {
         "model": model_name,
@@ -278,9 +289,9 @@ def run_validation_pair(train_season: str, test_season: str) -> list[dict]:
     Train on season N, predict season N+1.
     Returns list of result dicts (one per model).
     """
-    print(f"\n{'='*60}")
+    print(f"\n{'=' * 60}")
     print(f"VALIDATION: Train on {train_season} → Predict {test_season}")
-    print(f"{'='*60}")
+    print(f"{'=' * 60}")
 
     # Load data
     chn_train, espn_train = load_season(train_season)
@@ -289,7 +300,7 @@ def run_validation_pair(train_season: str, test_season: str) -> list[dict]:
     results = []
 
     # base Whelan (no covariates)
-    print(f"\n--- Model A: Base Whelan (no covariates) ---")
+    print("\n--- Model A: Base Whelan (no covariates) ---")
     data_a = prepare_model_data(espn_train, chn_train, cov_cols=[])
     print(f"  Training on {data_a['n_games']} games, {data_a['n_teams']} teams")
     trace_a = fit_btd(data_a)
@@ -299,9 +310,11 @@ def run_validation_pair(train_season: str, test_season: str) -> list[dict]:
     results.append(result_a)
 
     # sticky covariates (FF%_close + PP%)
-    print(f"\n--- Model B: Sticky covariates (FF%_close + PP%) ---")
+    print("\n--- Model B: Sticky covariates (FF%_close + PP%) ---")
     data_b = prepare_model_data(espn_train, chn_train, cov_cols=["FF%_close", "PP%"])
-    print(f"  Training on {data_b['n_games']} games, {data_b['n_teams']} teams, 2 covariates")
+    print(
+        f"  Training on {data_b['n_games']} games, {data_b['n_teams']} teams, 2 covariates"
+    )
     trace_b = fit_btd(data_b)
     result_b = evaluate_model(trace_b, data_b, espn_test, "Sticky (FF%+PP%)")
     result_b["train_season"] = train_season
@@ -324,16 +337,19 @@ def main():
         results = run_validation_pair(train_s, test_s)
         all_results.extend(results)
 
-    
     df = pd.DataFrame(all_results)
 
-    print(f"\n\n{'='*60}")
+    print(f"\n\n{'=' * 60}")
     print("BRIER SCORE SUMMARY")
-    print(f"{'='*60}")
-    print(df[["train_season", "test_season", "model", "brier_score", "n_predictions"]].to_string(index=False))
+    print(f"{'=' * 60}")
+    print(
+        df[
+            ["train_season", "test_season", "model", "brier_score", "n_predictions"]
+        ].to_string(index=False)
+    )
 
     # average across pairs
-    print(f"\nAverage Brier Score by Model:")
+    print("\nAverage Brier Score by Model:")
     avg = df.groupby("model")["brier_score"].mean()
     for model, brier in avg.items():
         print(f"  {model:25s}: {brier:.4f}")
@@ -344,7 +360,7 @@ def main():
     print(f"Improvement: {improvement:.1f}% lower Brier score")
 
     df.to_csv("data/brier_results.csv", index=False)
-    print(f"\nSaved: data/brier_results.csv")
+    print("\nSaved: data/brier_results.csv")
 
 
 if __name__ == "__main__":

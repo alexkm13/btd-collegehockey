@@ -20,13 +20,32 @@ def parse_table(soup: BeautifulSoup, table_id: str) -> list[list[str]]:
             rows.append(cells)
     return rows
 
+
 def build_standard_df(rows: list[list[str]]) -> pd.DataFrame:
     cols = [
-        "Rk", "Team", "GP",
-        "G", "GA", "Sh", "Sh%", "ShA", "SV%",
-        "PP%", "PK%", "SHG", "SHGA", "FO%", "PIM",
-        "G/G", "GA/G", "S/G", "SA/G", "PIM/G",
-        "Age", "Ht", "Wt",
+        "Rk",
+        "Team",
+        "GP",
+        "G",
+        "GA",
+        "Sh",
+        "Sh%",
+        "ShA",
+        "SV%",
+        "PP%",
+        "PK%",
+        "SHG",
+        "SHGA",
+        "FO%",
+        "PIM",
+        "G/G",
+        "GA/G",
+        "S/G",
+        "SA/G",
+        "PIM/G",
+        "Age",
+        "Ht",
+        "Wt",
     ]
     df = pd.DataFrame(rows, columns=cols)
     df = df.drop(columns=["Rk", "Age", "Ht", "Wt"])
@@ -39,15 +58,33 @@ def build_standard_df(rows: list[list[str]]) -> pd.DataFrame:
 
 def build_advanced_df(rows: list[list[str]]) -> pd.DataFrame:
     cols = [
-        "Rk", "Team", "GP",
-        "SAT", "SATA", "CF%",
-        "FF", "FFA", "FF%",
-        "ES_SAT", "ES_SATA", "ES_CF%",
-        "ES_FF", "ES_FFA", "ES_FF%",
-        "PP_SAT", "PP_SATA", "PP_CF%",
-        "PP_FF", "PP_FFA", "PP_FF%",
-        "Close_SAT", "Close_SATA", "Close_CF%",
-        "Close_FF", "Close_FFA", "Close_FF%",
+        "Rk",
+        "Team",
+        "GP",
+        "SAT",
+        "SATA",
+        "CF%",
+        "FF",
+        "FFA",
+        "FF%",
+        "ES_SAT",
+        "ES_SATA",
+        "ES_CF%",
+        "ES_FF",
+        "ES_FFA",
+        "ES_FF%",
+        "PP_SAT",
+        "PP_SATA",
+        "PP_CF%",
+        "PP_FF",
+        "PP_FFA",
+        "PP_FF%",
+        "Close_SAT",
+        "Close_SATA",
+        "Close_CF%",
+        "Close_FF",
+        "Close_FFA",
+        "Close_FF%",
     ]
     df = pd.DataFrame(rows, columns=cols)
     df = df.drop(columns=["Rk"])

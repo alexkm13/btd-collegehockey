@@ -22,32 +22,74 @@ from collections import defaultdict
 # ── Conference rosters (2025-26) ────────────────────────────────────
 CONFERENCES = {
     "Atlantic Hockey": [
-        "Air Force", "Army", "Bentley", "Canisius", "Holy Cross",
-        "Mercyhurst", "Niagara", "Robert Morris", "RIT", "Sacred Heart",
+        "Air Force",
+        "Army",
+        "Bentley",
+        "Canisius",
+        "Holy Cross",
+        "Mercyhurst",
+        "Niagara",
+        "Robert Morris",
+        "RIT",
+        "Sacred Heart",
     ],
     "Big Ten": [
-        "Michigan", "Michigan State", "Minnesota", "Notre Dame",
-        "Ohio State", "Penn State", "Wisconsin",
+        "Michigan",
+        "Michigan State",
+        "Minnesota",
+        "Notre Dame",
+        "Ohio State",
+        "Penn State",
+        "Wisconsin",
     ],
     "CCHA": [
-        "Augustana", "Bemidji State", "Bowling Green", "Ferris State",
-        "Lake Superior", "Michigan Tech", "Minnesota State",
-        "Northern Michigan", "St. Thomas",
+        "Augustana",
+        "Bemidji State",
+        "Bowling Green",
+        "Ferris State",
+        "Lake Superior",
+        "Michigan Tech",
+        "Minnesota State",
+        "Northern Michigan",
+        "St. Thomas",
     ],
     "ECAC": [
-        "Brown", "Clarkson", "Colgate", "Cornell", "Dartmouth",
-        "Harvard", "Princeton", "Quinnipiac", "RPI",
-        "St. Lawrence", "Union", "Yale",
+        "Brown",
+        "Clarkson",
+        "Colgate",
+        "Cornell",
+        "Dartmouth",
+        "Harvard",
+        "Princeton",
+        "Quinnipiac",
+        "RPI",
+        "St. Lawrence",
+        "Union",
+        "Yale",
     ],
     "Hockey East": [
-        "Boston College", "Boston University", "Connecticut", "Maine",
-        "Massachusetts", "Mass.-Lowell", "Merrimack", "New Hampshire",
-        "Northeastern", "Providence", "Vermont",
+        "Boston College",
+        "Boston University",
+        "Connecticut",
+        "Maine",
+        "Massachusetts",
+        "Mass.-Lowell",
+        "Merrimack",
+        "New Hampshire",
+        "Northeastern",
+        "Providence",
+        "Vermont",
     ],
     "NCHC": [
-        "Arizona State", "Colorado College", "Denver", "Miami",
-        "Minnesota-Duluth", "North Dakota", "Omaha",
-        "St. Cloud State", "Western Michigan",
+        "Arizona State",
+        "Colorado College",
+        "Denver",
+        "Miami",
+        "Minnesota-Duluth",
+        "North Dakota",
+        "Omaha",
+        "St. Cloud State",
+        "Western Michigan",
     ],
 }
 
@@ -55,7 +97,7 @@ CONFERENCES = {
 
 # softmax outcome parameters
 # matches btd.py: RW=0, OW=1, T=2, OL=3, RL=4
-P_COEFS = np.array([1.0, 2/3, 1/2, 1/3, 0.0])
+P_COEFS = np.array([1.0, 2 / 3, 1 / 2, 1 / 3, 0.0])
 O_COEFS = np.array([0.0, 1.0, 1.0, 1.0, 0.0])
 
 # conference points: RW=3, OW=2, T=1, OL=1, RL=0
@@ -69,7 +111,7 @@ def load_posterior(path: str) -> dict:
     team_to_idx = {t: i for i, t in enumerate(teams)}
     return {
         "lam_samples": data["lam_samples"],  # (n_draws, n_teams)
-        "tau_samples": data["tau_samples"],   # (n_draws,)
+        "tau_samples": data["tau_samples"],  # (n_draws,)
         "teams": teams,
         "team_to_idx": team_to_idx,
     }
@@ -133,16 +175,13 @@ def simulate_conference(
     tau_samples = posterior["tau_samples"]
     n_draws = lam_samples.shape[0]
 
-    # conference team indices into the global team array
-    conf_idx = [team_to_idx[t] for t in conf_teams]
-
     # generate round-robin schedule
     schedule = generate_round_robin(conf_teams)
 
     # track results
-    win_counts = defaultdict(int)         # times each team finishes #1
-    total_points = defaultdict(list)      # points per sim for each team
-    avg_rank = defaultdict(float)         # running rank sum
+    win_counts = defaultdict(int)  # times each team finishes #1
+    total_points = defaultdict(list)  # points per sim for each team
+    avg_rank = defaultdict(float)  # running rank sum
 
     for _ in range(n_sims):
         # draw from posterior (random row)
@@ -166,7 +205,9 @@ def simulate_conference(
             points[away] += POINTS[4 - outcome]
 
         # rank teams by points (tiebreak: random for now)
-        ranked = sorted(conf_teams, key=lambda t: (points[t], rng.random()), reverse=True)
+        ranked = sorted(
+            conf_teams, key=lambda t: (points[t], rng.random()), reverse=True
+        )
 
         # record
         win_counts[ranked[0]] += 1
@@ -178,17 +219,23 @@ def simulate_conference(
     rows = []
     for team in conf_teams:
         pts = total_points[team]
-        rows.append({
-            "Conference": conf_name,
-            "Team": team,
-            "Win_Conf_%": win_counts[team] / n_sims * 100,
-            "Avg_Points": np.mean(pts),
-            "Avg_Rank": avg_rank[team] / n_sims,
-            "P_Top4_%": sum(1 for p in range(n_sims)
-                           if total_points[team][p] >= sorted(
-                               [total_points[t][p] for t in conf_teams],
-                               reverse=True)[3]) / n_sims * 100,
-        })
+        rows.append(
+            {
+                "Conference": conf_name,
+                "Team": team,
+                "Win_Conf_%": win_counts[team] / n_sims * 100,
+                "Avg_Points": np.mean(pts),
+                "Avg_Rank": avg_rank[team] / n_sims,
+                "P_Top4_%": sum(
+                    1
+                    for p in range(n_sims)
+                    if total_points[team][p]
+                    >= sorted([total_points[t][p] for t in conf_teams], reverse=True)[3]
+                )
+                / n_sims
+                * 100,
+            }
+        )
 
     df = pd.DataFrame(rows).sort_values("Win_Conf_%", ascending=False)
     return df
@@ -299,7 +346,7 @@ def simulate_tournament(
             team_seeds[team] = seed
 
     # track advancement
-    make_regional_final = defaultdict(int)  
+    make_regional_final = defaultdict(int)
     make_frozen_four = defaultdict(int)
     make_championship = defaultdict(int)
     win_championship = defaultdict(int)
@@ -309,9 +356,8 @@ def simulate_tournament(
         lam = lam_samples[draw_idx]
         tau = tau_samples[draw_idx]
 
-        sim_game = lambda a, b: simulate_tournament_game(
-            a, b, lam, tau, team_to_idx, rng
-        )
+        def sim_game(a, b):
+            return simulate_tournament_game(a, b, lam, tau, team_to_idx, rng)
 
         # play regionals
         regional_winners = {}
@@ -347,35 +393,46 @@ def simulate_tournament(
     # build results
     rows = []
     for team in all_teams:
-        rows.append({
-            "Team": team,
-            "Seed": team_seeds[team],
-            "Regional_Final_%": make_regional_final[team] / n_sims * 100,
-            "Frozen_Four_%": make_frozen_four[team] / n_sims * 100,
-            "Championship_Game_%": make_championship[team] / n_sims * 100,
-            "Win_Title_%": win_championship[team] / n_sims * 100,
-        })
+        rows.append(
+            {
+                "Team": team,
+                "Seed": team_seeds[team],
+                "Regional_Final_%": make_regional_final[team] / n_sims * 100,
+                "Frozen_Four_%": make_frozen_four[team] / n_sims * 100,
+                "Championship_Game_%": make_championship[team] / n_sims * 100,
+                "Win_Title_%": win_championship[team] / n_sims * 100,
+            }
+        )
 
     df = pd.DataFrame(rows).sort_values("Win_Title_%", ascending=False)
     return df
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Monte Carlo conference & tournament simulator")
+    parser = argparse.ArgumentParser(
+        description="Monte Carlo conference & tournament simulator"
+    )
     parser.add_argument("--sims", type=int, default=10000, help="Number of simulations")
-    parser.add_argument("--posterior", default="../engine/posterior_samples.npz",
-                        help="Path to posterior samples")
-    parser.add_argument("--conference", default=None,
-                        help="Simulate a single conference (default: all)")
-    parser.add_argument("--tournament", action="store_true",
-                        help="Simulate the NCAA tournament")
+    parser.add_argument(
+        "--posterior",
+        default="../engine/posterior_samples.npz",
+        help="Path to posterior samples",
+    )
+    parser.add_argument(
+        "--conference", default=None, help="Simulate a single conference (default: all)"
+    )
+    parser.add_argument(
+        "--tournament", action="store_true", help="Simulate the NCAA tournament"
+    )
     parser.add_argument("--seed", type=int, default=42, help="Random seed")
     args = parser.parse_args()
 
     # load posterior
     posterior = load_posterior(args.posterior)
-    print(f"Loaded {posterior['lam_samples'].shape[0]} posterior draws for "
-          f"{len(posterior['teams'])} teams")
+    print(
+        f"Loaded {posterior['lam_samples'].shape[0]} posterior draws for "
+        f"{len(posterior['teams'])} teams"
+    )
 
     rng = np.random.default_rng(args.seed)
 
@@ -383,15 +440,19 @@ def main():
     if args.tournament:
         df = simulate_tournament(posterior, args.sims, rng)
 
-        print(f"\n{'':2s}{'Team':25s}  {'Seed':>4s}  {'Reg Final':>9s}  "
-              f"{'Frozen 4':>8s}  {'Title Game':>10s}  {'Champion':>8s}")
+        print(
+            f"\n{'':2s}{'Team':25s}  {'Seed':>4s}  {'Reg Final':>9s}  "
+            f"{'Frozen 4':>8s}  {'Title Game':>10s}  {'Champion':>8s}"
+        )
         for _, row in df.iterrows():
-            print(f"  {row['Team']:25s}  {row['Seed']:4.0f}  "
-                  f"{row['Regional_Final_%']:8.1f}%  {row['Frozen_Four_%']:7.1f}%  "
-                  f"{row['Championship_Game_%']:9.1f}%  {row['Win_Title_%']:7.1f}%")
+            print(
+                f"  {row['Team']:25s}  {row['Seed']:4.0f}  "
+                f"{row['Regional_Final_%']:8.1f}%  {row['Frozen_Four_%']:7.1f}%  "
+                f"{row['Championship_Game_%']:9.1f}%  {row['Win_Title_%']:7.1f}%"
+            )
 
         df.to_csv("tournament_probabilities.csv", index=False)
-        print(f"\nSaved tournament_probabilities.csv")
+        print("\nSaved tournament_probabilities.csv")
         return
 
     # conference simulations
@@ -406,10 +467,14 @@ def main():
         all_results.append(df)
 
         # Print results
-        print(f"\n{'':2s}{'Team':25s}  {'Win Conf%':>9s}  {'Avg Pts':>7s}  {'Avg Rank':>8s}  {'Top 4%':>6s}")
+        print(
+            f"\n{'':2s}{'Team':25s}  {'Win Conf%':>9s}  {'Avg Pts':>7s}  {'Avg Rank':>8s}  {'Top 4%':>6s}"
+        )
         for _, row in df.iterrows():
-            print(f"  {row['Team']:25s}  {row['Win_Conf_%']:8.1f}%  {row['Avg_Points']:7.1f}  "
-                  f"{row['Avg_Rank']:8.02f}  {row['P_Top4_%']:5.1f}%")
+            print(
+                f"  {row['Team']:25s}  {row['Win_Conf_%']:8.1f}%  {row['Avg_Points']:7.1f}  "
+                f"{row['Avg_Rank']:8.02f}  {row['P_Top4_%']:5.1f}%"
+            )
 
     results = pd.concat(all_results, ignore_index=True)
     results.to_csv("conference_probabilities.csv", index=False)

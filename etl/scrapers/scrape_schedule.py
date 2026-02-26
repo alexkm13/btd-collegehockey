@@ -2,7 +2,10 @@ import requests
 import pandas as pd
 import time
 
-BASE_URL = "http://site.api.espn.com/apis/site/v2/sports/hockey/mens-college-hockey/scoreboard"
+BASE_URL = (
+    "http://site.api.espn.com/apis/site/v2/sports/hockey/mens-college-hockey/scoreboard"
+)
+
 
 def get_calendar() -> list[str]:
     """Fetch the season calendar dates from ESPN API."""
@@ -11,7 +14,7 @@ def get_calendar() -> list[str]:
     # calendar entries are ISO timestamps, get YYYYMMDD
     dates = []
     for ts in data["leagues"][0]["calendar"]:
-        date_str = ts[:10].replace("-", "") 
+        date_str = ts[:10].replace("-", "")
         dates.append(date_str)
     return dates
 
@@ -101,7 +104,9 @@ def scrape_all_games() -> pd.DataFrame:
                 all_games.append(game)
 
         if (i + 1) % 10 == 0:
-            print(f"  Scraped {i + 1}/{len(dates)} dates ({len(all_games)} games so far)")
+            print(
+                f"  Scraped {i + 1}/{len(dates)} dates ({len(all_games)} games so far)"
+            )
 
         time.sleep(0.3)  # give ESPN a lil break
 
@@ -113,14 +118,14 @@ def main():
     df = scrape_all_games()
 
     # Print summary
-    print(f"\nOutcome distribution:")
+    print("\nOutcome distribution:")
     print(df["home_outcome"].value_counts())
 
-    print(f"\nSample games:")
+    print("\nSample games:")
     print(df.head(10).to_string(index=False))
 
     df.to_csv("espn_game_results.csv", index=False)
-    print(f"\nSaved to espn_game_results.csv")
+    print("\nSaved to espn_game_results.csv")
 
 
 if __name__ == "__main__":

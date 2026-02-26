@@ -24,7 +24,9 @@ def load_and_clean_games(path: str) -> pd.DataFrame:
     # Reclassify: only keep RW, RL, OW, OL, T
     # Verify all outcomes are in expected set
     valid = {"RW", "RL", "OW", "OL", "T"}
-    assert set(df["home_outcome"].unique()) <= valid, f"Unexpected outcomes: {set(df['home_outcome'].unique()) - valid}"
+    assert set(df["home_outcome"].unique()) <= valid, (
+        f"Unexpected outcomes: {set(df['home_outcome'].unique()) - valid}"
+    )
 
     print(f"Clean games: {len(df)}")
     print(f"Outcome distribution:\n{df['home_outcome'].value_counts().to_string()}")
@@ -57,8 +59,16 @@ def main():
 
     # Save game results (BTD model input)
     # Keep only the columns the model needs
-    game_cols = ["date", "home_team", "away_team", "home_score", "away_score",
-                 "period", "home_outcome", "away_outcome"]
+    game_cols = [
+        "date",
+        "home_team",
+        "away_team",
+        "home_score",
+        "away_score",
+        "period",
+        "home_outcome",
+        "away_outcome",
+    ]
     games[game_cols].to_csv("game_results.csv", index=False)
     print(f"\nSaved game_results.csv ({len(games)} games)")
 

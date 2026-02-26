@@ -51,6 +51,9 @@ Thumbs.db
 # Logs
 *.log
 
+# Makefile
+Makefile
+
 # Data files (regeneratable via scrapers)
 etl/data/*.csv
 engine/*.csv
