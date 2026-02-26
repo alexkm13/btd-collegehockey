@@ -7,7 +7,7 @@ Predicts conference regular-season winners and NCAA tournament outcomes by exten
 
 ## What This Does
 
-Whelan & Klein estimate team strength purely from game results — wins, losses, and overtime outcomes. This project extends their model by asking *why* teams win, not just *that* they win. Three covariates are added to the team strength equation:
+Whelan & Klein estimate team strength purely from game results such as wins, losses, and overtime outcomes. This project extends their model by asking *why* teams win, not just *that* they win. Three covariates are added to the team strength equation:
 
 | Covariate | What It Measures | β (standardized) | P(β > 0) |
 |-----------|-----------------|-------------------|-----------|
@@ -25,9 +25,9 @@ Each team's strength is modeled as:
 λᵢ = αᵢ + β₁·FF%_close + β₂·PP% + β₃·GSAx/60
 ```
 
-where αᵢ is a team-specific intercept and the β coefficients are shared across all teams. Game outcomes follow a 5-category softmax (regulation win, overtime win, tie, overtime loss, regulation loss), extending Whelan's 4-outcome model to handle NCAA ties.
+where αᵢ is a team specific intercept and the β coefficients are shared across all teams. Game outcomes follow a 5 category softmax which incl. regulation win, overtime win, tie, overtime loss, regulation loss, extending Whelan's 4-outcome model to handle NCAA ties.
 
-The posterior is sampled via NUTS (4 chains × 2,000 draws). Team strengths are then fed into a Monte Carlo simulator (10,000 iterations) that plays out full conference round-robins and single-elimination tournament brackets.
+The posterior is sampled via NUTS (4 chains × 2,000 draws). Team strengths are then fed into a Monte Carlo simulator of 10,000 iterations that plays out full conference round-robins and single-elimination tournament brackets.
 
 ## Validation
 
@@ -52,13 +52,13 @@ We train on season N and predict every game in season N+1, comparing the covaria
 | 2022-23 → 2023-24 | 0.2456 | **0.2445** | −0.0010 |
 | 2023-24 → 2024-25 | 0.2319 | **0.2285** | −0.0033 |
 
-The covariate model outperforms in both season pairs. The improvement is conservative — this is the hardest possible test (full season-to-season prediction with roster churn). Within-season validation would show larger gains but requires play-by-play data unavailable at the college level.
+The covariate model outperforms in both season pairs. The improvement is conservative due to full season-to-season prediction with roster churn, making this a very difficult test. Within season validation would show larger gains but requires play-by-play data unavailable at the college level as of right now.
 
 ## Results
 
 ### 2025–26 Conference Predictions
 
-Run the conference simulator to get regular-season winner probabilities, average point totals, and top-4 likelihoods for all six conferences (Atlantic Hockey, Big Ten, CCHA, ECAC, Hockey East, NCHC).
+Run the conference simulator to get regular-season winner probabilities, average point totals, and top-4 likelihoods for all six conferences which are Atlantic Hockey, Big Ten, CCHA, ECAC, Hockey East, NCHC.
 
 ### 2025–26 NCAA Tournament Predictions
 
@@ -86,7 +86,7 @@ Run the conference simulator to get regular-season winner probabilities, average
 
 **Extract:** Game results from the ESPN API (961 games, 2025–26 season). Team statistics from College Hockey News (63 teams, advanced + standard + goalie tables). Historical data for 2022–23, 2023–24, and 2024–25 seasons for validation.
 
-**Transform:** Map ESPN team names to CHN names. Filter bad records (24 games with missing scores). Classify outcomes (RW/OW/T/OL/RL) by period count. Aggregate goalie stats to team-level GSAx/60 (weighted by minutes, 33% minimum threshold). Standardize covariates to zero mean, unit variance.
+**Transform:** Map ESPN team names to CHN names. Filter bad records like 24 games with missing scores. Classify outcomes (RW/OW/T/OL/RL) by period count. Aggregate goalie stats to team-level GSAx/60 (weighted by minutes, 33% minimum threshold). Standardize covariates to zero mean, unit variance.
 
 **Load:** Two clean CSVs — `game_results.csv` (one row per game) and `team_covariates.csv` (one row per team).
 
@@ -134,18 +134,18 @@ python brier_validation.py
 
 1. **Covariate extension** — Team strength is partially explained by observable metrics rather than being purely latent. This allows the model to identify teams winning unsustainably (lucky) or losing despite strong process (unlucky).
 
-2. **Ties as a fifth outcome** — NCAA conference games can end in a tie (5-minute 3v3 overtime, no shootout). The tie outcome is modeled with p = 1/2, o = 1 in the softmax, consistent with Davidson's original formulation.
+2. **Ties as a fifth outcome** — NCAA conference games can end in a tie. The tie outcome is modeled with p = 1/2, o = 1 in the softmax, consistent with Davidson's original formulation.
 
 3. **Monte Carlo simulation layer** — Posterior draws feed directly into a season and tournament simulator, propagating parameter uncertainty through to the final predictions.
 
-4. **Cross-season validation** — Covariate stickiness analysis and out-of-sample Brier scores demonstrate that process metrics (FF% Close, PP%) capture durable program-level traits that improve prediction across seasons despite roster turnover.
+4. **Cross-season validation** — Covariate stickiness analysis and out-of-sample Brier scores demonstrate that process metrics capture durable program level traits that improve prediction across seasons despite roster turnover.
 
 ## Limitations
 
 - Covariates are season-level aggregates, not game-level. Within-season rolling updates would improve the model but require play-by-play data unavailable at the college level.
-- GSAx/60 cannot be validated cross-season due to CHN data limitations for historical goalie stats. It is hypothesized to have low year-over-year stickiness (goalie-dependent, not program-dependent).
+- GSAx/60 cannot be validated cross-season due to CHN data limitations for historical goalie stats. It is hypothesized to have low year-over-year stickiness as the stat is heavily goalie-dependent, not program-dependent.
 - No home-ice advantage term. Could be added as a contest-level covariate.
-- Covariate selection was theory-driven (three orthogonal dimensions of team quality), not data-driven search. Additional covariates (PK%, score-adjusted metrics) could be tested.
+- Covariate selection was theory-driven using three orthogonal dimensions of team quality, not data-driven search. Additional covariates i.e. PK%, score-adjusted metrics could be tested.
 - Cross-season validation understates the model's predictive power due to roster turnover. The Brier score improvement would likely be larger with within-season point-in-time covariates.
 
 ## References
