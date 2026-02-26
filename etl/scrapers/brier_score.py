@@ -3,6 +3,7 @@ import pandas as pd
 import pymc as pm
 import pytensor.tensor as pt
 import warnings
+from scipy import stats
 
 warnings.filterwarnings("ignore", category=FutureWarning)
 
@@ -276,11 +277,14 @@ def evaluate_model(
         f"  {model_name}: Brier = {brier:.4f} ({n_pred} games predicted, {skipped} skipped)"
     )
 
+    sq_errors = [(p - a)**2 for p, a in predictions]
+    
     return {
         "model": model_name,
         "brier_score": brier,
         "n_predictions": n_pred,
         "n_skipped": skipped,
+        "sq_errors": sq_errors,
     }
 
 
@@ -321,8 +325,27 @@ def run_validation_pair(train_season: str, test_season: str) -> list[dict]:
     result_b["test_season"] = test_season
     results.append(result_b)
 
-    return results
+    if len(result_a["sq_errors"]) == len(result_b["sq_errors"]):
+        t_stat, p_val = stats.ttest_rel(
+            result_a["sq_errors"], 
+            result_b["sq_errors"], 
+            alternative='greater' # Testing if Base errors are strictly > Covariate errors
+        )
+        print(f"\n  [Statistical Significance]")
+        print(f"  T-statistic: {t_stat:.3f}")
+        print(f"  P-value:     {p_val:.4f}")
+        
+        # Attach it to the covariate model's result dict for the final dataframe
+        result_b["p_value"] = p_val
+        result_a["p_value"] = float('nan')
+    else:
+        print("\n  [Warning] Mismatched prediction counts, skipping t-test.")
 
+    # Remove the heavy arrays before returning to keep the dataframe clean
+    del result_a["sq_errors"]
+    del result_b["sq_errors"]
+
+    return results
 
 def main():
     # season pairs for cross-season validation
