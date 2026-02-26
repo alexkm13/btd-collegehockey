@@ -36,7 +36,7 @@ Run the conference simulator to get regular-season winner probabilities, average
 ### 2025–26 NCAA Tournament Predictions
 
 | Team | Seed | Reg. Final | Frozen Four | Title Game | Champion |
-||:----:|:----------:|:-----------:|:----------:|:--------:|
+|----|----------|-----------|----------|--------|
 | Michigan State | 1 | 85.6% | 62.5% | 41.6% | **28.0%** |
 | Michigan | 2 | 73.0% | 45.1% | 22.4% | **13.0%** |
 | North Dakota | 3 | 68.0% | 42.6% | 23.6% | **11.8%** |
