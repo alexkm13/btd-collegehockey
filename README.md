@@ -22,7 +22,7 @@ All three are statistically significant. The model decomposes team strength into
 Each team's strength is modeled as:
 
 
-$\lambda_i = \alpha_i + \beta_1 \cdot \text{FF\%}_{\text{close}} + \beta_2 \cdot \text{PP\%} + \beta_3 \cdot \text{GSAx/60}$
+$$\lambda_i = \alpha_i + \beta_1 \cdot \text{FF\%}_{\text{close}} + \beta_2 \cdot \text{PP\%} + \beta_3 \cdot \text{GSAx/60}$$
 
 where αᵢ is a team specific intercept and the β coefficients are shared across all teams. Game outcomes follow a 5 category softmax which incl. regulation win, overtime win, tie, overtime loss, regulation loss, extending Whelan's 4-outcome model to handle NCAA ties.
 
@@ -36,8 +36,8 @@ Before using covariates for cross-season prediction, we test whether they captur
 
 | Covariate | 2022-23 → 2023-24 | 2023-24 → 2024-25 | Interpretation |
 |-----------|:------------------:|:------------------:|----------------|
-| **FF% Close** | r = 0.663 | r = 0.554 | Sticky — program-level trait (coaching system, recruiting) |
-| **PP%** | r = 0.414 | r = 0.327 | Moderate — partially system, partially personnel |
+| **FF% Close** | r = 0.663 | r = 0.554 | Sticky, program-level trait like the coaching system, or recruiting |
+| **PP%** | r = 0.414 | r = 0.327 | Moderate, partially system & partially personnel |
 | **GSAx/60** | — | — | Not testable (CHN data unavailable for historical seasons) |
 
 Possession quality persists across seasons despite roster turnover. Special teams are moderately durable. Goaltending is hypothesized to be roster-dependent (low stickiness) but cannot be validated with available data.
@@ -46,7 +46,7 @@ Possession quality persists across seasons despite roster turnover. Special team
 
 We train on season N and predict every game in season N+1, comparing the covariate-enhanced model against a base Whelan model with no covariates:
 
-| Train → Test | Base Whelan | Sticky (FF% + PP%) | Δ Brier |
+| Train → Test | Base Whelan | Sticky (FF% + PP%) | $\delta$ Brier |
 |:------------:|:-----------:|:-------------------:|:-------:|
 | 2022-23 → 2023-24 | 0.2456 | **0.2445** | −0.0010 |
 | 2023-24 → 2024-25 | 0.2319 | **0.2285** | −0.0033 |
@@ -104,7 +104,7 @@ python scrape_team_stats.py
 cd ..
 python merge.py
 
-# Fit the model (~12 seconds on M-series Mac)
+# Fit the model (~12 seconds on M4-series Mac)
 cd ../engine
 python btd.py
 
