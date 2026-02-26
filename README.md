@@ -125,8 +125,8 @@ python brier_validation.py
 
 | Metric | Value | Target |
 |--------|-------|--------|
-| Max R̂ | 1.0000 | ≈ 1.0 |
-| Min ESS | 1,886 | > 400 |
+| Max $\hat{R}$ | 1.0000 | $\approx$ 1.0 |
+| Min ESS | 1,886 | $\gt$ 400 |
 | Divergences | 0 | 0 |
 
 ## Extensions from Whelan & Klein (2021)
