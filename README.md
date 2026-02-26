@@ -5,7 +5,7 @@ Predicts conference regular-season winners and NCAA tournament outcomes by exten
 
 ## What This Does
 
-Whelan & Klein estimate team strength purely from game results — wins, losses, and overtime outcomes. This project extends their model by asking *why* teams win, not just *that* they win. Three covariates are added to the team strength equation:
+Whelan & Klein estimate team strength purely from game results whether that be wins, losses, and overtime outcomes. This project extends their model by asking *why* teams win, not just *that* they win. Three covariates are added to the team strength equation:
 
 | Covariate | What It Measures | β (standardized) | P(β > 0) |
 |-----------|-----------------|-------------------|-----------|
@@ -36,7 +36,7 @@ Run the conference simulator to get regular-season winner probabilities, average
 ### 2025–26 NCAA Tournament Predictions
 
 | Team | Seed | Reg. Final | Frozen Four | Title Game | Champion |
-|------|:----:|:----------:|:-----------:|:----------:|:--------:|
+||:----:|:----------:|:-----------:|:----------:|:--------:|
 | Michigan State | 1 | 85.6% | 62.5% | 41.6% | **28.0%** |
 | Michigan | 2 | 73.0% | 45.1% | 22.4% | **13.0%** |
 | North Dakota | 3 | 68.0% | 42.6% | 23.6% | **11.8%** |
