@@ -145,11 +145,11 @@ The outcome parameters ($p_k$, $o_k$) encode the information content of each res
 
 | Outcome | $p_k$ | $o_k$ | Interpretation |
 |---------|:--:|:--:|----------------|
-| Regulation Win | 1 | 0 | Full win, no overtime — strongest signal |
+| Regulation Win | 1 | 0 | Full win, no overtime (strongest signal) |
 | Overtime Win | 2/3 | 1 | Partial win, required extra time |
 | Tie | 1/2 | 1 | Draw, consistent with Davidson (1970) |
 | Overtime Loss | 1/3 | 1 | Partial loss, required extra time |
-| Regulation Loss | 0 | 0 | Full loss — strongest signal |
+| Regulation Loss | 0 | 0 | Full loss (strongest signal) |
 
 The $\tau$ parameter controls the overall frequency of overtime outcomes. Posterior estimate: $\tau$ = −1.760 $\pm$ 0.085, meaning overtime results are rare relative to regulation outcomes (exp(−1.76) ≈ 0.17).
 
