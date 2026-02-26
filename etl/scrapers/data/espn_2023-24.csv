@@ -1,0 +1,1174 @@
+date,home_team,away_team,home_score,away_score,period,detail,home_outcome,away_outcome
+2023-10-07,Michigan State Spartans,Lake Superior State Lakers,5,2,3,Final,RW,RL
+2023-10-07,St. Lawrence Saints,RIT Tigers,4,3,3,Final,RW,RL
+2023-10-07,Notre Dame Fighting Irish,Clarkson Golden Knights,1,3,3,Final,RL,RW
+2023-10-07,Quinnipiac Bobcats,Boston College Eagles,1,2,4,Final/OT,OL,OW
+2023-10-07,Massachusetts Minutemen,American International Yellow Jackets,5,3,3,Final,RW,RL
+2023-10-07,Mercyhurst Lakers,Ohio State Buckeyes,3,4,3,Final,RL,RW
+2023-10-07,Robert Morris Colonials,Bowling Green Falcons,0,3,3,Final,RL,RW
+2023-10-07,Northeastern Huskies,Stonehill Stonehill,7,0,3,Final,RW,RL
+2023-10-07,Michigan Wolverines,Providence Friars,2,4,3,Final,RL,RW
+2023-10-07,Colgate Raiders,UConn Huskies,2,4,3,Final,RL,RW
+2023-10-07,Long Island University Long Island University,Penn State Nittany Lions,2,3,3,Final,RL,RW
+2023-10-07,St. Cloud State Huskies,St. Thomas - Minnesota Tommies,4,5,4,Final/OT,OL,OW
+2023-10-07,Air Force Falcons,Lindenwood Lions,4,1,3,Final,RW,RL
+2023-10-07,Bentley Falcons,Boston University Terriers,2,3,4,Final/OT,OL,OW
+2023-10-07,Ferris State Bulldogs,Miami (OH) RedHawks,5,4,4,Final/OT,OW,OL
+2023-10-08,Wisconsin Badgers,Augustana University (SD) Vikings,4,0,3,Final,RW,RL
+2023-10-08,Alaska Anchorage Seawolves,UMass Lowell  River Hawks,3,2,4,Final/OT,OW,OL
+2023-10-08,Minnesota Duluth Bulldogs,Michigan Tech Huskies,2,2,4,Final/OT,T,T
+2023-10-08,Alaska Bulldogs,Denver Pioneers,3,7,3,Final,RL,RW
+2023-10-08,Army Black Knights,Union Dutchmen,0,6,3,Final,RL,RW
+2023-10-08,Colgate Raiders,UConn Huskies,3,3,4,Final/OT,T,T
+2023-10-08,Michigan Wolverines,Providence Friars,5,4,3,Final,RW,RL
+2023-10-08,Michigan State Spartans,Lake Superior State Lakers,4,2,3,Final,RW,RL
+2023-10-08,Bowling Green Falcons,Robert Morris Colonials,0,3,3,Final,RL,RW
+2023-10-08,Notre Dame Fighting Irish,Clarkson Golden Knights,3,0,3,Final,RW,RL
+2023-10-08,Ferris State Bulldogs,Miami (OH) RedHawks,2,5,3,Final,RL,RW
+2023-10-08,St. Thomas - Minnesota Tommies,St. Cloud State Huskies,0,1,3,Final,RL,RW
+2023-10-08,Wisconsin Badgers,Augustana University (SD) Vikings,3,0,3,Final,RW,RL
+2023-10-08,Holy Cross Crusaders,Long Island University Long Island University,5,2,3,Final,RW,RL
+2023-10-08,Air Force Falcons,Lindenwood Lions,3,4,4,Final/OT,OL,OW
+2023-10-09,Alaska Anchorage Seawolves,UMass Lowell  River Hawks,1,2,3,Final,RL,RW
+2023-10-09,Alaska Bulldogs,Denver Pioneers,2,5,3,Final,RL,RW
+2023-10-12,Maine Black Bears,Rensselaer Engineers,4,1,3,Final,RW,RL
+2023-10-12,Western Michigan Bulldogs,Ferris State Bulldogs,6,4,3,Final,RW,RL
+2023-10-13,Air Force Falcons,Michigan State Spartans,6,5,3,Final,RW,RL
+2023-10-13,Boston College Eagles,Long Island University Long Island University,4,2,3,Final,RW,RL
+2023-10-13,Holy Cross Crusaders,UConn Huskies,2,1,3,Final,RW,RL
+2023-10-13,Sacred Heart Pioneers,Colgate Raiders,2,3,3,Final,RL,RW
+2023-10-13,Maine Black Bears,Rensselaer Engineers,6,3,3,Final,RW,RL
+2023-10-13,Providence Friars,Stonehill Stonehill,7,1,3,Final,RW,RL
+2023-10-13,St. Lawrence Saints,Vermont Catamounts,1,3,3,Final,RL,RW
+2023-10-13,Massachusetts Minutemen,Michigan Wolverines,2,7,3,Final,RL,RW
+2023-10-13,Ohio State Buckeyes,Lindenwood Lions,4,2,3,Final,RW,RL
+2023-10-13,Clarkson Golden Knights,Penn State Nittany Lions,2,4,3,Final,RL,RW
+2023-10-13,American International Yellow Jackets,Quinnipiac Bobcats,2,3,4,Final/OT,OL,OW
+2023-10-13,Miami (OH) RedHawks,Canisius Golden Griffins,4,2,3,Final,RW,RL
+2023-10-13,Ferris State Bulldogs,Western Michigan Bulldogs,3,3,4,Final/OT,T,T
+2023-10-13,Lake Superior State Lakers,Alaska Anchorage Seawolves,5,1,3,Final,RW,RL
+2023-10-13,Michigan Tech Huskies,Alaska Bulldogs,1,4,3,Final,RL,RW
+2023-10-14,North Dakota Fighting Hawks,Army Black Knights,7,2,3,Final,RW,RL
+2023-10-14,New Hampshire Wildcats,Boston University Terriers,6,4,3,Final,RW,RL
+2023-10-14,Bemidji State Beavers,Wisconsin Badgers,3,4,4,Final/OT,OL,OW
+2023-10-14,Omaha Mavericks,Niagara Purple Eagles,8,1,3,Final,RW,RL
+2023-10-14,Minnesota Duluth Bulldogs,Northern Michigan Wildcats,5,5,4,Final/OT,T,T
+2023-10-14,Minnesota State Mavericks,St. Cloud State Huskies,3,2,4,Final/OT,OW,OL
+2023-10-14,St. Thomas - Minnesota Tommies,Minnesota Golden Gophers,5,6,4,Final/OT,OL,OW
+2023-10-14,Colorado College Tigers,Union Dutchmen,7,3,3,Final,RW,RL
+2023-10-14,Air Force Falcons,Michigan State Spartans,3,5,3,Final,RL,RW
+2023-10-14,Arizona State Sun Devils,Merrimack Warriors,1,0,4,Final/OT,OW,OL
+2023-10-14,Mercyhurst Lakers,Robert Morris Colonials,3,3,4,Final/OT,T,T
+2023-10-14,Ohio State Buckeyes,Lindenwood Lions,2,2,4,Final/OT,T,T
+2023-10-14,Stonehill Stonehill,Long Island University Long Island University,3,7,3,Final,RL,RW
+2023-10-14,Lake Superior State Lakers,Alaska Anchorage Seawolves,2,3,3,Final,RL,RW
+2023-10-14,Michigan Tech Huskies,Alaska Bulldogs,2,2,4,Final/OT,T,T
+2023-10-14,Quinnipiac Bobcats,American International Yellow Jackets,8,0,3,Final,RW,RL
+2023-10-14,Bemidji State Beavers,Army Black Knights,3,2,4,Final/OT,OW,OL
+2023-10-14,Northeastern Huskies,Bentley Falcons,5,2,3,Final,RW,RL
+2023-10-14,UConn Huskies,Holy Cross Crusaders,0,2,3,Final,RL,RW
+2023-10-14,Sacred Heart Pioneers,Colgate Raiders,1,6,3,Final,RL,RW
+2023-10-14,Clarkson Golden Knights,Vermont Catamounts,3,2,4,Final/OT,OW,OL
+2023-10-14,Massachusetts Minutemen,Michigan Wolverines,6,3,3,Final,RW,RL
+2023-10-14,Minnesota Golden Gophers,St. Thomas - Minnesota Tommies,3,0,3,Final,RW,RL
+2023-10-14,St. Lawrence Saints,Penn State Nittany Lions,1,4,3,Final,RL,RW
+2023-10-14,North Dakota Fighting Hawks,Wisconsin Badgers,2,0,3,Final,RW,RL
+2023-10-14,Miami (OH) RedHawks,Canisius Golden Griffins,4,1,3,Final,RW,RL
+2023-10-14,RIT Tigers,Notre Dame Fighting Irish,3,0,3,Final,RW,RL
+2023-10-14,Augustana University (SD) Vikings,Bowling Green Falcons,3,2,3,Final,RW,RL
+2023-10-14,Minnesota State Mavericks,St. Cloud State Huskies,5,1,3,Final,RW,RL
+2023-10-15,Omaha Mavericks,Niagara Purple Eagles,2,1,3,Final,RW,RL
+2023-10-15,Colorado College Tigers,Union Dutchmen,6,2,3,Final,RW,RL
+2023-10-15,Minnesota Duluth Bulldogs,Northern Michigan Wildcats,8,5,3,Final,RW,RL
+2023-10-15,Arizona State Sun Devils,Merrimack Warriors,4,2,3,Final,RW,RL
+2023-10-15,Augustana University (SD) Vikings,Bowling Green Falcons,4,1,3,Final,RW,RL
+2023-10-19,Michigan State Spartans,Canisius Golden Griffins,6,3,3,Final,RW,RL
+2023-10-20,Michigan Wolverines,Ohio State Buckeyes,7,1,3,Final,RW,RL
+2023-10-20,Boston College Eagles,Rensselaer Engineers,6,1,3,Final,RW,RL
+2023-10-20,Penn State Nittany Lions,American International Yellow Jackets,3,2,3,Final,RW,RL
+2023-10-20,Michigan State Spartans,Canisius Golden Griffins,4,3,3,Final,RW,RL
+2023-10-20,Robert Morris Colonials,Holy Cross Crusaders,1,3,3,Final,RL,RW
+2023-10-20,Notre Dame Fighting Irish,Boston University Terriers,4,1,3,Final,RW,RL
+2023-10-20,Merrimack Warriors,Clarkson Golden Knights,4,1,3,Final,RW,RL
+2023-10-20,New Hampshire Wildcats,Quinnipiac Bobcats,2,5,3,Final,RL,RW
+2023-10-20,Providence Friars,Denver Pioneers,4,3,3,Final,RW,RL
+2023-10-20,Union Dutchmen,UConn Huskies,4,1,3,Final,RW,RL
+2023-10-20,Colgate Raiders,UMass Lowell  River Hawks,2,4,3,Final,RL,RW
+2023-10-20,Michigan Tech Huskies,Wisconsin Badgers,2,4,3,Final,RL,RW
+2023-10-20,Bentley Falcons,Stonehill Stonehill,2,0,3,Final,RW,RL
+2023-10-20,RIT Tigers,Sacred Heart Pioneers,4,2,3,Final,RW,RL
+2023-10-20,Bowling Green Falcons,Western Michigan Bulldogs,2,5,3,Final,RL,RW
+2023-10-21,North Dakota Fighting Hawks,Minnesota Golden Gophers,0,4,3,Final,RL,RW
+2023-10-21,Minnesota Duluth Bulldogs,Bemidji State Beavers,4,0,3,Final,RW,RL
+2023-10-21,Minnesota State Mavericks,Massachusetts Minutemen,3,6,3,Final,RL,RW
+2023-10-21,St. Thomas - Minnesota Tommies,Lindenwood Lions,4,4,4,Final/OT,T,T
+2023-10-21,St. Cloud State Huskies,Alaska Bulldogs,4,1,3,Final,RW,RL
+2023-10-21,Colorado College Tigers,Long Island University Long Island University,4,2,3,Final,RW,RL
+2023-10-21,Arizona State Sun Devils,Northern Michigan Wildcats,3,2,3,Final,RW,RL
+2023-10-21,Alaska Anchorage Seawolves,Air Force Falcons,3,1,3,Final,RW,RL
+2023-10-21,Union Dutchmen,UConn Huskies,0,5,3,Final,RL,RW
+2023-10-21,Penn State Nittany Lions,American International Yellow Jackets,4,6,3,Final,RL,RW
+2023-10-21,Robert Morris Colonials,Holy Cross Crusaders,3,3,4,Final/OT,T,T
+2023-10-21,RIT Tigers,Sacred Heart Pioneers,2,5,3,Final,RL,RW
+2023-10-21,Notre Dame Fighting Irish,Boston University Terriers,2,8,3,Final,RL,RW
+2023-10-21,Michigan Tech Huskies,Wisconsin Badgers,2,5,3,Final,RL,RW
+2023-10-21,Western Michigan Bulldogs,Bowling Green Falcons,5,2,3,Final,RW,RL
+2023-10-21,Bentley Falcons,Stonehill Stonehill,4,1,3,Final,RW,RL
+2023-10-21,Boston College Eagles,Denver Pioneers,3,4,3,Final,RL,RW
+2023-10-21,Niagara Purple Eagles,Mercyhurst Lakers,3,3,4,Final/OT,T,T
+2023-10-21,New Hampshire Wildcats,Quinnipiac Bobcats,5,4,4,Final/OT,OW,OL
+2023-10-21,Providence Friars,Rensselaer Engineers,4,2,3,Final,RW,RL
+2023-10-21,Colgate Raiders,UMass Lowell  River Hawks,2,5,3,Final,RL,RW
+2023-10-21,Michigan Wolverines,Ohio State Buckeyes,2,2,4,Final/OT,T,T
+2023-10-21,North Dakota Fighting Hawks,Minnesota Golden Gophers,2,1,3,Final,RW,RL
+2023-10-21,St. Cloud State Huskies,Alaska Bulldogs,2,5,3,Final,RL,RW
+2023-10-21,Bemidji State Beavers,Minnesota Duluth Bulldogs,4,5,4,Final/OT,OL,OW
+2023-10-21,Minnesota State Mavericks,Massachusetts Minutemen,0,1,3,Final,RL,RW
+2023-10-21,St. Thomas - Minnesota Tommies,Lindenwood Lions,3,1,3,Final,RW,RL
+2023-10-22,Colorado College Tigers,Long Island University Long Island University,3,2,3,Final,RW,RL
+2023-10-22,Alaska Anchorage Seawolves,Air Force Falcons,3,4,4,Final/OT,OL,OW
+2023-10-22,Arizona State Sun Devils,Northern Michigan Wildcats,5,1,3,Final,RW,RL
+2023-10-22,Merrimack Warriors,St. Lawrence Saints,5,2,3,Final,RW,RL
+2023-10-26,Boston College Eagles,Michigan State Spartans,6,4,3,Final,RW,RL
+2023-10-26,New Hampshire Wildcats,Northeastern Huskies,4,1,3,Final,RW,RL
+2023-10-26,Penn State Nittany Lions,Alaska Anchorage Seawolves,2,1,3,Final,RW,RL
+2023-10-26,Notre Dame Fighting Irish,Mercyhurst Lakers,4,3,4,Final/OT,OW,OL
+2023-10-27,Minnesota Golden Gophers,Wisconsin Badgers,2,5,3,Final,RL,RW
+2023-10-27,Boston College Eagles,Michigan State Spartans,5,1,3,Final,RW,RL
+2023-10-27,Robert Morris Colonials,Bentley Falcons,4,3,3,Final,RW,RL
+2023-10-27,Holy Cross Crusaders,RIT Tigers,2,3,4,Final/OT,OL,OW
+2023-10-27,Sacred Heart Pioneers,Niagara Purple Eagles,3,4,4,Final/OT,OL,OW
+2023-10-27,Boston University Terriers,Massachusetts Minutemen,5,2,3,Final,RW,RL
+2023-10-27,Quinnipiac Bobcats,Maine Black Bears,1,2,4,Final/OT,OL,OW
+2023-10-27,Providence Friars,Vermont Catamounts,4,1,3,Final,RW,RL
+2023-10-27,Cornell Big Red,Minnesota Duluth Bulldogs,4,1,3,Final,RW,RL
+2023-10-27,Michigan Wolverines,Lindenwood Lions,9,1,3,Final,RW,RL
+2023-10-27,Penn State Nittany Lions,Alaska Anchorage Seawolves,5,6,3,Final,RL,RW
+2023-10-27,Clarkson Golden Knights,Lake Superior State Lakers,3,4,4,Final/OT,OL,OW
+2023-10-27,Dartmouth Big Green,Harvard Crimson,1,1,4,Final/OT,T,T
+2023-10-27,St. Lawrence Saints,Michigan Tech Huskies,2,2,4,Final/OT,T,T
+2023-10-27,Miami (OH) RedHawks,Arizona State Sun Devils,5,4,4,Final/OT,OW,OL
+2023-10-27,Northern Michigan Wildcats,Ferris State Bulldogs,1,2,4,Final/OT,OL,OW
+2023-10-27,UMass Lowell  River Hawks,UConn Huskies,1,2,4,Final/OT,OL,OW
+2023-10-27,Notre Dame Fighting Irish,Mercyhurst Lakers,5,0,3,Final,RW,RL
+2023-10-28,Brown Bears,Yale Bulldogs,2,3,4,Final/OT,OL,OW
+2023-10-28,Omaha Mavericks,Ohio State Buckeyes,2,2,4,Final/OT,T,T
+2023-10-28,Bemidji State Beavers,St. Thomas - Minnesota Tommies,3,2,3,Final,RW,RL
+2023-10-28,North Dakota Fighting Hawks,Minnesota State Mavericks,6,2,3,Final,RW,RL
+2023-10-28,Denver Pioneers,Augustana University (SD) Vikings,5,5,4,Final/OT,T,T
+2023-10-28,Minnesota Golden Gophers,Wisconsin Badgers,2,3,3,Final,RL,RW
+2023-10-28,Air Force Falcons,Colorado College Tigers,2,6,3,Final,RL,RW
+2023-10-28,Robert Morris Colonials,Bentley Falcons,0,3,3,Final,RL,RW
+2023-10-28,UConn Huskies,UMass Lowell  River Hawks,0,1,3,Final,RL,RW
+2023-10-28,Sacred Heart Pioneers,Niagara Purple Eagles,4,1,3,Final,RW,RL
+2023-10-28,Providence Friars,Vermont Catamounts,2,2,4,Final/OT,T,T
+2023-10-28,Northern Michigan Wildcats,Ferris State Bulldogs,4,1,3,Final,RW,RL
+2023-10-28,Holy Cross Crusaders,RIT Tigers,2,3,3,Final,RL,RW
+2023-10-28,Massachusetts Minutemen,Boston University Terriers,3,3,4,Final/OT,T,T
+2023-10-28,Quinnipiac Bobcats,Maine Black Bears,4,1,3,Final,RW,RL
+2023-10-28,Northeastern Huskies,Merrimack Warriors,1,4,3,Final,RL,RW
+2023-10-28,New Hampshire Wildcats,Dartmouth Big Green,3,1,3,Final,RW,RL
+2023-10-28,Cornell Big Red,Minnesota Duluth Bulldogs,3,0,3,Final,RW,RL
+2023-10-28,Michigan Wolverines,Lindenwood Lions,10,1,3,Final,RW,RL
+2023-10-28,St. Lawrence Saints,Lake Superior State Lakers,2,5,3,Final,RL,RW
+2023-10-28,Miami (OH) RedHawks,Arizona State Sun Devils,1,1,4,Final/OT,T,T
+2023-10-28,Bemidji State Beavers,St. Thomas - Minnesota Tommies,2,0,3,Final,RW,RL
+2023-10-28,North Dakota Fighting Hawks,Minnesota State Mavericks,2,2,4,Final/OT,T,T
+2023-10-28,Clarkson Golden Knights,Michigan Tech Huskies,3,1,3,Final,RW,RL
+2023-10-29,Colorado College Tigers,Augustana University (SD) Vikings,3,4,3,Final,RL,RW
+2023-10-29,Long Island University Long Island University,St. Anselm Hawks,4,0,3,Final,RW,RL
+2023-10-29,Denver Pioneers,Air Force Falcons,4,0,3,Final,RW,RL
+2023-10-29,Omaha Mavericks,Ohio State Buckeyes,0,4,3,Final,RL,RW
+2023-10-29,Brown Bears,Stonehill Stonehill,7,2,3,Final,RW,RL
+2023-10-30,Stonehill Stonehill,Long Island University Long Island University,2,4,3,Final,RL,RW
+2023-10-31,Sacred Heart Pioneers,Army Black Knights,6,1,3,Final,RW,RL
+2023-11-02,American International Yellow Jackets,Bentley Falcons,3,0,3,Final,RW,RL
+2023-11-03,Dartmouth Big Green,Quinnipiac Bobcats,2,2,4,Final/OT,T,T
+2023-11-03,Canisius Golden Griffins,Holy Cross Crusaders,5,3,3,Final,RW,RL
+2023-11-03,Boston College Eagles,UMass Lowell  River Hawks,3,2,3,Final,RW,RL
+2023-11-03,Army Black Knights,RIT Tigers,2,4,3,Final,RL,RW
+2023-11-03,Boston University Terriers,North Dakota Fighting Hawks,3,2,3,Final,RW,RL
+2023-11-03,Merrimack Warriors,Maine Black Bears,1,2,3,Final,RL,RW
+2023-11-03,New Hampshire Wildcats,Providence Friars,1,1,4,Final/OT,T,T
+2023-11-03,Vermont Catamounts,UConn Huskies,4,1,3,Final,RW,RL
+2023-11-03,Ohio State Buckeyes,Michigan State Spartans,0,6,3,Final,RL,RW
+2023-11-03,Brown Bears,Colgate Raiders,3,2,3,Final,RW,RL
+2023-11-03,Yale Bulldogs,Cornell Big Red,1,3,3,Final,RL,RW
+2023-11-03,Harvard Crimson,Princeton Tigers,4,4,4,Final/OT,T,T
+2023-11-03,Union Dutchmen,Rensselaer Engineers,6,8,3,Final,RL,RW
+2023-11-03,Niagara Purple Eagles,Air Force Falcons,2,3,4,Final/OT,OL,OW
+2023-11-03,Bentley Falcons,American International Yellow Jackets,3,1,3,Final,RW,RL
+2023-11-03,Michigan Tech Huskies,Augustana University (SD) Vikings,6,4,3,Final,RW,RL
+2023-11-03,Bowling Green Falcons,Mercyhurst Lakers,3,4,4,Final/OT,OL,OW
+2023-11-03,Ferris State Bulldogs,St. Lawrence Saints,2,5,3,Final,RL,RW
+2023-11-03,Lake Superior State Lakers,Bemidji State Beavers,4,3,4,Final/OT,OW,OL
+2023-11-03,Massachusetts Minutemen,Northeastern Huskies,2,1,4,Final/OT,OW,OL
+2023-11-04,Minnesota Golden Gophers,Minnesota Duluth Bulldogs,5,1,3,Final,RW,RL
+2023-11-04,Wisconsin Badgers,Michigan Wolverines,5,4,3,Final,RW,RL
+2023-11-04,Omaha Mavericks,Western Michigan Bulldogs,2,5,3,Final,RL,RW
+2023-11-04,St. Thomas - Minnesota Tommies,Northern Michigan Wildcats,4,2,3,Final,RW,RL
+2023-11-04,St. Cloud State Huskies,Miami (OH) RedHawks,3,2,3,Final,RW,RL
+2023-11-04,Denver Pioneers,Colorado College Tigers,6,1,3,Final,RW,RL
+2023-11-04,Arizona State Sun Devils,Stonehill Stonehill,5,4,4,Final/OT,OW,OL
+2023-11-04,Alaska Bulldogs,Alaska Anchorage Seawolves,6,1,3,Final,RW,RL
+2023-11-04,Army Black Knights,RIT Tigers,3,5,3,Final,RL,RW
+2023-11-04,Ohio State Buckeyes,Michigan State Spartans,4,6,3,Final,RL,RW
+2023-11-04,UMass Lowell  River Hawks,Boston College Eagles,2,3,3,Final,RL,RW
+2023-11-04,Vermont Catamounts,UConn Huskies,2,5,3,Final,RL,RW
+2023-11-04,Michigan Tech Huskies,Augustana University (SD) Vikings,4,3,4,Final/OT,OW,OL
+2023-11-04,Ferris State Bulldogs,St. Lawrence Saints,2,1,4,Final/OT,OW,OL
+2023-11-04,Lake Superior State Lakers,Bemidji State Beavers,5,1,3,Final,RW,RL
+2023-11-04,Canisius Golden Griffins,Holy Cross Crusaders,3,3,4,Final/OT,T,T
+2023-11-04,Boston University Terriers,North Dakota Fighting Hawks,4,5,4,Final/OT,OL,OW
+2023-11-04,Merrimack Warriors,Maine Black Bears,4,5,3,Final,RL,RW
+2023-11-04,Providence Friars,New Hampshire Wildcats,2,0,3,Final,RW,RL
+2023-11-04,St. Cloud State Huskies,Miami (OH) RedHawks,6,0,3,Final,RW,RL
+2023-11-04,Wisconsin Badgers,Michigan Wolverines,2,1,3,Final,RW,RL
+2023-11-04,Brown Bears,Cornell Big Red,1,7,3,Final,RL,RW
+2023-11-04,Rensselaer Engineers,Union Dutchmen,1,5,3,Final,RL,RW
+2023-11-04,Dartmouth Big Green,Princeton Tigers,5,4,3,Final,RW,RL
+2023-11-04,Harvard Crimson,Quinnipiac Bobcats,0,6,3,Final,RL,RW
+2023-11-04,Yale Bulldogs,Colgate Raiders,1,7,3,Final,RL,RW
+2023-11-04,Niagara Purple Eagles,Air Force Falcons,4,3,3,Final,RW,RL
+2023-11-04,Bowling Green Falcons,Mercyhurst Lakers,4,2,3,Final,RW,RL
+2023-11-04,St. Thomas - Minnesota Tommies,Northern Michigan Wildcats,6,1,3,Final,RW,RL
+2023-11-04,Penn State Nittany Lions,Notre Dame Fighting Irish,3,3,4,Final/OT,T,T
+2023-11-05,Colorado College Tigers,Denver Pioneers,1,5,3,Final,RL,RW
+2023-11-05,Minnesota Duluth Bulldogs,Minnesota Golden Gophers,3,3,4,Final/OT,T,T
+2023-11-05,Omaha Mavericks,Western Michigan Bulldogs,3,2,4,Final/OT,OW,OL
+2023-11-05,Arizona State Sun Devils,Stonehill Stonehill,3,2,3,Final,RW,RL
+2023-11-05,Alaska Bulldogs,Alaska Anchorage Seawolves,5,4,3,Final,RW,RL
+2023-11-05,Penn State Nittany Lions,Notre Dame Fighting Irish,2,2,4,Final/OT,T,T
+2023-11-06,Long Island University Long Island University,Sacred Heart Pioneers,2,1,3,Final,RW,RL
+2023-11-10,American International Yellow Jackets,Holy Cross Crusaders,4,1,3,Final,RW,RL
+2023-11-11,Maine Black Bears,Boston College Eagles,4,2,3,Final,RW,RL
+2023-11-11,Sacred Heart Pioneers,Canisius Golden Griffins,4,1,3,Final,RW,RL
+2023-11-11,UConn Huskies,Merrimack Warriors,3,6,3,Final,RL,RW
+2023-11-11,Providence Friars,Northeastern Huskies,2,1,4,Final/OT,OW,OL
+2023-11-11,Massachusetts Minutemen,Vermont Catamounts,4,1,3,Final,RW,RL
+2023-11-11,Michigan Wolverines,Minnesota Golden Gophers,3,4,3,Final,RL,RW
+2023-11-11,Michigan State Spartans,Penn State Nittany Lions,3,3,4,Final/OT,T,T
+2023-11-11,Quinnipiac Bobcats,Brown Bears,5,1,3,Final,RW,RL
+2023-11-11,Clarkson Golden Knights,Rensselaer Engineers,2,4,3,Final,RL,RW
+2023-11-11,Cornell Big Red,Dartmouth Big Green,2,2,4,Final/OT,T,T
+2023-11-11,Princeton Tigers,Yale Bulldogs,5,4,4,Final/OT,OW,OL
+2023-11-11,Colgate Raiders,Harvard Crimson,2,2,4,Final/OT,T,T
+2023-11-11,St. Lawrence Saints,Union Dutchmen,3,4,3,Final,RL,RW
+2023-11-11,Stonehill Stonehill,Alaska Bulldogs,1,3,3,Final,RL,RW
+2023-11-11,Western Michigan Bulldogs,St. Cloud State Huskies,2,3,3,Final,RL,RW
+2023-11-11,Holy Cross Crusaders,American International Yellow Jackets,2,3,3,Final,RL,RW
+2023-11-11,Bentley Falcons,Niagara Purple Eagles,6,2,3,Final,RW,RL
+2023-11-11,RIT Tigers,Mercyhurst Lakers,5,2,3,Final,RW,RL
+2023-11-11,Miami (OH) RedHawks,Colorado College Tigers,1,5,3,Final,RL,RW
+2023-11-11,Bowling Green Falcons,St. Thomas - Minnesota Tommies,1,4,3,Final,RL,RW
+2023-11-11,Ferris State Bulldogs,Minnesota State Mavericks,2,6,3,Final,RL,RW
+2023-11-11,Northern Michigan Wildcats,Lake Superior State Lakers,6,4,3,Final,RW,RL
+2023-11-11,UMass Lowell  River Hawks,Boston University Terriers,2,3,3,Final,RL,RW
+2023-11-11,Notre Dame Fighting Irish,Ohio State Buckeyes,4,1,3,Final,RW,RL
+2023-11-11,Minnesota Duluth Bulldogs,North Dakota Fighting Hawks,2,4,3,Final,RL,RW
+2023-11-11,Omaha Mavericks,Long Island University Long Island University,3,2,3,Final,RW,RL
+2023-11-11,Bemidji State Beavers,Michigan Tech Huskies,2,4,3,Final,RL,RW
+2023-11-11,Lindenwood Lions,Augustana University (SD) Vikings,3,4,4,Final/OT,OL,OW
+2023-11-11,Arizona State Sun Devils,Denver Pioneers,6,5,4,Final/OT,OW,OL
+2023-11-11,Air Force Falcons,Army Black Knights,4,3,4,Final/OT,OW,OL
+2023-11-11,Alaska Anchorage Seawolves,Robert Morris Colonials,3,2,3,Final,RW,RL
+2023-11-11,Michigan State Spartans,Penn State Nittany Lions,5,3,3,Final,RW,RL
+2023-11-11,Clarkson Golden Knights,Union Dutchmen,4,1,3,Final,RW,RL
+2023-11-11,Stonehill Stonehill,Alaska Bulldogs,1,8,3,Final,RL,RW
+2023-11-11,Bentley Falcons,Niagara Purple Eagles,2,1,3,Final,RW,RL
+2023-11-11,RIT Tigers,Mercyhurst Lakers,0,2,3,Final,RL,RW
+2023-11-11,Massachusetts Minutemen,Vermont Catamounts,2,6,3,Final,RL,RW
+2023-11-11,Notre Dame Fighting Irish,Ohio State Buckeyes,3,0,3,Final,RW,RL
+2023-11-11,Western Michigan Bulldogs,St. Cloud State Huskies,0,3,3,Final,RL,RW
+2023-11-11,Northern Michigan Wildcats,Lake Superior State Lakers,4,3,4,Final/OT,OW,OL
+2023-11-12,Maine Black Bears,Boston College Eagles,2,2,4,Final/OT,T,T
+2023-11-12,Sacred Heart Pioneers,Canisius Golden Griffins,3,2,3,Final,RW,RL
+2023-11-12,Boston University Terriers,UMass Lowell  River Hawks,6,1,3,Final,RW,RL
+2023-11-12,Merrimack Warriors,UConn Huskies,3,4,3,Final,RL,RW
+2023-11-12,Northeastern Huskies,Providence Friars,2,5,3,Final,RL,RW
+2023-11-12,Arizona State Sun Devils,Denver Pioneers,4,8,3,Final,RL,RW
+2023-11-12,Michigan Wolverines,Minnesota Golden Gophers,2,2,4,Final/OT,T,T
+2023-11-12,Princeton Tigers,Brown Bears,3,2,4,Final/OT,OW,OL
+2023-11-12,Cornell Big Red,Harvard Crimson,2,3,3,Final,RL,RW
+2023-11-12,Colgate Raiders,Dartmouth Big Green,2,3,4,Final/OT,OL,OW
+2023-11-12,Quinnipiac Bobcats,Yale Bulldogs,5,2,3,Final,RW,RL
+2023-11-12,St. Lawrence Saints,Rensselaer Engineers,6,3,3,Final,RW,RL
+2023-11-12,Air Force Falcons,Army Black Knights,4,0,3,Final,RW,RL
+2023-11-12,Miami (OH) RedHawks,Colorado College Tigers,1,4,3,Final,RL,RW
+2023-11-12,Minnesota Duluth Bulldogs,North Dakota Fighting Hawks,0,2,3,Final,RL,RW
+2023-11-12,Bemidji State Beavers,Michigan Tech Huskies,6,4,3,Final,RW,RL
+2023-11-12,Bowling Green Falcons,St. Thomas - Minnesota Tommies,3,4,3,Final,RL,RW
+2023-11-12,Ferris State Bulldogs,Minnesota State Mavericks,2,3,4,Final/OT,OL,OW
+2023-11-12,Alaska Anchorage Seawolves,Robert Morris Colonials,2,2,4,Final/OT,T,T
+2023-11-12,Omaha Mavericks,Long Island University Long Island University,5,4,4,Final/OT,OW,OL
+2023-11-12,Lindenwood Lions,Augustana University (SD) Vikings,5,3,3,Final,RW,RL
+2023-11-16,Merrimack Warriors,UMass Lowell  River Hawks,1,1,4,Final/OT,T,T
+2023-11-17,Providence Friars,Massachusetts Minutemen,2,3,3,Final,RL,RW
+2023-11-18,Boston College Eagles,UConn Huskies,5,4,4,Final/OT,OW,OL
+2023-11-18,Army Black Knights,Canisius Golden Griffins,4,6,3,Final,RL,RW
+2023-11-18,Holy Cross Crusaders,Bentley Falcons,2,0,3,Final,RW,RL
+2023-11-18,Niagara Purple Eagles,Robert Morris Colonials,6,2,3,Final,RW,RL
+2023-11-18,Boston University Terriers,Maine Black Bears,3,2,3,Final,RW,RL
+2023-11-18,Northeastern Huskies,New Hampshire Wildcats,2,4,3,Final,RL,RW
+2023-11-18,Michigan Wolverines,Penn State Nittany Lions,6,4,3,Final,RW,RL
+2023-11-18,Brown Bears,Clarkson Golden Knights,2,3,4,Final/OT,OL,OW
+2023-11-18,Quinnipiac Bobcats,Cornell Big Red,8,4,3,Final,RW,RL
+2023-11-18,Yale Bulldogs,St. Lawrence Saints,5,0,3,Final,RW,RL
+2023-11-18,Princeton Tigers,Colgate Raiders,3,6,3,Final,RL,RW
+2023-11-18,Lake Superior State Lakers,Bowling Green Falcons,3,5,3,Final,RL,RW
+2023-11-18,Michigan Tech Huskies,Ferris State Bulldogs,2,3,4,Final/OT,OL,OW
+2023-11-18,Northern Michigan Wildcats,Alaska Bulldogs,3,1,3,Final,RW,RL
+2023-11-18,Michigan State Spartans,Wisconsin Badgers,4,2,3,Final,RW,RL
+2023-11-18,Minnesota Golden Gophers,Notre Dame Fighting Irish,2,4,3,Final,RL,RW
+2023-11-18,North Dakota Fighting Hawks,Miami (OH) RedHawks,6,4,3,Final,RW,RL
+2023-11-18,Minnesota State Mavericks,Bemidji State Beavers,5,1,3,Final,RW,RL
+2023-11-18,Lindenwood Lions,Long Island University Long Island University,3,0,3,Final,RW,RL
+2023-11-18,St. Cloud State Huskies,Minnesota Duluth Bulldogs,2,1,3,Final,RW,RL
+2023-11-18,Colorado College Tigers,Western Michigan Bulldogs,1,3,3,Final,RL,RW
+2023-11-18,Denver Pioneers,Omaha Mavericks,8,4,3,Final,RW,RL
+2023-11-18,Arizona State Sun Devils,Alaska Anchorage Seawolves,4,3,3,Final,RW,RL
+2023-11-18,Lindenwood Lions,Long Island University Long Island University,2,6,3,Final,RL,RW
+2023-11-18,Massachusetts Minutemen,Providence Friars,2,1,4,Final/OT,OW,OL
+2023-11-18,Bentley Falcons,Holy Cross Crusaders,0,2,3,Final,RL,RW
+2023-11-18,Stonehill Stonehill,Anna Maria College Anna Maria College,2,4,3,Final,RL,RW
+2023-11-18,Boston University Terriers,Maine Black Bears,5,4,3,Final,RW,RL
+2023-11-18,Michigan State Spartans,Wisconsin Badgers,3,2,3,Final,RW,RL
+2023-11-18,UMass Lowell  River Hawks,Merrimack Warriors,3,2,4,Final/OT,OW,OL
+2023-11-18,Lake Superior State Lakers,Bowling Green Falcons,4,3,4,Final/OT,OW,OL
+2023-11-18,Michigan Tech Huskies,Ferris State Bulldogs,3,2,3,Final,RW,RL
+2023-11-18,Northern Michigan Wildcats,Alaska Bulldogs,3,1,3,Final,RW,RL
+2023-11-19,UConn Huskies,Boston College Eagles,0,3,3,Final,RL,RW
+2023-11-19,Army Black Knights,Canisius Golden Griffins,2,1,3,Final,RW,RL
+2023-11-19,Robert Morris Colonials,Niagara Purple Eagles,1,4,3,Final,RL,RW
+2023-11-19,New Hampshire Wildcats,Northeastern Huskies,4,0,3,Final,RW,RL
+2023-11-19,St. Cloud State Huskies,Minnesota Duluth Bulldogs,6,5,3,Final,RW,RL
+2023-11-19,Michigan Wolverines,Penn State Nittany Lions,3,5,3,Final,RL,RW
+2023-11-19,Brown Bears,St. Lawrence Saints,2,1,3,Final,RW,RL
+2023-11-19,Yale Bulldogs,Clarkson Golden Knights,1,2,3,Final,RL,RW
+2023-11-19,Princeton Tigers,Cornell Big Red,2,1,4,Final/OT,OW,OL
+2023-11-19,Quinnipiac Bobcats,Colgate Raiders,7,4,3,Final,RW,RL
+2023-11-19,Mercyhurst Lakers,Air Force Falcons,2,5,3,Final,RL,RW
+2023-11-19,American International Yellow Jackets,Vermont Catamounts,2,1,3,Final,RW,RL
+2023-11-19,North Dakota Fighting Hawks,Miami (OH) RedHawks,5,1,3,Final,RW,RL
+2023-11-19,Minnesota State Mavericks,Bemidji State Beavers,6,7,3,Final,RL,RW
+2023-11-19,Colorado College Tigers,Western Michigan Bulldogs,0,4,3,Final,RL,RW
+2023-11-19,Minnesota Golden Gophers,Notre Dame Fighting Irish,4,1,3,Final,RW,RL
+2023-11-19,Arizona State Sun Devils,Alaska Anchorage Seawolves,3,0,3,Final,RW,RL
+2023-11-19,Denver Pioneers,Omaha Mavericks,3,4,3,Final,RL,RW
+2023-11-19,Mercyhurst Lakers,Air Force Falcons,5,1,3,Final,RW,RL
+2023-11-22,Holy Cross Crusaders,Army Black Knights,2,3,3,Final,RL,RW
+2023-11-22,Canisius Golden Griffins,Robert Morris Colonials,5,1,3,Final,RW,RL
+2023-11-22,American International Yellow Jackets,Bentley Falcons,4,2,3,Final,RW,RL
+2023-11-22,Boston University Terriers,Quinnipiac Bobcats,3,2,3,Final,RW,RL
+2023-11-24,Canisius Golden Griffins,Air Force Falcons,3,1,3,Final,RW,RL
+2023-11-24,Notre Dame Fighting Irish,Boston College Eagles,1,6,3,Final,RL,RW
+2023-11-24,Merrimack Warriors,Army Black Knights,7,3,3,Final,RW,RL
+2023-11-24,UMass Lowell  River Hawks,Bentley Falcons,1,4,3,Final,RL,RW
+2023-11-24,Penn State Nittany Lions,Lindenwood Lions,9,3,3,Final,RW,RL
+2023-11-24,Union Dutchmen,Stonehill Stonehill,5,2,3,Final,RW,RL
+2023-11-24,Harvard Crimson,Massachusetts Minutemen,5,6,3,Final,RL,RW
+2023-11-24,Ohio State Buckeyes,Princeton Tigers,6,3,3,Final,RW,RL
+2023-11-24,Robert Morris Colonials,Sacred Heart Pioneers,2,4,3,Final,RL,RW
+2023-11-25,Holy Cross Crusaders,Brown Bears,6,3,3,Final,RW,RL
+2023-11-25,Colgate Raiders,Niagara Purple Eagles,2,5,3,Final,RL,RW
+2023-11-25,Western Michigan Bulldogs,St. Lawrence Saints,5,1,3,Final,RW,RL
+2023-11-25,Miami (OH) RedHawks,Mercyhurst Lakers,3,4,4,Final/OT,OL,OW
+2023-11-25,RIT Tigers,New Hampshire Wildcats,5,4,3,Final,RW,RL
+2023-11-25,Bowling Green Falcons,Northern Michigan Wildcats,6,2,3,Final,RW,RL
+2023-11-25,Long Island University Long Island University,American International Yellow Jackets,2,5,3,Final,RL,RW
+2023-11-25,Minnesota Golden Gophers,Michigan State Spartans,3,3,4,Final/OT,T,T
+2023-11-25,Wisconsin Badgers,Alaska Anchorage Seawolves,0,1,3,Final,RL,RW
+2023-11-25,Omaha Mavericks,Augustana University (SD) Vikings,2,1,3,Final,RW,RL
+2023-11-25,North Dakota Fighting Hawks,Bemidji State Beavers,3,2,4,Final/OT,OW,OL
+2023-11-25,St. Thomas - Minnesota Tommies,Lake Superior State Lakers,4,2,3,Final,RW,RL
+2023-11-25,Minnesota State Mavericks,Michigan Tech Huskies,2,3,4,Final/OT,OL,OW
+2023-11-25,St. Cloud State Huskies,Michigan Wolverines,0,2,3,Final,RL,RW
+2023-11-25,Arizona State Sun Devils,Providence Friars,4,3,4,Final/OT,OW,OL
+2023-11-25,Denver Pioneers,Yale Bulldogs,5,0,3,Final,RW,RL
+2023-11-25,Robert Morris Colonials,Sacred Heart Pioneers,1,3,3,Final,RL,RW
+2023-11-25,Canisius Golden Griffins,Air Force Falcons,2,2,5,Final/SO,T,T
+2023-11-25,Rensselaer Engineers,Northeastern Huskies,3,3,5,Final/SO,T,T
+2023-11-25,UConn Huskies,Dartmouth Big Green,6,1,3,Final,RW,RL
+2023-11-25,UMass Lowell  River Hawks,Army Black Knights,2,4,3,Final,RL,RW
+2023-11-25,Merrimack Warriors,Bentley Falcons,4,3,3,Final,RW,RL
+2023-11-25,Penn State Nittany Lions,Lindenwood Lions,7,1,3,Final,RW,RL
+2023-11-25,Union Dutchmen,Stonehill Stonehill,4,0,3,Final,RW,RL
+2023-11-25,Ohio State Buckeyes,Princeton Tigers,4,3,3,Final,RW,RL
+2023-11-25,RIT Tigers,New Hampshire Wildcats,3,4,4,Final/OT,OL,OW
+2023-11-26,Colgate Raiders,Niagara Purple Eagles,2,1,3,Final,RW,RL
+2023-11-26,St. Cloud State Huskies,Michigan Wolverines,3,3,4,Final/OT,T,T
+2023-11-26,Wisconsin Badgers,Alaska Anchorage Seawolves,5,0,3,Final,RW,RL
+2023-11-26,Western Michigan Bulldogs,St. Lawrence Saints,4,0,3,Final,RW,RL
+2023-11-26,Augustana University (SD) Vikings,Omaha Mavericks,2,5,3,Final,RL,RW
+2023-11-26,North Dakota Fighting Hawks,Bemidji State Beavers,5,0,3,Final,RW,RL
+2023-11-26,Bowling Green Falcons,Northern Michigan Wildcats,0,2,3,Final,RL,RW
+2023-11-26,St. Thomas - Minnesota Tommies,Lake Superior State Lakers,1,3,3,Final,RL,RW
+2023-11-26,Minnesota State Mavericks,Michigan Tech Huskies,2,3,3,Final,RL,RW
+2023-11-26,Boston University Terriers,Cornell Big Red,1,2,3,Final,RL,RW
+2023-11-26,Denver Pioneers,Yale Bulldogs,9,0,3,Final,RW,RL
+2023-11-26,Harvard Crimson,Boston College Eagles,1,4,3,Final,RL,RW
+2023-11-26,Minnesota Golden Gophers,Michigan State Spartans,6,5,4,Final/OT,OW,OL
+2023-11-26,Rensselaer Engineers,Northeastern Huskies,2,9,3,Final,RL,RW
+2023-11-26,Mercyhurst Lakers,Miami (OH) RedHawks,0,2,3,Final,RL,RW
+2023-11-26,Arizona State Sun Devils,Providence Friars,1,2,3,Final,RL,RW
+2023-11-28,St. Anselm Hawks,Long Island University Long Island University,3,2,3,Final,RW,RL
+2023-11-29,American International Yellow Jackets,Army Black Knights,5,1,3,Final,RW,RL
+2023-12-02,Boston College Eagles,Northeastern Huskies,3,5,3,Final,RL,RW
+2023-12-02,Canisius Golden Griffins,Mercyhurst Lakers,3,3,4,Final/OT,T,T
+2023-12-02,Holy Cross Crusaders,Niagara Purple Eagles,2,3,4,Final/OT,OL,OW
+2023-12-02,Maine Black Bears,New Hampshire Wildcats,5,2,3,Final,RW,RL
+2023-12-02,UConn Huskies,UMass Lowell  River Hawks,2,0,3,Final,RW,RL
+2023-12-02,Vermont Catamounts,Massachusetts Minutemen,2,1,4,Final/OT,OW,OL
+2023-12-02,Penn State Nittany Lions,Minnesota Golden Gophers,1,4,3,Final,RL,RW
+2023-12-02,Brown Bears,Long Island University Long Island University,2,2,4,Final/OT,T,T
+2023-12-02,Clarkson Golden Knights,Harvard Crimson,3,0,3,Final,RW,RL
+2023-12-02,Union Dutchmen,Princeton Tigers,7,2,3,Final,RW,RL
+2023-12-02,St. Lawrence Saints,Dartmouth Big Green,3,1,3,Final,RW,RL
+2023-12-02,Rensselaer Engineers,Quinnipiac Bobcats,1,5,3,Final,RL,RW
+2023-12-02,Colgate Raiders,Cornell Big Red,2,4,3,Final,RL,RW
+2023-12-02,Western Michigan Bulldogs,Lindenwood Lions,3,1,3,Final,RW,RL
+2023-12-02,Utica Utica,Stonehill Stonehill,7,2,3,Final,RW,RL
+2023-12-02,American International Yellow Jackets,Sacred Heart Pioneers,4,5,3,Final,RL,RW
+2023-12-02,RIT Tigers,Robert Morris Colonials,4,1,3,Final,RW,RL
+2023-12-02,Northern Michigan Wildcats,Augustana University (SD) Vikings,2,2,4,Final/OT,T,T
+2023-12-02,Michigan Tech Huskies,Bowling Green Falcons,1,2,4,Final/OT,OL,OW
+2023-12-02,Ferris State Bulldogs,St. Thomas - Minnesota Tommies,5,2,3,Final,RW,RL
+2023-12-02,Lake Superior State Lakers,Minnesota State Mavericks,2,2,4,Final/OT,T,T
+2023-12-02,Merrimack Warriors,Boston University Terriers,1,4,3,Final,RL,RW
+2023-12-02,Notre Dame Fighting Irish,Michigan Wolverines,6,1,3,Final,RW,RL
+2023-12-02,Wisconsin Badgers,Ohio State Buckeyes,3,0,3,Final,RW,RL
+2023-12-02,Minnesota Duluth Bulldogs,Omaha Mavericks,4,2,3,Final,RW,RL
+2023-12-02,Colorado College Tigers,Arizona State Sun Devils,2,2,4,Final/OT,T,T
+2023-12-02,Denver Pioneers,North Dakota Fighting Hawks,5,7,3,Final,RL,RW
+2023-12-02,Air Force Falcons,Bentley Falcons,3,2,4,Final/OT,OW,OL
+2023-12-02,Alaska Anchorage Seawolves,Alaska Bulldogs,0,5,3,Final,RL,RW
+2023-12-02,Holy Cross Crusaders,Niagara Purple Eagles,4,1,3,Final,RW,RL
+2023-12-02,Clarkson Golden Knights,Dartmouth Big Green,2,2,4,Final/OT,T,T
+2023-12-02,Union Dutchmen,Quinnipiac Bobcats,0,5,3,Final,RL,RW
+2023-12-02,Boston University Terriers,Merrimack Warriors,5,2,3,Final,RW,RL
+2023-12-02,Notre Dame Fighting Irish,Michigan Wolverines,1,2,3,Final,RL,RW
+2023-12-02,Penn State Nittany Lions,Minnesota Golden Gophers,6,3,3,Final,RW,RL
+2023-12-02,Western Michigan Bulldogs,Lindenwood Lions,5,1,3,Final,RW,RL
+2023-12-02,Northern Michigan Wildcats,Augustana University (SD) Vikings,3,5,3,Final,RL,RW
+2023-12-02,Minnesota Duluth Bulldogs,Omaha Mavericks,0,1,4,Final/OT,OL,OW
+2023-12-02,Michigan Tech Huskies,Bowling Green Falcons,3,2,3,Final,RW,RL
+2023-12-02,Ferris State Bulldogs,St. Thomas - Minnesota Tommies,1,7,3,Final,RL,RW
+2023-12-02,Lake Superior State Lakers,Minnesota State Mavericks,3,4,3,Final,RL,RW
+2023-12-03,Mercyhurst Lakers,Canisius Golden Griffins,5,1,3,Final,RW,RL
+2023-12-03,St. Lawrence Saints,Harvard Crimson,2,0,3,Final,RW,RL
+2023-12-03,Rensselaer Engineers,Princeton Tigers,4,6,3,Final,RL,RW
+2023-12-03,Yale Bulldogs,Long Island University Long Island University,1,3,3,Final,RL,RW
+2023-12-03,Cornell Big Red,Colgate Raiders,2,4,3,Final,RL,RW
+2023-12-03,Air Force Falcons,Bentley Falcons,0,3,3,Final,RL,RW
+2023-12-03,American International Yellow Jackets,Sacred Heart Pioneers,3,2,3,Final,RW,RL
+2023-12-03,RIT Tigers,Robert Morris Colonials,6,2,3,Final,RW,RL
+2023-12-03,Northeastern Huskies,Boston College Eagles,1,3,3,Final,RL,RW
+2023-12-03,Colorado College Tigers,Arizona State Sun Devils,0,2,3,Final,RL,RW
+2023-12-03,Denver Pioneers,North Dakota Fighting Hawks,3,2,4,Final/OT,OW,OL
+2023-12-03,Wisconsin Badgers,Ohio State Buckeyes,6,1,3,Final,RW,RL
+2023-12-03,Alaska Anchorage Seawolves,Alaska Bulldogs,1,3,3,Final,RL,RW
+2023-12-03,Vermont Catamounts,UMass Lowell  River Hawks,1,2,3,Final,RL,RW
+2023-12-03,Stonehill Stonehill,Brown Bears,1,4,3,Final,RL,RW
+2023-12-03,Maine Black Bears,UConn Huskies,7,3,3,Final,RW,RL
+2023-12-07,Union Dutchmen,Maine Black Bears,1,3,3,Final,RL,RW
+2023-12-08,Robert Morris Colonials,Niagara Purple Eagles,4,1,3,Final,RW,RL
+2023-12-08,American International Yellow Jackets,RIT Tigers,3,2,4,Final/OT,OW,OL
+2023-12-08,Ohio State Buckeyes,Minnesota Golden Gophers,4,5,3,Final,RL,RW
+2023-12-09,Mercyhurst Lakers,Army Black Knights,3,4,3,Final,RL,RW
+2023-12-09,Sacred Heart Pioneers,Princeton Tigers,0,4,3,Final,RL,RW
+2023-12-09,Yale Bulldogs,Merrimack Warriors,5,2,3,Final,RW,RL
+2023-12-09,Vermont Catamounts,Union Dutchmen,4,5,3,Final,RL,RW
+2023-12-09,Western Michigan Bulldogs,Denver Pioneers,7,3,3,Final,RW,RL
+2023-12-09,Michigan State Spartans,Notre Dame Fighting Irish,5,2,3,Final,RW,RL
+2023-12-09,Clarkson Golden Knights,Stonehill Stonehill,5,1,3,Final,RW,RL
+2023-12-09,Massachusetts Minutemen,Alaska Anchorage Seawolves,11,2,3,Final,RW,RL
+2023-12-09,Miami (OH) RedHawks,Minnesota Duluth Bulldogs,3,3,4,Final/OT,T,T
+2023-12-09,Bowling Green Falcons,Ferris State Bulldogs,1,0,3,Final,RW,RL
+2023-12-09,Michigan Tech Huskies,Northern Michigan Wildcats,4,2,3,Final,RW,RL
+2023-12-09,UMass Lowell  River Hawks,Holy Cross Crusaders,2,2,4,Final/OT,T,T
+2023-12-09,North Dakota Fighting Hawks,Colorado College Tigers,2,3,4,Final/OT,OL,OW
+2023-12-09,Omaha Mavericks,St. Cloud State Huskies,1,4,3,Final,RL,RW
+2023-12-09,Bemidji State Beavers,Lake Superior State Lakers,7,1,3,Final,RW,RL
+2023-12-09,Minnesota State Mavericks,St. Thomas - Minnesota Tommies,3,1,3,Final,RW,RL
+2023-12-09,Wisconsin Badgers,Penn State Nittany Lions,6,3,3,Final,RW,RL
+2023-12-09,Arizona State Sun Devils,Dartmouth Big Green,4,4,4,Final/OT,T,T
+2023-12-09,American International Yellow Jackets,RIT Tigers,2,5,3,Final,RL,RW
+2023-12-09,Mercyhurst Lakers,Army Black Knights,4,3,3,Final,RW,RL
+2023-12-09,New Hampshire Wildcats,Rensselaer Engineers,1,0,3,Final,RW,RL
+2023-12-09,Quinnipiac Bobcats,Long Island University Long Island University,4,2,3,Final,RW,RL
+2023-12-09,Boston College Eagles,Providence Friars,5,4,3,Final,RW,RL
+2023-12-09,Western Michigan Bulldogs,Denver Pioneers,5,6,4,Final/OT,OL,OW
+2023-12-09,Michigan State Spartans,Notre Dame Fighting Irish,2,1,3,Final,RW,RL
+2023-12-09,Northern Michigan Wildcats,Michigan Tech Huskies,3,1,3,Final,RW,RL
+2023-12-10,Maine Black Bears,Bentley Falcons,3,2,3,Final,RW,RL
+2023-12-10,Holy Cross Crusaders,UMass Lowell  River Hawks,4,2,3,Final,RW,RL
+2023-12-10,Niagara Purple Eagles,Robert Morris Colonials,1,3,3,Final,RL,RW
+2023-12-10,Princeton Tigers,Sacred Heart Pioneers,2,2,4,Final/OT,T,T
+2023-12-10,Brown Bears,Northeastern Huskies,1,4,3,Final,RL,RW
+2023-12-10,Vermont Catamounts,Union Dutchmen,4,1,3,Final,RW,RL
+2023-12-10,North Dakota Fighting Hawks,Colorado College Tigers,2,3,4,Final/OT,OL,OW
+2023-12-10,Arizona State Sun Devils,Dartmouth Big Green,1,1,4,Final/OT,T,T
+2023-12-10,Massachusetts Minutemen,Alaska Anchorage Seawolves,3,2,3,Final,RW,RL
+2023-12-10,Miami (OH) RedHawks,Minnesota Duluth Bulldogs,1,3,3,Final,RL,RW
+2023-12-10,Bemidji State Beavers,Lake Superior State Lakers,1,6,3,Final,RL,RW
+2023-12-10,Bowling Green Falcons,Ferris State Bulldogs,4,3,3,Final,RW,RL
+2023-12-10,Ohio State Buckeyes,Minnesota Golden Gophers,1,1,4,Final/OT,T,T
+2023-12-10,Wisconsin Badgers,Penn State Nittany Lions,4,1,3,Final,RW,RL
+2023-12-10,Omaha Mavericks,St. Cloud State Huskies,2,2,4,Final/OT,T,T
+2023-12-10,St. Thomas - Minnesota Tommies,Minnesota State Mavericks,2,1,3,Final,RW,RL
+2023-12-10,Yale Bulldogs,Long Island University Long Island University,5,3,3,Final,RW,RL
+2023-12-15,Bemidji State Beavers,Bowling Green Falcons,3,1,3,Final,RW,RL
+2023-12-16,Canisius Golden Griffins,American International Yellow Jackets,3,2,3,Final,RW,RL
+2023-12-16,Rensselaer Engineers,Minnesota State Mavericks,4,3,4,Final/OT,OW,OL
+2023-12-16,Bemidji State Beavers,Bowling Green Falcons,5,2,3,Final,RW,RL
+2023-12-16,Alaska Bulldogs,Augustana University (SD) Vikings,5,2,3,Final,RW,RL
+2023-12-16,Canisius Golden Griffins,American International Yellow Jackets,1,6,3,Final,RL,RW
+2023-12-16,Ferris State Bulldogs,Lake Superior State Lakers,1,5,3,Final,RL,RW
+2023-12-17,Robert Morris Colonials,Arizona State Sun Devils,1,4,3,Final,RL,RW
+2023-12-17,Long Island University Long Island University,Vermont Catamounts,2,3,4,Final/OT,OL,OW
+2023-12-17,Rensselaer Engineers,Minnesota State Mavericks,2,4,3,Final,RL,RW
+2023-12-17,Alaska Bulldogs,Augustana University (SD) Vikings,2,3,4,Final/OT,OL,OW
+2023-12-17,Long Island University Long Island University,Vermont Catamounts,1,5,3,Final,RL,RW
+2023-12-17,Robert Morris Colonials,Arizona State Sun Devils,3,8,3,Final,RL,RW
+2023-12-28,Michigan Tech Huskies,Alaska Bulldogs,3,2,4,Final/OT,OW,OL
+2023-12-28,Northeastern Huskies,Minnesota Duluth Bulldogs,4,3,4,Final/OT,OW,OL
+2023-12-29,Michigan State Spartans,Ferris State Bulldogs,4,1,3,Final,RW,RL
+2023-12-29,Wisconsin Badgers,Air Force Falcons,3,0,3,Final,RW,RL
+2023-12-29,Canisius Golden Griffins,Rensselaer Engineers,3,6,3,Final,RL,RW
+2023-12-29,Ferris State Bulldogs,Alaska Bulldogs,2,3,3,Final,RL,RW
+2023-12-29,RIT Tigers,Maine Black Bears,2,5,3,Final,RL,RW
+2023-12-29,Cornell Big Red,Massachusetts Minutemen,2,2,4,Final/OT,T,T
+2023-12-29,Minnesota Duluth Bulldogs,Air Force Falcons,4,1,3,Final,RW,RL
+2023-12-30,Army Black Knights,New Hampshire Wildcats,6,3,3,Final,RW,RL
+2023-12-30,Niagara Purple Eagles,Miami (OH) RedHawks,4,1,3,Final,RW,RL
+2023-12-30,Yale Bulldogs,Boston University Terriers,1,6,3,Final,RL,RW
+2023-12-30,Brown Bears,Merrimack Warriors,1,5,3,Final,RL,RW
+2023-12-30,Vermont Catamounts,St. Thomas - Minnesota Tommies,5,1,3,Final,RW,RL
+2023-12-30,Michigan Tech Huskies,Michigan State Spartans,3,3,4,Final/OT,T,T
+2023-12-30,Clarkson Golden Knights,Arizona State Sun Devils,2,5,3,Final,RL,RW
+2023-12-30,Dartmouth Big Green,Lake Superior State Lakers,4,0,3,Final,RW,RL
+2023-12-30,Bemidji State Beavers,St. Cloud State Huskies,1,6,3,Final,RL,RW
+2023-12-30,Northeastern Huskies,Wisconsin Badgers,0,3,3,Final,RL,RW
+2023-12-30,Canisius Golden Griffins,Rensselaer Engineers,1,2,3,Final,RL,RW
+2023-12-30,Princeton Tigers,Harvard Crimson,5,2,3,Final,RW,RL
+2023-12-30,Massachusetts Minutemen,Clarkson Golden Knights,4,5,4,Final/OT,OL,OW
+2023-12-30,Lake Superior State Lakers,RIT Tigers,2,4,3,Final,RL,RW
+2023-12-30,UMass Lowell  River Hawks,American International Yellow Jackets,3,4,3,Final,RL,RW
+2023-12-30,Notre Dame Fighting Irish,Augustana University (SD) Vikings,5,1,3,Final,RW,RL
+2023-12-30,Ohio State Buckeyes,Mercyhurst Lakers,5,3,3,Final,RW,RL
+2023-12-30,Niagara Purple Eagles,Miami (OH) RedHawks,0,3,3,Final,RL,RW
+2023-12-30,Vermont Catamounts,St. Thomas - Minnesota Tommies,4,1,3,Final,RW,RL
+2023-12-30,Bentley Falcons,Union Dutchmen,4,3,4,Final/OT,OW,OL
+2023-12-31,Quinnipiac Bobcats,Holy Cross Crusaders,5,2,3,Final,RW,RL
+2023-12-31,Sacred Heart Pioneers,New Hampshire Wildcats,2,6,3,Final,RL,RW
+2023-12-31,Brown Bears,Providence Friars,0,3,3,Final,RL,RW
+2023-12-31,Arizona State Sun Devils,Cornell Big Red,2,2,4,Final/OT,T,T
+2023-12-31,Dartmouth Big Green,Maine Black Bears,1,5,3,Final,RL,RW
+2023-12-31,Merrimack Warriors,Stonehill Stonehill,3,2,3,Final,RW,RL
+2023-12-31,UConn Huskies,Harvard Crimson,4,2,3,Final,RW,RL
+2023-12-31,Notre Dame Fighting Irish,Augustana University (SD) Vikings,3,2,3,Final,RW,RL
+2023-12-31,St. Cloud State Huskies,Bemidji State Beavers,6,1,3,Final,RW,RL
+2024-01-03,Army Black Knights,Bentley Falcons,2,5,3,Final,RL,RW
+2024-01-03,Holy Cross Crusaders,Merrimack Warriors,3,4,4,Final/OT,OL,OW
+2024-01-05,American International Yellow Jackets,Holy Cross Crusaders,3,3,4,Final/OT,T,T
+2024-01-06,Canisius Golden Griffins,St. Lawrence Saints,5,1,3,Final,RW,RL
+2024-01-06,Sacred Heart Pioneers,Mercyhurst Lakers,2,7,3,Final,RL,RW
+2024-01-06,Robert Morris Colonials,Stonehill Stonehill,8,1,3,Final,RW,RL
+2024-01-06,Maine Black Bears,Colgate Raiders,3,1,3,Final,RW,RL
+2024-01-06,New Hampshire Wildcats,Princeton Tigers,5,2,3,Final,RW,RL
+2024-01-06,Massachusetts Minutemen,UConn Huskies,3,3,4,Final/OT,T,T
+2024-01-06,Ohio State Buckeyes,Bowling Green Falcons,6,2,3,Final,RW,RL
+2024-01-06,Notre Dame Fighting Irish,Wisconsin Badgers,1,2,3,Final,RL,RW
+2024-01-06,Union Dutchmen,Brown Bears,2,3,4,Final/OT,OL,OW
+2024-01-06,Rensselaer Engineers,Yale Bulldogs,1,2,3,Final,RL,RW
+2024-01-06,Bentley Falcons,Air Force Falcons,1,3,3,Final,RL,RW
+2024-01-06,RIT Tigers,Clarkson Golden Knights,4,0,3,Final,RW,RL
+2024-01-06,Ferris State Bulldogs,Bemidji State Beavers,1,4,3,Final,RL,RW
+2024-01-06,Augustana University (SD) Vikings,Minnesota State Mavericks,3,3,4,Final/OT,T,T
+2024-01-06,North Dakota Fighting Hawks,Alaska Bulldogs,6,4,3,Final,RW,RL
+2024-01-06,Lindenwood Lions,Western Michigan Bulldogs,2,3,3,Final,RL,RW
+2024-01-06,Denver Pioneers,Niagara Purple Eagles,5,2,3,Final,RW,RL
+2024-01-06,Arizona State Sun Devils,Harvard Crimson,5,2,3,Final,RW,RL
+2024-01-06,Sacred Heart Pioneers,Mercyhurst Lakers,2,1,3,Final,RW,RL
+2024-01-06,Lindenwood Lions,Western Michigan Bulldogs,1,6,3,Final,RL,RW
+2024-01-06,New Hampshire Wildcats,Princeton Tigers,3,1,3,Final,RW,RL
+2024-01-06,Union Dutchmen,Yale Bulldogs,2,4,3,Final,RL,RW
+2024-01-06,Robert Morris Colonials,Stonehill Stonehill,7,3,3,Final,RW,RL
+2024-01-06,Northeastern Huskies,Quinnipiac Bobcats,3,3,4,Final/OT,T,T
+2024-01-06,Notre Dame Fighting Irish,Wisconsin Badgers,4,7,3,Final,RL,RW
+2024-01-06,RIT Tigers,St. Lawrence Saints,1,1,4,Final/OT,T,T
+2024-01-06,Bentley Falcons,Air Force Falcons,3,7,3,Final,RL,RW
+2024-01-06,UMass Lowell  River Hawks,Harvard Crimson,7,4,3,Final,RW,RL
+2024-01-06,Penn State Nittany Lions,Army Black Knights,7,6,3,Final,RW,RL
+2024-01-06,Dartmouth Big Green,Vermont Catamounts,4,3,3,Final,RW,RL
+2024-01-06,Holy Cross Crusaders,American International Yellow Jackets,6,2,3,Final,RW,RL
+2024-01-06,Ferris State Bulldogs,Bemidji State Beavers,5,3,3,Final,RW,RL
+2024-01-07,Canisius Golden Griffins,Clarkson Golden Knights,3,4,3,Final,RL,RW
+2024-01-07,Maine Black Bears,Colgate Raiders,4,4,4,Final/OT,T,T
+2024-01-07,Rensselaer Engineers,Brown Bears,2,1,3,Final,RW,RL
+2024-01-07,Augustana University (SD) Vikings,Minnesota State Mavericks,1,2,3,Final,RL,RW
+2024-01-07,Bowling Green Falcons,Ohio State Buckeyes,2,4,3,Final,RL,RW
+2024-01-07,North Dakota Fighting Hawks,Alaska Bulldogs,6,2,3,Final,RW,RL
+2024-01-07,Denver Pioneers,Niagara Purple Eagles,6,1,3,Final,RW,RL
+2024-01-07,Arizona State Sun Devils,Omaha Mavericks,2,1,4,Final/OT,OW,OL
+2024-01-07,Minnesota Golden Gophers,Colorado College Tigers,4,6,3,Final,RL,RW
+2024-01-09,Minnesota Golden Gophers,Colorado College Tigers,6,2,3,Final,RW,RL
+2024-01-10,Sacred Heart Pioneers,Army Black Knights,3,3,5,Final/SO,T,T
+2024-01-10,Boston University Terriers,Northeastern Huskies,4,3,4,Final/OT,OW,OL
+2024-01-11,Canisius Golden Griffins,Mercyhurst Lakers,4,1,3,Final,RW,RL
+2024-01-12,Niagara Purple Eagles,RIT Tigers,3,1,3,Final,RW,RL
+2024-01-12,St. Thomas - Minnesota Tommies,Michigan Tech Huskies,4,3,3,Final,RW,RL
+2024-01-13,Boston College Eagles,Providence Friars,7,1,3,Final,RW,RL
+2024-01-13,Army Black Knights,Holy Cross Crusaders,3,0,3,Final,RW,RL
+2024-01-13,UConn Huskies,Maine Black Bears,3,5,3,Final,RL,RW
+2024-01-13,Massachusetts Minutemen,Merrimack Warriors,4,3,3,Final,RW,RL
+2024-01-13,Northeastern Huskies,Vermont Catamounts,4,5,3,Final,RL,RW
+2024-01-13,Michigan Wolverines,Stonehill Stonehill,12,4,3,Final,RW,RL
+2024-01-13,Penn State Nittany Lions,Michigan State Spartans,0,5,3,Final,RL,RW
+2024-01-13,Ohio State Buckeyes,Notre Dame Fighting Irish,3,2,3,Final,RW,RL
+2024-01-13,Brown Bears,Harvard Crimson,5,3,3,Final,RW,RL
+2024-01-13,Union Dutchmen,Clarkson Golden Knights,5,1,3,Final,RW,RL
+2024-01-13,Yale Bulldogs,Dartmouth Big Green,5,0,3,Final,RW,RL
+2024-01-13,Quinnipiac Bobcats,Princeton Tigers,9,2,3,Final,RW,RL
+2024-01-13,Rensselaer Engineers,St. Lawrence Saints,6,3,3,Final,RW,RL
+2024-01-13,Bentley Falcons,Sacred Heart Pioneers,3,4,3,Final,RL,RW
+2024-01-13,Miami (OH) RedHawks,Western Michigan Bulldogs,1,4,3,Final,RL,RW
+2024-01-13,Lake Superior State Lakers,Northern Michigan Wildcats,5,1,3,Final,RW,RL
+2024-01-13,Long Island University Long Island University,Colgate Raiders,3,2,4,Final/OT,OW,OL
+2024-01-13,Minnesota Golden Gophers,Robert Morris Colonials,4,2,3,Final,RW,RL
+2024-01-13,Wisconsin Badgers,Lindenwood Lions,5,0,3,Final,RW,RL
+2024-01-13,Minnesota Duluth Bulldogs,Colorado College Tigers,3,2,4,Final/OT,OW,OL
+2024-01-13,North Dakota Fighting Hawks,Omaha Mavericks,4,5,4,Final/OT,OL,OW
+2024-01-13,Minnesota State Mavericks,Ferris State Bulldogs,4,2,3,Final,RW,RL
+2024-01-13,Denver Pioneers,St. Cloud State Huskies,5,1,3,Final,RW,RL
+2024-01-13,Arizona State Sun Devils,Cornell Big Red,2,3,4,Final/OT,OL,OW
+2024-01-13,Air Force Falcons,American International Yellow Jackets,6,2,3,Final,RW,RL
+2024-01-13,Long Island University Long Island University,Colgate Raiders,3,2,4,Final/OT,OW,OL
+2024-01-13,UConn Huskies,Maine Black Bears,2,0,3,Final,RW,RL
+2024-01-13,Army Black Knights,Holy Cross Crusaders,1,3,3,Final,RL,RW
+2024-01-13,Union Dutchmen,St. Lawrence Saints,2,2,4,Final/OT,T,T
+2024-01-13,Penn State Nittany Lions,Michigan State Spartans,3,7,3,Final,RL,RW
+2024-01-13,Minnesota Golden Gophers,Robert Morris Colonials,4,1,3,Final,RW,RL
+2024-01-13,Boston University Terriers,New Hampshire Wildcats,3,0,3,Final,RW,RL
+2024-01-13,Air Force Falcons,American International Yellow Jackets,1,4,3,Final,RL,RW
+2024-01-13,Lake Superior State Lakers,Northern Michigan Wildcats,5,2,3,Final,RW,RL
+2024-01-13,St. Thomas - Minnesota Tommies,Michigan Tech Huskies,3,1,3,Final,RW,RL
+2024-01-14,Providence Friars,Boston College Eagles,4,3,3,Final,RW,RL
+2024-01-14,Sacred Heart Pioneers,Bentley Falcons,2,3,4,Final/OT,OL,OW
+2024-01-14,Merrimack Warriors,Massachusetts Minutemen,4,1,3,Final,RW,RL
+2024-01-14,Michigan Wolverines,Stonehill Stonehill,7,1,3,Final,RW,RL
+2024-01-14,Ohio State Buckeyes,Notre Dame Fighting Irish,2,5,3,Final,RL,RW
+2024-01-14,Brown Bears,Dartmouth Big Green,2,1,3,Final,RW,RL
+2024-01-14,Rensselaer Engineers,Clarkson Golden Knights,1,4,3,Final,RL,RW
+2024-01-14,Arizona State Sun Devils,Cornell Big Red,1,4,3,Final,RL,RW
+2024-01-14,Yale Bulldogs,Harvard Crimson,0,1,3,Final,RL,RW
+2024-01-14,Princeton Tigers,Quinnipiac Bobcats,1,3,3,Final,RL,RW
+2024-01-14,Miami (OH) RedHawks,Western Michigan Bulldogs,4,3,3,Final,RW,RL
+2024-01-14,North Dakota Fighting Hawks,Omaha Mavericks,3,1,3,Final,RW,RL
+2024-01-14,Minnesota State Mavericks,Ferris State Bulldogs,4,0,3,Final,RW,RL
+2024-01-14,Northeastern Huskies,Vermont Catamounts,3,1,3,Final,RW,RL
+2024-01-14,Denver Pioneers,St. Cloud State Huskies,4,4,4,Final/OT,T,T
+2024-01-14,Wisconsin Badgers,Lindenwood Lions,3,3,4,Final/OT,T,T
+2024-01-14,Minnesota Duluth Bulldogs,Colorado College Tigers,2,3,4,Final/OT,OL,OW
+2024-01-14,Alaska Bulldogs,Alaska Anchorage Seawolves,2,2,4,Final/OT,T,T
+2024-01-17,Army Black Knights,Sacred Heart Pioneers,5,3,3,Final,RW,RL
+2024-01-17,RIT Tigers,Canisius Golden Griffins,2,3,4,Final/OT,OL,OW
+2024-01-19,Long Island University Long Island University,Stonehill Stonehill,8,2,3,Final,RW,RL
+2024-01-20,Merrimack Warriors,Boston College Eagles,4,6,3,Final,RL,RW
+2024-01-20,Canisius Golden Griffins,Niagara Purple Eagles,2,4,3,Final,RL,RW
+2024-01-20,Sacred Heart Pioneers,Holy Cross Crusaders,2,1,4,Final/OT,OW,OL
+2024-01-20,Vermont Catamounts,Boston University Terriers,1,5,3,Final,RL,RW
+2024-01-20,Maine Black Bears,UMass Lowell  River Hawks,5,3,3,Final,RW,RL
+2024-01-20,UConn Huskies,New Hampshire Wildcats,0,5,3,Final,RL,RW
+2024-01-20,Providence Friars,Alaska Anchorage Seawolves,2,0,3,Final,RW,RL
+2024-01-20,Western Michigan Bulldogs,Minnesota Duluth Bulldogs,3,6,3,Final,RL,RW
+2024-01-20,Michigan State Spartans,Michigan Wolverines,1,7,3,Final,RL,RW
+2024-01-20,St. Lawrence Saints,Brown Bears,2,1,3,Final,RW,RL
+2024-01-20,Clarkson Golden Knights,Yale Bulldogs,5,3,3,Final,RW,RL
+2024-01-20,Cornell Big Red,Princeton Tigers,6,2,3,Final,RW,RL
+2024-01-20,Harvard Crimson,Rensselaer Engineers,6,3,3,Final,RW,RL
+2024-01-20,Colgate Raiders,Quinnipiac Bobcats,2,1,3,Final,RW,RL
+2024-01-20,Dartmouth Big Green,Union Dutchmen,1,5,3,Final,RL,RW
+2024-01-20,Army Black Knights,Air Force Falcons,1,8,3,Final,RL,RW
+2024-01-20,Bentley Falcons,Mercyhurst Lakers,4,0,3,Final,RW,RL
+2024-01-20,Robert Morris Colonials,RIT Tigers,3,6,3,Final,RL,RW
+2024-01-20,Michigan Tech Huskies,Bemidji State Beavers,2,1,3,Final,RW,RL
+2024-01-20,Bowling Green Falcons,Minnesota State Mavericks,4,3,3,Final,RW,RL
+2024-01-20,Ferris State Bulldogs,Lake Superior State Lakers,5,3,3,Final,RW,RL
+2024-01-20,Northern Michigan Wildcats,St. Thomas - Minnesota Tommies,3,2,3,Final,RW,RL
+2024-01-20,Notre Dame Fighting Irish,Penn State Nittany Lions,4,1,3,Final,RW,RL
+2024-01-20,Omaha Mavericks,Denver Pioneers,3,6,3,Final,RL,RW
+2024-01-20,Minnesota Golden Gophers,Ohio State Buckeyes,5,2,3,Final,RW,RL
+2024-01-20,St. Cloud State Huskies,North Dakota Fighting Hawks,3,5,3,Final,RL,RW
+2024-01-20,Arizona State Sun Devils,Augustana University (SD) Vikings,4,5,3,Final,RL,RW
+2024-01-20,Colorado College Tigers,Miami (OH) RedHawks,2,1,3,Final,RW,RL
+2024-01-20,Long Island University Long Island University,Stonehill Stonehill,10,0,3,Final,RW,RL
+2024-01-20,Northeastern Huskies,Massachusetts Minutemen,1,2,3,Final,RL,RW
+2024-01-20,Clarkson Golden Knights,Brown Bears,2,3,4,Final/OT,OL,OW
+2024-01-20,Army Black Knights,Air Force Falcons,6,7,3,Final,RL,RW
+2024-01-20,Bentley Falcons,Mercyhurst Lakers,8,4,3,Final,RW,RL
+2024-01-20,Colorado College Tigers,Miami (OH) RedHawks,4,2,3,Final,RW,RL
+2024-01-20,Western Michigan Bulldogs,Minnesota Duluth Bulldogs,5,2,3,Final,RW,RL
+2024-01-20,Notre Dame Fighting Irish,Penn State Nittany Lions,6,3,3,Final,RW,RL
+2024-01-20,Robert Morris Colonials,RIT Tigers,1,7,3,Final,RL,RW
+2024-01-20,Michigan Tech Huskies,Bemidji State Beavers,2,2,4,Final/OT,T,T
+2024-01-20,Lake Superior State Lakers,Ferris State Bulldogs,2,3,4,Final/OT,OL,OW
+2024-01-20,Northern Michigan Wildcats,St. Thomas - Minnesota Tommies,1,3,3,Final,RL,RW
+2024-01-21,Niagara Purple Eagles,Canisius Golden Griffins,6,4,3,Final,RW,RL
+2024-01-21,Holy Cross Crusaders,Sacred Heart Pioneers,5,2,3,Final,RW,RL
+2024-01-21,Vermont Catamounts,Boston University Terriers,2,5,3,Final,RL,RW
+2024-01-21,Maine Black Bears,UMass Lowell  River Hawks,7,2,3,Final,RW,RL
+2024-01-21,Providence Friars,Alaska Anchorage Seawolves,0,4,3,Final,RL,RW
+2024-01-21,Michigan Wolverines,Michigan State Spartans,5,7,3,Final,RL,RW
+2024-01-21,Cornell Big Red,Quinnipiac Bobcats,3,2,4,Final/OT,OW,OL
+2024-01-21,Dartmouth Big Green,Rensselaer Engineers,6,2,3,Final,RW,RL
+2024-01-21,St. Lawrence Saints,Yale Bulldogs,4,2,3,Final,RW,RL
+2024-01-21,Colgate Raiders,Princeton Tigers,6,3,3,Final,RW,RL
+2024-01-21,Harvard Crimson,Union Dutchmen,4,5,4,Final/OT,OL,OW
+2024-01-21,St. Cloud State Huskies,North Dakota Fighting Hawks,3,3,4,Final/OT,T,T
+2024-01-21,Bowling Green Falcons,Minnesota State Mavericks,1,4,3,Final,RL,RW
+2024-01-21,Omaha Mavericks,Denver Pioneers,2,6,3,Final,RL,RW
+2024-01-21,Minnesota Golden Gophers,Ohio State Buckeyes,6,3,3,Final,RW,RL
+2024-01-21,Arizona State Sun Devils,Augustana University (SD) Vikings,3,2,3,Final,RW,RL
+2024-01-21,Boston College Eagles,Merrimack Warriors,6,2,3,Final,RW,RL
+2024-01-21,New Hampshire Wildcats,UConn Huskies,1,2,3,Final,RL,RW
+2024-01-26,American International Yellow Jackets,Robert Morris Colonials,0,2,3,Final,RL,RW
+2024-01-26,Long Island University Long Island University,Alaska Bulldogs,3,7,3,Final,RL,RW
+2024-01-26,UConn Huskies,Sacred Heart Pioneers,6,2,3,Final,RW,RL
+2024-01-26,Michigan State Spartans,Minnesota Golden Gophers,3,2,3,Final,RW,RL
+2024-01-27,Boston College Eagles,Boston University Terriers,4,1,3,Final,RW,RL
+2024-01-27,Mercyhurst Lakers,Holy Cross Crusaders,2,5,3,Final,RL,RW
+2024-01-27,Northeastern Huskies,Merrimack Warriors,5,3,3,Final,RW,RL
+2024-01-27,Vermont Catamounts,New Hampshire Wildcats,2,1,3,Final,RW,RL
+2024-01-27,Western Michigan Bulldogs,Colorado College Tigers,1,2,4,Final/OT,OL,OW
+2024-01-27,Michigan Wolverines,Wisconsin Badgers,5,1,3,Final,RW,RL
+2024-01-27,Penn State Nittany Lions,Ohio State Buckeyes,4,3,3,Final,RW,RL
+2024-01-27,Clarkson Golden Knights,St. Lawrence Saints,4,1,3,Final,RW,RL
+2024-01-27,Harvard Crimson,Cornell Big Red,0,2,3,Final,RL,RW
+2024-01-27,Dartmouth Big Green,Colgate Raiders,3,4,4,Final/OT,OL,OW
+2024-01-27,RIT Tigers,Bentley Falcons,3,0,3,Final,RW,RL
+2024-01-27,Lake Superior State Lakers,Michigan Tech Huskies,3,1,3,Final,RW,RL
+2024-01-27,UMass Lowell  River Hawks,Providence Friars,2,7,3,Final,RL,RW
+2024-01-27,Quinnipiac Bobcats,Yale Bulldogs,1,0,3,Final,RW,RL
+2024-01-27,North Dakota Fighting Hawks,Denver Pioneers,5,2,3,Final,RW,RL
+2024-01-27,Augustana University (SD) Vikings,Ferris State Bulldogs,2,5,3,Final,RL,RW
+2024-01-27,Minnesota Duluth Bulldogs,Miami (OH) RedHawks,6,2,3,Final,RW,RL
+2024-01-27,Minnesota State Mavericks,Northern Michigan Wildcats,2,2,4,Final/OT,T,T
+2024-01-27,Lindenwood Lions,Stonehill Stonehill,7,1,3,Final,RW,RL
+2024-01-27,St. Cloud State Huskies,Omaha Mavericks,6,7,4,Final/OT,OL,OW
+2024-01-27,Air Force Falcons,Canisius Golden Griffins,5,1,3,Final,RW,RL
+2024-01-27,American International Yellow Jackets,Robert Morris Colonials,5,2,3,Final,RW,RL
+2024-01-27,Long Island University Long Island University,Alaska Bulldogs,1,3,3,Final,RL,RW
+2024-01-27,Lindenwood Lions,Stonehill Stonehill,6,5,4,Final/OT,OW,OL
+2024-01-27,Sacred Heart Pioneers,Yale Bulldogs,2,3,3,Final,RL,RW
+2024-01-27,Michigan State Spartans,Minnesota Golden Gophers,1,5,3,Final,RL,RW
+2024-01-27,Mercyhurst Lakers,Holy Cross Crusaders,3,5,3,Final,RL,RW
+2024-01-27,RIT Tigers,Bentley Falcons,2,1,4,Final/OT,OW,OL
+2024-01-27,Western Michigan Bulldogs,Colorado College Tigers,1,2,4,Final/OT,OL,OW
+2024-01-27,Penn State Nittany Lions,Ohio State Buckeyes,4,3,3,Final,RW,RL
+2024-01-27,Union Dutchmen,Rensselaer Engineers,5,3,3,Final,RW,RL
+2024-01-27,Lake Superior State Lakers,Michigan Tech Huskies,0,1,3,Final,RL,RW
+2024-01-28,Boston University Terriers,Boston College Eagles,3,4,3,Final,RL,RW
+2024-01-28,Merrimack Warriors,Northeastern Huskies,1,4,3,Final,RL,RW
+2024-01-28,Vermont Catamounts,New Hampshire Wildcats,3,6,3,Final,RL,RW
+2024-01-28,Providence Friars,UMass Lowell  River Hawks,4,3,4,Final/OT,OW,OL
+2024-01-28,North Dakota Fighting Hawks,Denver Pioneers,4,2,3,Final,RW,RL
+2024-01-28,St. Cloud State Huskies,Omaha Mavericks,1,1,4,Final/OT,T,T
+2024-01-28,Michigan Wolverines,Wisconsin Badgers,5,6,4,Final/OT,OL,OW
+2024-01-28,St. Lawrence Saints,Clarkson Golden Knights,2,1,3,Final,RW,RL
+2024-01-28,Dartmouth Big Green,Cornell Big Red,2,2,4,Final/OT,T,T
+2024-01-28,Harvard Crimson,Colgate Raiders,6,3,3,Final,RW,RL
+2024-01-28,UConn Huskies,Quinnipiac Bobcats,3,4,3,Final,RL,RW
+2024-01-28,Air Force Falcons,Canisius Golden Griffins,3,5,3,Final,RL,RW
+2024-01-28,Augustana University (SD) Vikings,Ferris State Bulldogs,3,4,4,Final/OT,OL,OW
+2024-01-28,Minnesota State Mavericks,Northern Michigan Wildcats,4,0,3,Final,RW,RL
+2024-01-28,Minnesota Duluth Bulldogs,Miami (OH) RedHawks,3,2,4,Final/OT,OW,OL
+2024-01-30,Northeastern Huskies,Boston University Terriers,4,3,4,Final/OT,OW,OL
+2024-01-31,Princeton Tigers,Army Black Knights,4,3,4,Final/OT,OW,OL
+2024-02-02,Niagara Purple Eagles,RIT Tigers,4,4,4,Final/OT,T,T
+2024-02-03,Bentley Falcons,Army Black Knights,4,2,3,Final,RW,RL
+2024-02-03,Mercyhurst Lakers,Robert Morris Colonials,2,5,3,Final,RL,RW
+2024-02-03,New Hampshire Wildcats,Boston University Terriers,3,6,3,Final,RL,RW
+2024-02-03,Northeastern Huskies,Maine Black Bears,6,3,3,Final,RW,RL
+2024-02-03,Merrimack Warriors,Massachusetts Minutemen,2,3,3,Final,RL,RW
+2024-02-03,UConn Huskies,Providence Friars,0,5,3,Final,RL,RW
+2024-02-03,Ohio State Buckeyes,Michigan Wolverines,2,4,3,Final,RL,RW
+2024-02-03,Brown Bears,Rensselaer Engineers,1,3,3,Final,RL,RW
+2024-02-03,Colgate Raiders,Clarkson Golden Knights,4,2,3,Final,RW,RL
+2024-02-03,Cornell Big Red,St. Lawrence Saints,5,1,3,Final,RW,RL
+2024-02-03,Princeton Tigers,Dartmouth Big Green,1,5,3,Final,RL,RW
+2024-02-03,Quinnipiac Bobcats,Harvard Crimson,2,1,3,Final,RW,RL
+2024-02-03,Yale Bulldogs,Union Dutchmen,3,1,3,Final,RW,RL
+2024-02-03,Stonehill Stonehill,Long Island University Long Island University,1,3,3,Final,RL,RW
+2024-02-03,Holy Cross Crusaders,Air Force Falcons,6,3,3,Final,RW,RL
+2024-02-03,Sacred Heart Pioneers,American International Yellow Jackets,4,3,4,Final/OT,OW,OL
+2024-02-03,Miami (OH) RedHawks,North Dakota Fighting Hawks,4,5,4,Final/OT,OL,OW
+2024-02-03,Ferris State Bulldogs,Bowling Green Falcons,3,4,3,Final,RL,RW
+2024-02-03,Northern Michigan Wildcats,Michigan Tech Huskies,4,1,3,Final,RW,RL
+2024-02-03,UMass Lowell  River Hawks,Boston College Eagles,1,6,3,Final,RL,RW
+2024-02-03,Notre Dame Fighting Irish,Michigan State Spartans,4,1,3,Final,RW,RL
+2024-02-03,Wisconsin Badgers,Minnesota Golden Gophers,1,2,4,Final/OT,OL,OW
+2024-02-03,Bemidji State Beavers,Augustana University (SD) Vikings,5,0,3,Final,RW,RL
+2024-02-03,St. Thomas - Minnesota Tommies,Minnesota State Mavericks,3,4,4,Final/OT,OL,OW
+2024-02-03,Omaha Mavericks,Minnesota Duluth Bulldogs,5,1,3,Final,RW,RL
+2024-02-03,Colorado College Tigers,St. Cloud State Huskies,1,2,4,Final/OT,OL,OW
+2024-02-03,Denver Pioneers,Western Michigan Bulldogs,3,2,3,Final,RW,RL
+2024-02-03,Arizona State Sun Devils,Lindenwood Lions,4,4,4,Final/OT,T,T
+2024-02-03,Bentley Falcons,Army Black Knights,1,2,3,Final,RL,RW
+2024-02-03,Stonehill Stonehill,Long Island University Long Island University,0,5,3,Final,RL,RW
+2024-02-03,RIT Tigers,Niagara Purple Eagles,4,2,3,Final,RW,RL
+2024-02-03,Notre Dame Fighting Irish,Michigan State Spartans,0,4,3,Final,RL,RW
+2024-02-03,Ferris State Bulldogs,Bowling Green Falcons,1,3,3,Final,RL,RW
+2024-02-03,Michigan Tech Huskies,Northern Michigan Wildcats,3,3,4,Final/OT,T,T
+2024-02-04,Robert Morris Colonials,Mercyhurst Lakers,4,3,3,Final,RW,RL
+2024-02-04,Massachusetts Minutemen,Maine Black Bears,0,1,3,Final,RL,RW
+2024-02-04,New Hampshire Wildcats,Merrimack Warriors,3,1,3,Final,RW,RL
+2024-02-04,Providence Friars,UConn Huskies,1,2,3,Final,RL,RW
+2024-02-04,Brown Bears,Union Dutchmen,4,4,4,Final/OT,T,T
+2024-02-04,Cornell Big Red,Clarkson Golden Knights,7,2,3,Final,RW,RL
+2024-02-04,Quinnipiac Bobcats,Dartmouth Big Green,5,1,3,Final,RW,RL
+2024-02-04,Yale Bulldogs,Rensselaer Engineers,1,1,4,Final/OT,T,T
+2024-02-04,Colgate Raiders,St. Lawrence Saints,3,2,3,Final,RW,RL
+2024-02-04,Arizona State Sun Devils,Lindenwood Lions,5,1,3,Final,RW,RL
+2024-02-04,Holy Cross Crusaders,Air Force Falcons,5,2,3,Final,RW,RL
+2024-02-04,Sacred Heart Pioneers,American International Yellow Jackets,3,1,3,Final,RW,RL
+2024-02-04,Miami (OH) RedHawks,North Dakota Fighting Hawks,1,4,3,Final,RL,RW
+2024-02-04,Bemidji State Beavers,Augustana University (SD) Vikings,2,5,3,Final,RL,RW
+2024-02-04,Minnesota State Mavericks,St. Thomas - Minnesota Tommies,2,4,3,Final,RL,RW
+2024-02-04,Colorado College Tigers,St. Cloud State Huskies,5,3,3,Final,RW,RL
+2024-02-04,Denver Pioneers,Western Michigan Bulldogs,2,7,3,Final,RL,RW
+2024-02-04,Ohio State Buckeyes,Michigan Wolverines,1,4,3,Final,RL,RW
+2024-02-04,Wisconsin Badgers,Minnesota Golden Gophers,1,1,4,Final/OT,T,T
+2024-02-04,Omaha Mavericks,Minnesota Duluth Bulldogs,4,3,3,Final,RW,RL
+2024-02-04,Alaska Anchorage Seawolves,Alaska Bulldogs,4,2,3,Final,RW,RL
+2024-02-05,Harvard Crimson,Northeastern Huskies,2,3,4,Final/OT,OL,OW
+2024-02-06,Canisius Golden Griffins,Niagara Purple Eagles,2,3,4,Final/OT,OL,OW
+2024-02-10,Boston College Eagles,New Hampshire Wildcats,6,1,3,Final,RW,RL
+2024-02-10,Army Black Knights,Robert Morris Colonials,3,1,3,Final,RW,RL
+2024-02-10,Canisius Golden Griffins,Bentley Falcons,0,3,3,Final,RL,RW
+2024-02-10,Mercyhurst Lakers,RIT Tigers,6,7,4,Final/OT,OL,OW
+2024-02-10,Boston University Terriers,Merrimack Warriors,7,1,3,Final,RW,RL
+2024-02-10,Maine Black Bears,Providence Friars,2,1,3,Final,RW,RL
+2024-02-10,UConn Huskies,Massachusetts Minutemen,0,2,3,Final,RL,RW
+2024-02-10,Western Michigan Bulldogs,Omaha Mavericks,6,1,3,Final,RW,RL
+2024-02-10,Michigan Wolverines,Michigan State Spartans,1,5,3,Final,RL,RW
+2024-02-10,Minnesota Golden Gophers,Penn State Nittany Lions,3,0,3,Final,RW,RL
+2024-02-10,Yale Bulldogs,Brown Bears,3,1,3,Final,RW,RL
+2024-02-10,Clarkson Golden Knights,Princeton Tigers,4,2,3,Final,RW,RL
+2024-02-10,Rensselaer Engineers,Cornell Big Red,1,4,3,Final,RL,RW
+2024-02-10,Harvard Crimson,Dartmouth Big Green,5,5,4,Final/OT,T,T
+2024-02-10,St. Lawrence Saints,Quinnipiac Bobcats,3,1,3,Final,RW,RL
+2024-02-10,Union Dutchmen,Colgate Raiders,5,3,3,Final,RW,RL
+2024-02-10,Stonehill Stonehill,Lindenwood Lions,1,10,3,Final,RL,RW
+2024-02-10,Niagara Purple Eagles,American International Yellow Jackets,4,2,3,Final,RW,RL
+2024-02-10,Miami (OH) RedHawks,St. Cloud State Huskies,2,5,3,Final,RL,RW
+2024-02-10,Northern Michigan Wildcats,Bemidji State Beavers,2,4,3,Final,RL,RW
+2024-02-10,Bowling Green Falcons,Lake Superior State Lakers,6,3,3,Final,RW,RL
+2024-02-10,Michigan Tech Huskies,Minnesota State Mavericks,3,1,3,Final,RW,RL
+2024-02-10,UMass Lowell  River Hawks,Vermont Catamounts,1,1,4,Final/OT,T,T
+2024-02-10,Wisconsin Badgers,Notre Dame Fighting Irish,4,2,3,Final,RW,RL
+2024-02-10,Augustana University (SD) Vikings,St. Thomas - Minnesota Tommies,4,2,3,Final,RW,RL
+2024-02-10,Arizona State Sun Devils,Alaska Bulldogs,2,0,3,Final,RW,RL
+2024-02-10,Air Force Falcons,Sacred Heart Pioneers,2,3,3,Final,RL,RW
+2024-02-10,Mercyhurst Lakers,RIT Tigers,3,2,3,Final,RW,RL
+2024-02-10,Minnesota Golden Gophers,Penn State Nittany Lions,3,0,3,Final,RW,RL
+2024-02-10,Stonehill Stonehill,Lindenwood Lions,4,2,3,Final,RW,RL
+2024-02-10,Niagara Purple Eagles,American International Yellow Jackets,4,4,4,Final/OT,T,T
+2024-02-10,Michigan Tech Huskies,Minnesota State Mavericks,2,4,3,Final,RL,RW
+2024-02-10,Army Black Knights,Robert Morris Colonials,3,4,3,Final,RL,RW
+2024-02-10,Canisius Golden Griffins,Bentley Falcons,2,2,4,Final/OT,T,T
+2024-02-10,UMass Lowell  River Hawks,Vermont Catamounts,3,3,4,Final/OT,T,T
+2024-02-10,Western Michigan Bulldogs,Omaha Mavericks,2,3,4,Final/OT,OL,OW
+2024-02-10,Northern Michigan Wildcats,Bemidji State Beavers,3,3,4,Final/OT,T,T
+2024-02-11,Maine Black Bears,Providence Friars,3,4,4,Final/OT,OL,OW
+2024-02-11,Merrimack Warriors,New Hampshire Wildcats,3,1,3,Final,RW,RL
+2024-02-11,Massachusetts Minutemen,UConn Huskies,3,1,3,Final,RW,RL
+2024-02-11,Wisconsin Badgers,Notre Dame Fighting Irish,3,2,3,Final,RW,RL
+2024-02-11,Clarkson Golden Knights,Quinnipiac Bobcats,2,4,3,Final,RL,RW
+2024-02-11,St. Lawrence Saints,Princeton Tigers,4,5,4,Final/OT,OL,OW
+2024-02-11,Rensselaer Engineers,Colgate Raiders,5,5,4,Final/OT,T,T
+2024-02-11,Union Dutchmen,Cornell Big Red,1,6,3,Final,RL,RW
+2024-02-11,Arizona State Sun Devils,Alaska Bulldogs,4,2,3,Final,RW,RL
+2024-02-11,Air Force Falcons,Sacred Heart Pioneers,2,0,3,Final,RW,RL
+2024-02-11,Miami (OH) RedHawks,St. Cloud State Huskies,1,3,3,Final,RL,RW
+2024-02-11,Augustana University (SD) Vikings,St. Thomas - Minnesota Tommies,2,1,4,Final/OT,OW,OL
+2024-02-11,Bowling Green Falcons,Lake Superior State Lakers,4,2,3,Final,RW,RL
+2024-02-11,Michigan State Spartans,Michigan Wolverines,3,2,3,Final,RW,RL
+2024-02-11,Alaska Anchorage Seawolves,Long Island University Long Island University,1,2,3,Final,RL,RW
+2024-02-12,Alaska Anchorage Seawolves,Long Island University Long Island University,3,1,3,Final,RW,RL
+2024-02-12,Harvard Crimson,Boston College Eagles,0,5,3,Final,RL,RW
+2024-02-13,Boston University Terriers,Northeastern Huskies,3,4,4,Final/OT,OL,OW
+2024-02-15,Stonehill Stonehill,Assumption Falcons,3,1,3,Final,RW,RL
+2024-02-16,Bemidji State Beavers,Ferris State Bulldogs,3,2,4,Final/OT,OW,OL
+2024-02-16,American International Yellow Jackets,Mercyhurst Lakers,4,1,3,Final,RW,RL
+2024-02-16,Ohio State Buckeyes,Wisconsin Badgers,3,2,4,Final/OT,OW,OL
+2024-02-17,Massachusetts Minutemen,Boston College Eagles,1,5,3,Final,RL,RW
+2024-02-17,Niagara Purple Eagles,Army Black Knights,6,3,3,Final,RW,RL
+2024-02-17,Robert Morris Colonials,Canisius Golden Griffins,3,5,3,Final,RL,RW
+2024-02-17,Holy Cross Crusaders,Sacred Heart Pioneers,5,1,3,Final,RW,RL
+2024-02-17,Providence Friars,Boston University Terriers,2,2,4,Final/OT,T,T
+2024-02-17,New Hampshire Wildcats,Maine Black Bears,6,2,3,Final,RW,RL
+2024-02-17,Vermont Catamounts,Merrimack Warriors,2,5,3,Final,RL,RW
+2024-02-17,Penn State Nittany Lions,Michigan Wolverines,3,5,3,Final,RL,RW
+2024-02-17,Cornell Big Red,Brown Bears,3,0,3,Final,RW,RL
+2024-02-17,Dartmouth Big Green,Clarkson Golden Knights,3,0,3,Final,RW,RL
+2024-02-17,Harvard Crimson,St. Lawrence Saints,2,1,3,Final,RW,RL
+2024-02-17,Princeton Tigers,Rensselaer Engineers,3,4,3,Final,RL,RW
+2024-02-17,Colgate Raiders,Yale Bulldogs,5,2,3,Final,RW,RL
+2024-02-17,Quinnipiac Bobcats,Union Dutchmen,6,2,3,Final,RW,RL
+2024-02-17,RIT Tigers,Air Force Falcons,7,3,3,Final,RW,RL
+2024-02-17,Lake Superior State Lakers,Augustana University (SD) Vikings,3,0,3,Final,RW,RL
+2024-02-17,UMass Lowell  River Hawks,Northeastern Huskies,4,2,3,Final,RW,RL
+2024-02-17,Notre Dame Fighting Irish,Minnesota Golden Gophers,6,1,3,Final,RW,RL
+2024-02-17,Minnesota Duluth Bulldogs,Denver Pioneers,4,5,4,Final/OT,OL,OW
+2024-02-17,Bemidji State Beavers,Ferris State Bulldogs,4,1,3,Final,RW,RL
+2024-02-17,St. Thomas - Minnesota Tommies,Bowling Green Falcons,3,3,4,Final/OT,T,T
+2024-02-17,Lindenwood Lions,Alaska Anchorage Seawolves,3,5,3,Final,RL,RW
+2024-02-17,Colorado College Tigers,North Dakota Fighting Hawks,7,1,3,Final,RW,RL
+2024-02-17,Alaska Bulldogs,Long Island University Long Island University,0,4,3,Final,RL,RW
+2024-02-17,Ohio State Buckeyes,Wisconsin Badgers,3,1,3,Final,RW,RL
+2024-02-17,Niagara Purple Eagles,Army Black Knights,0,3,3,Final,RL,RW
+2024-02-17,Robert Morris Colonials,Canisius Golden Griffins,4,5,4,Final/OT,OL,OW
+2024-02-17,RIT Tigers,Air Force Falcons,2,3,3,Final,RL,RW
+2024-02-17,Boston University Terriers,Providence Friars,5,2,3,Final,RW,RL
+2024-02-17,Notre Dame Fighting Irish,Minnesota Golden Gophers,2,3,4,Final/OT,OL,OW
+2024-02-17,Lake Superior State Lakers,Augustana University (SD) Vikings,0,3,3,Final,RL,RW
+2024-02-18,Sacred Heart Pioneers,Holy Cross Crusaders,1,2,3,Final,RL,RW
+2024-02-18,New Hampshire Wildcats,Maine Black Bears,5,2,3,Final,RW,RL
+2024-02-18,Northeastern Huskies,UMass Lowell  River Hawks,4,0,3,Final,RW,RL
+2024-02-18,Penn State Nittany Lions,Michigan Wolverines,4,2,3,Final,RW,RL
+2024-02-18,Colgate Raiders,Brown Bears,4,2,3,Final,RW,RL
+2024-02-18,Harvard Crimson,Clarkson Golden Knights,2,3,4,Final/OT,OL,OW
+2024-02-18,Cornell Big Red,Yale Bulldogs,1,1,4,Final/OT,T,T
+2024-02-18,Dartmouth Big Green,St. Lawrence Saints,4,4,4,Final/OT,T,T
+2024-02-18,Princeton Tigers,Union Dutchmen,2,2,4,Final/OT,T,T
+2024-02-18,Quinnipiac Bobcats,Rensselaer Engineers,7,2,3,Final,RW,RL
+2024-02-18,Lindenwood Lions,Alaska Anchorage Seawolves,0,3,3,Final,RL,RW
+2024-02-18,American International Yellow Jackets,Mercyhurst Lakers,2,2,4,Final/OT,T,T
+2024-02-18,St. Thomas - Minnesota Tommies,Bowling Green Falcons,1,3,3,Final,RL,RW
+2024-02-18,Vermont Catamounts,Merrimack Warriors,4,1,3,Final,RW,RL
+2024-02-18,Colorado College Tigers,North Dakota Fighting Hawks,6,2,3,Final,RW,RL
+2024-02-18,Minnesota Duluth Bulldogs,Denver Pioneers,2,5,3,Final,RL,RW
+2024-02-18,Alaska Bulldogs,Long Island University Long Island University,4,0,3,Final,RW,RL
+2024-02-18,Boston College Eagles,Massachusetts Minutemen,6,4,3,Final,RW,RL
+2024-02-21,Mercyhurst Lakers,Niagara Purple Eagles,1,4,3,Final,RL,RW
+2024-02-23,Holy Cross Crusaders,Bentley Falcons,1,5,3,Final,RL,RW
+2024-02-23,Niagara Purple Eagles,Mercyhurst Lakers,1,6,3,Final,RL,RW
+2024-02-23,Long Island University Long Island University,Stonehill Stonehill,7,2,3,Final,RW,RL
+2024-02-24,Boston College Eagles,Vermont Catamounts,7,1,3,Final,RW,RL
+2024-02-24,RIT Tigers,Canisius Golden Griffins,9,2,3,Final,RW,RL
+2024-02-24,UConn Huskies,Boston University Terriers,1,6,3,Final,RL,RW
+2024-02-24,Maine Black Bears,Northeastern Huskies,5,1,3,Final,RW,RL
+2024-02-24,Massachusetts Minutemen,New Hampshire Wildcats,3,2,3,Final,RW,RL
+2024-02-24,Michigan State Spartans,Ohio State Buckeyes,2,6,3,Final,RL,RW
+2024-02-24,Penn State Nittany Lions,Wisconsin Badgers,0,6,3,Final,RL,RW
+2024-02-24,Brown Bears,Quinnipiac Bobcats,2,5,3,Final,RL,RW
+2024-02-24,Clarkson Golden Knights,Cornell Big Red,4,3,4,Final/OT,OW,OL
+2024-02-24,Rensselaer Engineers,Dartmouth Big Green,1,5,3,Final,RL,RW
+2024-02-24,Yale Bulldogs,Princeton Tigers,1,4,3,Final,RL,RW
+2024-02-24,St. Lawrence Saints,Colgate Raiders,4,3,4,Final/OT,OW,OL
+2024-02-24,Union Dutchmen,Harvard Crimson,6,2,3,Final,RW,RL
+2024-02-24,Army Black Knights,American International Yellow Jackets,2,2,4,Final/OT,T,T
+2024-02-24,Ferris State Bulldogs,Northern Michigan Wildcats,2,3,3,Final,RL,RW
+2024-02-24,Bowling Green Falcons,Michigan Tech Huskies,0,7,3,Final,RL,RW
+2024-02-24,Omaha Mavericks,Colorado College Tigers,3,0,3,Final,RW,RL
+2024-02-24,Michigan Wolverines,Notre Dame Fighting Irish,4,0,3,Final,RW,RL
+2024-02-24,St. Cloud State Huskies,Western Michigan Bulldogs,3,4,4,Final/OT,OL,OW
+2024-02-24,Augustana University (SD) Vikings,Alaska Anchorage Seawolves,5,6,4,Final/OT,OL,OW
+2024-02-24,North Dakota Fighting Hawks,Minnesota Duluth Bulldogs,6,0,3,Final,RW,RL
+2024-02-24,St. Thomas - Minnesota Tommies,Bemidji State Beavers,5,6,4,Final/OT,OL,OW
+2024-02-24,Minnesota State Mavericks,Lake Superior State Lakers,3,4,3,Final,RL,RW
+2024-02-24,Denver Pioneers,Miami (OH) RedHawks,3,3,4,Final/OT,T,T
+2024-02-24,Air Force Falcons,Robert Morris Colonials,5,2,3,Final,RW,RL
+2024-02-24,Alaska Bulldogs,Arizona State Sun Devils,3,1,3,Final,RW,RL
+2024-02-24,Long Island University Long Island University,Stonehill Stonehill,4,2,3,Final,RW,RL
+2024-02-24,Army Black Knights,American International Yellow Jackets,1,5,3,Final,RL,RW
+2024-02-24,Union Dutchmen,Dartmouth Big Green,4,5,3,Final,RL,RW
+2024-02-24,Bentley Falcons,Sacred Heart Pioneers,2,2,4,Final/OT,T,T
+2024-02-24,Michigan State Spartans,Ohio State Buckeyes,5,2,3,Final,RW,RL
+2024-02-24,Penn State Nittany Lions,Wisconsin Badgers,2,3,4,Final/OT,OL,OW
+2024-02-24,UMass Lowell  River Hawks,Providence Friars,1,2,3,Final,RL,RW
+2024-02-24,Ferris State Bulldogs,Northern Michigan Wildcats,1,1,4,Final/OT,T,T
+2024-02-24,Michigan Wolverines,Notre Dame Fighting Irish,2,1,3,Final,RW,RL
+2024-02-25,Boston College Eagles,Vermont Catamounts,4,2,3,Final,RW,RL
+2024-02-25,Canisius Golden Griffins,RIT Tigers,2,3,3,Final,RL,RW
+2024-02-25,Mercyhurst Lakers,Niagara Purple Eagles,3,4,3,Final,RL,RW
+2024-02-25,Boston University Terriers,UConn Huskies,6,0,3,Final,RW,RL
+2024-02-25,Maine Black Bears,Northeastern Huskies,0,4,3,Final,RL,RW
+2024-02-25,New Hampshire Wildcats,Massachusetts Minutemen,3,2,4,Final/OT,OW,OL
+2024-02-25,Clarkson Golden Knights,Colgate Raiders,3,4,4,Final/OT,OL,OW
+2024-02-25,St. Lawrence Saints,Cornell Big Red,2,2,4,Final/OT,T,T
+2024-02-25,Rensselaer Engineers,Harvard Crimson,2,2,4,Final/OT,T,T
+2024-02-25,St. Cloud State Huskies,Western Michigan Bulldogs,3,0,3,Final,RW,RL
+2024-02-25,Air Force Falcons,Robert Morris Colonials,2,1,3,Final,RW,RL
+2024-02-25,Augustana University (SD) Vikings,Alaska Anchorage Seawolves,3,0,3,Final,RW,RL
+2024-02-25,North Dakota Fighting Hawks,Minnesota Duluth Bulldogs,4,2,3,Final,RW,RL
+2024-02-25,St. Thomas - Minnesota Tommies,Bemidji State Beavers,1,3,3,Final,RL,RW
+2024-02-25,Bowling Green Falcons,Michigan Tech Huskies,1,3,3,Final,RL,RW
+2024-02-25,Minnesota State Mavericks,Lake Superior State Lakers,4,3,3,Final,RW,RL
+2024-02-25,Brown Bears,Princeton Tigers,1,5,3,Final,RL,RW
+2024-02-25,Omaha Mavericks,Colorado College Tigers,1,1,4,Final/OT,T,T
+2024-02-25,Denver Pioneers,Miami (OH) RedHawks,8,1,3,Final,RW,RL
+2024-02-25,Alaska Bulldogs,Arizona State Sun Devils,3,4,4,Final/OT,OL,OW
+2024-03-01,Providence Friars,Merrimack Warriors,4,2,3,Final,RW,RL
+2024-03-01,Ohio State Buckeyes,Penn State Nittany Lions,2,5,3,Final,RL,RW
+2024-03-02,New Hampshire Wildcats,Boston College Eagles,3,5,3,Final,RL,RW
+2024-03-02,Vermont Catamounts,Maine Black Bears,2,1,3,Final,RW,RL
+2024-03-02,Merrimack Warriors,Providence Friars,2,1,3,Final,RW,RL
+2024-03-02,Northeastern Huskies,UConn Huskies,3,4,3,Final,RL,RW
+2024-03-02,Dartmouth Big Green,Brown Bears,5,3,3,Final,RW,RL
+2024-03-02,Quinnipiac Bobcats,Clarkson Golden Knights,2,3,4,Final/OT,OL,OW
+2024-03-02,Harvard Crimson,Yale Bulldogs,2,1,4,Final/OT,OW,OL
+2024-03-02,Princeton Tigers,St. Lawrence Saints,4,4,4,Final/OT,T,T
+2024-03-02,Miami (OH) RedHawks,Omaha Mavericks,3,4,3,Final,RL,RW
+2024-03-02,Northern Michigan Wildcats,Bowling Green Falcons,4,1,3,Final,RW,RL
+2024-03-02,Lake Superior State Lakers,Ferris State Bulldogs,4,1,3,Final,RW,RL
+2024-03-02,Michigan Tech Huskies,St. Thomas - Minnesota Tommies,0,2,3,Final,RL,RW
+2024-03-02,UMass Lowell  River Hawks,Massachusetts Minutemen,1,2,4,Final/OT,OL,OW
+2024-03-02,Colgate Raiders,Rensselaer Engineers,6,2,3,Final,RW,RL
+2024-03-02,Cornell Big Red,Union Dutchmen,2,3,3,Final,RL,RW
+2024-03-02,North Dakota Fighting Hawks,Western Michigan Bulldogs,5,3,3,Final,RW,RL
+2024-03-02,Augustana University (SD) Vikings,Alaska Bulldogs,2,2,4,Final/OT,T,T
+2024-03-02,Bemidji State Beavers,Minnesota State Mavericks,6,0,3,Final,RW,RL
+2024-03-02,St. Cloud State Huskies,Denver Pioneers,2,6,3,Final,RL,RW
+2024-03-02,Minnesota Golden Gophers,Michigan Wolverines,6,2,3,Final,RW,RL
+2024-03-02,Colorado College Tigers,Minnesota Duluth Bulldogs,2,2,4,Final/OT,T,T
+2024-03-02,Wisconsin Badgers,Michigan State Spartans,2,5,3,Final,RL,RW
+2024-03-02,Arizona State Sun Devils,Long Island University Long Island University,4,2,3,Final,RW,RL
+2024-03-02,Alaska Anchorage Seawolves,Stonehill Stonehill,9,3,3,Final,RW,RL
+2024-03-02,UConn Huskies,Northeastern Huskies,2,4,3,Final,RL,RW
+2024-03-02,Ohio State Buckeyes,Penn State Nittany Lions,1,2,3,Final,RL,RW
+2024-03-02,Massachusetts Minutemen,UMass Lowell  River Hawks,4,3,4,Final/OT,OW,OL
+2024-03-02,Canisius Golden Griffins,Mercyhurst Lakers,5,2,3,Final,RW,RL
+2024-03-02,Northern Michigan Wildcats,Bowling Green Falcons,1,0,3,Final,RW,RL
+2024-03-02,Michigan Tech Huskies,St. Thomas - Minnesota Tommies,6,0,3,Final,RW,RL
+2024-03-03,Vermont Catamounts,Maine Black Bears,2,3,3,Final,RL,RW
+2024-03-03,St. Cloud State Huskies,Denver Pioneers,2,7,3,Final,RL,RW
+2024-03-03,Harvard Crimson,Brown Bears,1,1,4,Final/OT,T,T
+2024-03-03,Princeton Tigers,Clarkson Golden Knights,2,6,3,Final,RL,RW
+2024-03-03,Cornell Big Red,Rensselaer Engineers,3,1,3,Final,RW,RL
+2024-03-03,Dartmouth Big Green,Yale Bulldogs,4,1,3,Final,RW,RL
+2024-03-03,Quinnipiac Bobcats,St. Lawrence Saints,8,1,3,Final,RW,RL
+2024-03-03,Colgate Raiders,Union Dutchmen,4,3,3,Final,RW,RL
+2024-03-03,Arizona State Sun Devils,Long Island University Long Island University,4,3,3,Final,RW,RL
+2024-03-03,North Dakota Fighting Hawks,Western Michigan Bulldogs,3,0,3,Final,RW,RL
+2024-03-03,Bentley Falcons,Robert Morris Colonials,3,4,4,Final/OT,OL,OW
+2024-03-03,Niagara Purple Eagles,Army Black Knights,4,1,3,Final,RW,RL
+2024-03-03,Miami (OH) RedHawks,Omaha Mavericks,1,2,3,Final,RL,RW
+2024-03-03,Augustana University (SD) Vikings,Alaska Bulldogs,0,2,3,Final,RL,RW
+2024-03-03,Bemidji State Beavers,Minnesota State Mavericks,2,0,3,Final,RW,RL
+2024-03-03,Alaska Anchorage Seawolves,Stonehill Stonehill,12,2,3,Final,RW,RL
+2024-03-03,Colorado College Tigers,Minnesota Duluth Bulldogs,4,1,3,Final,RW,RL
+2024-03-03,Minnesota Golden Gophers,Michigan Wolverines,5,6,4,Final/OT,OL,OW
+2024-03-03,Wisconsin Badgers,Michigan State Spartans,4,1,3,Final,RW,RL
+2024-03-03,Boston College Eagles,New Hampshire Wildcats,1,0,3,Final,RW,RL
+2024-03-07,Alaska Bulldogs,Stonehill Stonehill,9,1,3,Final,RW,RL
+2024-03-08,Providence Friars,Boston University Terriers,2,4,3,Final,RL,RW
+2024-03-08,UConn Huskies,Vermont Catamounts,5,1,3,Final,RW,RL
+2024-03-08,Alaska Bulldogs,Stonehill Stonehill,4,1,3,Final,RW,RL
+2024-03-09,Western Michigan Bulldogs,Miami (OH) RedHawks,3,2,3,Final,RW,RL
+2024-03-09,Holy Cross Crusaders,Canisius Golden Griffins,4,3,3,Final,RW,RL
+2024-03-09,Sacred Heart Pioneers,Niagara Purple Eagles,3,6,3,Final,RL,RW
+2024-03-09,Harvard Crimson,Princeton Tigers,1,0,3,Final,RW,RL
+2024-03-09,St. Lawrence Saints,Yale Bulldogs,4,2,3,Final,RW,RL
+2024-03-09,Minnesota Golden Gophers,Penn State Nittany Lions,5,1,3,Final,RW,RL
+2024-03-09,Michigan Wolverines,Notre Dame Fighting Irish,5,4,3,Final,RW,RL
+2024-03-09,UMass Lowell  River Hawks,New Hampshire Wildcats,0,4,3,Final,RL,RW
+2024-03-09,RIT Tigers,Robert Morris Colonials,7,0,3,Final,RW,RL
+2024-03-09,Michigan Tech Huskies,Bowling Green Falcons,5,0,3,Final,RW,RL
+2024-03-09,Maine Black Bears,Massachusetts Minutemen,2,1,3,Final,RW,RL
+2024-03-09,Wisconsin Badgers,Ohio State Buckeyes,1,3,3,Final,RL,RW
+2024-03-09,Minnesota Duluth Bulldogs,St. Cloud State Huskies,6,5,4,Final/OT,OW,OL
+2024-03-09,Omaha Mavericks,North Dakota Fighting Hawks,3,2,3,Final,RW,RL
+2024-03-09,Bemidji State Beavers,Ferris State Bulldogs,5,4,4,Final/OT,OW,OL
+2024-03-09,Minnesota State Mavericks,Northern Michigan Wildcats,2,1,3,Final,RW,RL
+2024-03-09,St. Thomas - Minnesota Tommies,Lake Superior State Lakers,1,4,3,Final,RL,RW
+2024-03-09,Air Force Falcons,American International Yellow Jackets,1,3,3,Final,RL,RW
+2024-03-09,Colorado College Tigers,Denver Pioneers,4,3,3,Final,RW,RL
+2024-03-09,Alaska Anchorage Seawolves,Arizona State Sun Devils,4,3,3,Final,RW,RL
+2024-03-09,Boston University Terriers,Vermont Catamounts,6,1,3,Final,RW,RL
+2024-03-09,Providence Friars,Northeastern Huskies,3,3,4,Final/OT,T,T
+2024-03-09,Union Dutchmen,Brown Bears,6,0,3,Final,RW,RL
+2024-03-09,Minnesota Golden Gophers,Penn State Nittany Lions,3,2,3,Final,RW,RL
+2024-03-09,Western Michigan Bulldogs,Miami (OH) RedHawks,6,1,3,Final,RW,RL
+2024-03-09,Michigan Tech Huskies,Bowling Green Falcons,6,5,3,Final,RW,RL
+2024-03-10,Maine Black Bears,Massachusetts Minutemen,4,3,3,Final,RW,RL
+2024-03-10,Holy Cross Crusaders,Canisius Golden Griffins,2,1,5,Final/SO,OW,OL
+2024-03-10,Sacred Heart Pioneers,Niagara Purple Eagles,1,5,3,Final,RL,RW
+2024-03-10,Clarkson Golden Knights,Rensselaer Engineers,2,3,3,Final,RL,RW
+2024-03-10,Wisconsin Badgers,Ohio State Buckeyes,4,2,3,Final,RW,RL
+2024-03-10,Michigan Wolverines,Notre Dame Fighting Irish,4,3,3,Final,RW,RL
+2024-03-10,RIT Tigers,Robert Morris Colonials,5,1,3,Final,RW,RL
+2024-03-10,Minnesota Duluth Bulldogs,St. Cloud State Huskies,4,2,3,Final,RW,RL
+2024-03-10,Bemidji State Beavers,Ferris State Bulldogs,4,0,3,Final,RW,RL
+2024-03-10,Minnesota State Mavericks,Northern Michigan Wildcats,6,1,3,Final,RW,RL
+2024-03-10,St. Thomas - Minnesota Tommies,Lake Superior State Lakers,4,2,3,Final,RW,RL
+2024-03-10,Merrimack Warriors,Boston College Eagles,4,6,3,Final,RL,RW
+2024-03-10,New Hampshire Wildcats,UMass Lowell  River Hawks,4,0,3,Final,RW,RL
+2024-03-10,Omaha Mavericks,North Dakota Fighting Hawks,4,1,3,Final,RW,RL
+2024-03-10,Air Force Falcons,American International Yellow Jackets,2,3,4,Final/OT,OL,OW
+2024-03-10,Alaska Anchorage Seawolves,Arizona State Sun Devils,2,5,3,Final,RL,RW
+2024-03-10,Denver Pioneers,Colorado College Tigers,4,3,3,Final,RW,RL
+2024-03-10,Wisconsin Badgers,Ohio State Buckeyes,1,3,3,Final,RL,RW
+2024-03-10,St. Thomas - Minnesota Tommies,Lake Superior State Lakers,2,3,3,Final,RL,RW
+2024-03-13,UConn Huskies,Vermont Catamounts,4,1,3,Final,RW,RL
+2024-03-13,New Hampshire Wildcats,UMass Lowell  River Hawks,1,0,3,Final,RW,RL
+2024-03-13,Northeastern Huskies,Merrimack Warriors,4,0,3,Final,RW,RL
+2024-03-15,Quinnipiac Bobcats,Rensselaer Engineers,5,1,3,Final,RW,RL
+2024-03-15,Cornell Big Red,Harvard Crimson,4,3,3,Final,RW,RL
+2024-03-15,Dartmouth Big Green,Union Dutchmen,3,1,3,Final,RW,RL
+2024-03-15,Colgate Raiders,St. Lawrence Saints,2,3,4,Final/OT,OL,OW
+2024-03-15,Holy Cross Crusaders,American International Yellow Jackets,5,2,3,Final,RW,RL
+2024-03-15,RIT Tigers,Niagara Purple Eagles,4,1,3,Final,RW,RL
+2024-03-16,North Dakota Fighting Hawks,Miami (OH) RedHawks,5,1,3,Final,RW,RL
+2024-03-16,St. Cloud State Huskies,Western Michigan Bulldogs,5,2,3,Final,RW,RL
+2024-03-16,Colorado College Tigers,Omaha Mavericks,4,3,4,Final/OT,OW,OL
+2024-03-16,Denver Pioneers,Minnesota Duluth Bulldogs,4,0,3,Final,RW,RL
+2024-03-16,Providence Friars,Massachusetts Minutemen,1,3,3,Final,RL,RW
+2024-03-16,Boston University Terriers,Northeastern Huskies,4,2,3,Final,RW,RL
+2024-03-16,Michigan Tech Huskies,Minnesota State Mavericks,4,3,3,Final,RW,RL
+2024-03-16,Michigan State Spartans,Ohio State Buckeyes,2,1,3,Final,RW,RL
+2024-03-16,Quinnipiac Bobcats,Rensselaer Engineers,5,2,3,Final,RW,RL
+2024-03-16,Cornell Big Red,Harvard Crimson,4,1,3,Final,RW,RL
+2024-03-16,Dartmouth Big Green,Union Dutchmen,4,2,3,Final,RW,RL
+2024-03-16,Colgate Raiders,St. Lawrence Saints,2,3,3,Final,RL,RW
+2024-03-16,Holy Cross Crusaders,American International Yellow Jackets,0,3,3,Final,RL,RW
+2024-03-16,Maine Black Bears,New Hampshire Wildcats,5,0,3,Final,RW,RL
+2024-03-16,RIT Tigers,Niagara Purple Eagles,5,2,3,Final,RW,RL
+2024-03-16,North Dakota Fighting Hawks,Miami (OH) RedHawks,7,1,3,Final,RW,RL
+2024-03-16,St. Cloud State Huskies,Western Michigan Bulldogs,1,6,3,Final,RL,RW
+2024-03-16,Boston College Eagles,UConn Huskies,5,4,3,Final,RW,RL
+2024-03-17,Colorado College Tigers,Omaha Mavericks,1,3,3,Final,RL,RW
+2024-03-17,Denver Pioneers,Minnesota Duluth Bulldogs,5,2,3,Final,RW,RL
+2024-03-17,Bemidji State Beavers,Lake Superior State Lakers,4,1,3,Final,RW,RL
+2024-03-17,Minnesota Golden Gophers,Michigan Wolverines,1,2,3,Final,RL,RW
+2024-03-17,Holy Cross Crusaders,American International Yellow Jackets,1,3,3,Final,RL,RW
+2024-03-17,St. Cloud State Huskies,Western Michigan Bulldogs,5,1,3,Final,RW,RL
+2024-03-18,Colorado College Tigers,Omaha Mavericks,1,2,3,Final,RL,RW
+2024-03-22,Quinnipiac Bobcats,St. Lawrence Saints,0,3,3,Final,RL,RW
+2024-03-22,Boston College Eagles,Massachusetts Minutemen,8,1,3,Final,RW,RL
+2024-03-22,North Dakota Fighting Hawks,Omaha Mavericks,3,6,3,Final,RL,RW
+2024-03-22,Cornell Big Red,Dartmouth Big Green,6,3,3,Final,RW,RL
+2024-03-22,Boston University Terriers,Maine Black Bears,4,1,3,Final,RW,RL
+2024-03-23,Bemidji State Beavers,Michigan Tech Huskies,1,2,3,Final,RL,RW
+2024-03-23,Denver Pioneers,St. Cloud State Huskies,5,4,4,Final/OT,OW,OL
+2024-03-23,Cornell Big Red,St. Lawrence Saints,3,1,3,Final,RW,RL
+2024-03-23,RIT Tigers,American International Yellow Jackets,5,2,3,Final,RW,RL
+2024-03-23,Boston College Eagles,Boston University Terriers,6,2,3,Final,RW,RL
+2024-03-24,Michigan State Spartans,Michigan Wolverines,5,4,4,Final/OT,OW,OL
+2024-03-24,Denver Pioneers,Omaha Mavericks,4,1,3,Final,RW,RL
+2024-03-28,Denver Pioneers,Massachusetts Minutemen,2,1,5,Final/2OT,OW,OL
+2024-03-28,Boston University Terriers,RIT Tigers,6,3,3,Final,RW,RL
+2024-03-28,Maine Black Bears,Cornell Big Red,1,3,3,Final,RL,RW
+2024-03-29,Minnesota Golden Gophers,Omaha Mavericks,3,2,3,Final,RW,RL
+2024-03-29,Boston College Eagles,Michigan Tech Huskies,6,1,3,Final,RW,RL
+2024-03-29,Michigan State Spartans,Western Michigan Bulldogs,5,4,4,Final/OT,OW,OL
+2024-03-29,Wisconsin Badgers,Quinnipiac Bobcats,2,3,4,Final/OT,OL,OW
+2024-03-30,North Dakota Fighting Hawks,Michigan Wolverines,3,4,3,Final,RL,RW
+2024-03-30,Denver Pioneers,Cornell Big Red,2,1,3,Final,RW,RL
+2024-03-30,Boston University Terriers,Minnesota Golden Gophers,6,3,3,Final,RW,RL
+2024-03-31,Boston College Eagles,Quinnipiac Bobcats,5,4,4,Final/OT,OW,OL
+2024-03-31,Michigan State Spartans,Michigan Wolverines,2,5,3,Final,RL,RW
+2024-04-11,Boston University Terriers,Denver Pioneers,1,2,4,Final/OT,OL,OW
+2024-04-12,Boston College Eagles,Michigan Wolverines,4,0,3,Final,RW,RL
+2024-04-13,Boston College Eagles,Denver Pioneers,0,2,3,Final,RL,RW

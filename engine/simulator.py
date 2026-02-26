@@ -14,24 +14,42 @@ Usage:
 """
 
 import argparse
-import json
 import numpy as np
 import pandas as pd
 from collections import defaultdict
-from pathlib import Path
 
 
-def load_config(config_path: str = None) -> dict:
-    """Load conference and tournament configuration from JSON file."""
-    if config_path is None:
-        config_path = Path(__file__).parent / "config.json"
-    with open(config_path) as f:
-        return json.load(f)
-
-
-# Load config at module level
-_CONFIG = load_config()
-CONFERENCES = _CONFIG["conferences"]
+# ── Conference rosters (2025-26) ────────────────────────────────────
+CONFERENCES = {
+    "Atlantic Hockey": [
+        "Air Force", "Army", "Bentley", "Canisius", "Holy Cross",
+        "Mercyhurst", "Niagara", "Robert Morris", "RIT", "Sacred Heart",
+    ],
+    "Big Ten": [
+        "Michigan", "Michigan State", "Minnesota", "Notre Dame",
+        "Ohio State", "Penn State", "Wisconsin",
+    ],
+    "CCHA": [
+        "Augustana", "Bemidji State", "Bowling Green", "Ferris State",
+        "Lake Superior", "Michigan Tech", "Minnesota State",
+        "Northern Michigan", "St. Thomas",
+    ],
+    "ECAC": [
+        "Brown", "Clarkson", "Colgate", "Cornell", "Dartmouth",
+        "Harvard", "Princeton", "Quinnipiac", "RPI",
+        "St. Lawrence", "Union", "Yale",
+    ],
+    "Hockey East": [
+        "Boston College", "Boston University", "Connecticut", "Maine",
+        "Massachusetts", "Mass.-Lowell", "Merrimack", "New Hampshire",
+        "Northeastern", "Providence", "Vermont",
+    ],
+    "NCHC": [
+        "Arizona State", "Colorado College", "Denver", "Miami",
+        "Minnesota-Duluth", "North Dakota", "Omaha",
+        "St. Cloud State", "Western Michigan",
+    ],
+}
 
 # note: independents are not included in conference simulations
 
@@ -176,25 +194,45 @@ def simulate_conference(
     return df
 
 
-# ── NCAA Tournament bracket ─────────────────────────────────────────
-# Loaded from config.json. Each regional: [1-seed, 4-seed, 2-seed, 3-seed]
+# ── NCAA Tournament bracket (2025-26) ──────────────────────────────
+# Each regional: [1-seed, 4-seed, 2-seed, 3-seed]
 # Semis: 1v4 and 2v3, then winners play regional final.
 # Frozen Four: Regional 1 winner vs Regional 2 winner,
 #              Regional 3 winner vs Regional 4 winner, then championship.
 
-def _parse_tournament_bracket(config: dict) -> dict:
-    """Convert config bracket format to tuple format used by simulator."""
-    bracket = {}
-    for region, teams in config["tournament"]["bracket"].items():
-        bracket[region] = [(t["team"], t["seed"]) for t in teams]
-    return bracket
+TOURNAMENT_BRACKET = {
+    "Regional 1": [
+        ("Michigan State", 1),
+        ("Bentley", 16),
+        ("Minnesota-Duluth", 8),
+        ("Cornell", 10),
+    ],
+    "Regional 2": [
+        ("Michigan", 2),
+        ("St. Thomas", 15),
+        ("Quinnipiac", 7),
+        ("Denver", 9),
+    ],
+    "Regional 3": [
+        ("North Dakota", 3),
+        ("Connecticut", 14),
+        ("Providence", 6),
+        ("Dartmouth", 11),
+    ],
+    "Regional 4": [
+        ("Western Michigan", 4),
+        ("Wisconsin", 13),
+        ("Penn State", 5),
+        ("Boston College", 12),
+    ],
+}
 
-def _parse_frozen_four_matchups(config: dict) -> list:
-    """Convert config frozen four matchups to tuple format."""
-    return [tuple(m) for m in config["tournament"]["frozen_four_matchups"]]
-
-TOURNAMENT_BRACKET = _parse_tournament_bracket(_CONFIG)
-FROZEN_FOUR_MATCHUPS = _parse_frozen_four_matchups(_CONFIG)
+# Frozen Four pairings: Regional 1 winner vs Regional 2 winner,
+#                        Regional 3 winner vs Regional 4 winner
+FROZEN_FOUR_MATCHUPS = [
+    ("Regional 1", "Regional 2"),
+    ("Regional 3", "Regional 4"),
+]
 
 
 def simulate_tournament_game(
