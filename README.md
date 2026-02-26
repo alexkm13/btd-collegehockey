@@ -137,13 +137,13 @@ python brier_validation.py
 
 $$P(\text{outcome } k \mid i, j) = \frac{\exp(s_k)}{\sum_{K} \exp(s_K)}$$
 
-where the linear predictor for outcome $k$ is defined as:$$s_k = p_k \cdot \gamma_{ij} + o_k \cdot \tau$$
+where the linear predictor for outcome $k$ is defined as: $$s_k = p_k \cdot \gamma_{ij} + o_k \cdot \tau$$
 
-and the strength difference between the two teams is:$$\gamma_{ij} = \lambda_i - \lambda_j$$.
+and the strength difference between the two teams is: $$\gamma_{ij} = \lambda_i - \lambda_j$$.
  
-The outcome parameters (pₖ, oₖ) encode the information content of each result:
+The outcome parameters ($p_k$, $o_k$) encode the information content of each result:
 
-| Outcome | pₖ | oₖ | Interpretation |
+| Outcome | $p_k$ | $o_k$ | Interpretation |
 |---------|:--:|:--:|----------------|
 | Regulation Win | 1 | 0 | Full win, no overtime — strongest signal |
 | Overtime Win | 2/3 | 1 | Partial win, required extra time |
