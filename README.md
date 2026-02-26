@@ -1,4 +1,4 @@
-**Covariate-Enhanced Bayesian Bradley-Terry-Davidson Model for NCAA D1 Men's Hockey**
+## Covariate-Enhanced Bayesian Bradley-Terry-Davidson Model for NCAA D1 Men's Hockey
 
 Predicts conference regular-season winners and NCAA tournament outcomes by extending the [Whelan & Klein (2021)](https://arxiv.org/abs/2112.01267) paired comparison model with team-level performance covariates.
 
