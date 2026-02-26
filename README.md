@@ -35,24 +35,24 @@ Run the conference simulator to get regular-season winner probabilities, average
 
 ### 2025–26 NCAA Tournament Predictions
 
-  Team                       Seed  Reg Final  Frozen 4  Title Game  Champion
-  Michigan State                1      85.6%     62.5%       41.6%     28.0%
-  Michigan                      2      73.0%     45.1%       22.4%     13.0%
-  North Dakota                  3      68.0%     42.6%       23.6%     11.8%
-  Western Michigan              4      60.5%     32.7%       17.9%      8.6%
-  Penn State                    5      60.9%     33.4%       19.0%      8.6%
-  Quinnipiac                    7      53.4%     24.4%        9.7%      4.7%
-  Minnesota-Duluth              8      58.3%     20.0%        9.4%      4.6%
-  Providence                    6      57.0%     26.0%       11.6%      4.4%
-  Denver                        9      46.6%     20.0%        7.4%      3.0%
-  Boston College               12      39.1%     17.0%        7.3%      2.8%
-  Wisconsin                    13      39.5%     16.9%        7.6%      2.8%
-  Dartmouth                    11      43.0%     16.8%        7.2%      2.5%
-  Cornell                      10      41.7%     12.5%        4.9%      2.1%
-  Connecticut                  14      32.0%     14.6%        5.8%      2.0%
-  St. Thomas                   15      27.0%     10.5%        3.2%      1.0%
-  Bentley                      16      14.4%      5.1%        1.5%      0.3%
-
+| Team | Seed | Reg. Final | Frozen Four | Title Game | Champion |
+|------|:----:|:----------:|:-----------:|:----------:|:--------:|
+| Michigan State | 1 | 85.6% | 62.5% | 41.6% | **28.0%** |
+| Michigan | 2 | 73.0% | 45.1% | 22.4% | **13.0%** |
+| North Dakota | 3 | 68.0% | 42.6% | 23.6% | **11.8%** |
+| Western Michigan | 4 | 60.5% | 32.7% | 17.9% | 8.6% |
+| Penn State | 5 | 60.9% | 33.4% | 19.0% | 8.6% |
+| Quinnipiac | 7 | 53.4% | 24.4% | 9.7% | 4.7% |
+| Minnesota Duluth | 8 | 58.3% | 20.0% | 9.4% | 4.6% |
+| Providence | 6 | 57.0% | 26.0% | 11.6% | 4.4% |
+| Denver | 9 | 46.6% | 20.0% | 7.4% | 3.0% |
+| Boston College | 12 | 39.1% | 17.0% | 7.3% | 2.8% |
+| Wisconsin | 13 | 39.5% | 16.9% | 7.6% | 2.8% |
+| Dartmouth | 11 | 43.0% | 16.8% | 7.2% | 2.5% |
+| Cornell | 10 | 41.7% | 12.5% | 4.9% | 2.1% |
+| Connecticut | 14 | 32.0% | 14.6% | 5.8% | 2.0% |
+| St. Thomas | 15 | 27.0% | 10.5% | 3.2% | 1.0% |
+| Bentley | 16 | 14.4% | 5.1% | 1.5% | 0.3% |
 
 ## Data Pipeline
 
