@@ -23,9 +23,9 @@ Each team's strength is modeled as:
 λᵢ = αᵢ + β₁·FF%_close + β₂·PP% + β₃·GSAx/60
 ```
 
-where αᵢ is a team-specific intercept and the β coefficients are shared across all teams. Game outcomes follow a 5-category softmax (regulation win, overtime win, tie, overtime loss, regulation loss), extending Whelan's 4-outcome model to handle NCAA ties.
+where αᵢ is a team-specific intercept and the β coefficients are shared across all teams. Game outcomes follow a 5-category softmax incl. regulation win, overtime win, tie, overtime loss, regulation loss, extending Whelan's 4-outcome model to handle NCAA ties.
 
-The posterior is sampled via NUTS (4 chains × 2,000 draws). Team strengths are then fed into a Monte Carlo simulator (10,000 iterations) that plays out full conference round-robins and single-elimination tournament brackets.
+The posterior is sampled via NUTS (4 chains × 2,000 draws). Team strengths are then fed into a Monte Carlo simulator for 10,000 iterations that plays out full conference round-robins and single-elimination tournament brackets.
 
 ## Results
 
