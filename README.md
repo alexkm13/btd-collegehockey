@@ -51,7 +51,7 @@ We train on season N and predict every game in season N+1, comparing the covaria
 | 2022-23 → 2023-24 | 0.2456 | **0.2445** | −0.0010 | 0.906 | 0.1826 |
 | 2023-24 → 2024-25 | 0.2319 | **0.2285** | −0.0033 | **2.265** | **0.0118** |
 
-*Note: The Diebold-Mariano test evaluates the significance of the squared prediction errors. The 2024-25 validation demonstrates highly significant structural alpha* $(t(1093) = 2.265, p < 0.05)$ *despite the severe penalty of cross-season roster turnover.*
+*Note: The Diebold-Mariano test evaluates the significance of the squared prediction errors. The 2024-25 validation demonstrates statistically significant structural alpha* $(t(1093) = 2.265, p < 0.05)$ *despite the severe penalty of cross-season roster turnover.*
 
 **Aggregate Out-of-Sample Performance (2022–2025):**
 Across both test seasons (2,076 total out-of-sample predictions), the inclusion of possession and special teams covariates reduced the average Brier score from **0.2387** to **0.2365**. This represents an overall **0.9% reduction** in prediction error against an already optimized Bayesian baseline.
