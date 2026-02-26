@@ -9,11 +9,11 @@ Predicts conference regular-season winners and NCAA tournament outcomes by exten
 
 Whelan & Klein estimate team strength purely from game results such as wins, losses, and overtime outcomes. This project extends their model by asking *why* teams win, not just *that* they win. Three covariates are added to the team strength equation:
 
-| Covariate | What It Measures | β (standardized) | P(β > 0) |
+| Covariate | What It Measures | $\Beta$ (standardized) | P($\Beta$ > 0) |
 |-----------|-----------------|-------------------|-----------|
-| **FF% Close** | 5-on-5 possession in close game situations | +0.619 ± 0.158 | 100.0% |
-| **PP%** | Power play conversion rate | +0.371 ± 0.163 | 98.9% |
-| **GSAx/60** | Goals saved above expected per 60 min (goaltending quality) | +0.300 ± 0.146 | 98.1% |
+| **FF% Close** | 5-on-5 possession in close game situations | +0.619 $\pm$ 0.158 | 100.0% |
+| **PP%** | Power play conversion rate | +0.371 $\pm$ 0.163 | 98.9% |
+| **GSAx/60** | Goals saved above expected per 60 min (goaltending quality) | +0.300 $\pm$ 0.146 | 98.1% |
 
 All three are statistically significant. The model decomposes team strength into three orthogonal dimensions: how you play at even strength, how you play on special teams, and how your goalie plays.
 
@@ -24,7 +24,7 @@ Each team's strength is modeled as:
 
 $$\lambda_i = \alpha_i + \beta_1 \cdot \text{FF\%}_{\text{close}} + \beta_2 \cdot \text{PP\%} + \beta_3 \cdot \text{GSAx/60}$$
 
-where αᵢ is a team specific intercept and the β coefficients are shared across all teams. Game outcomes follow a 5 category softmax which incl. regulation win, overtime win, tie, overtime loss, regulation loss, extending Whelan's 4-outcome model to handle NCAA ties.
+where $\alpha_{i}$ is a team specific intercept and the $\Beta$ coefficients are shared across all teams. Game outcomes follow a 5 category softmax which incl. regulation win, overtime win, tie, overtime loss, regulation loss, extending Whelan's 4-outcome model to handle NCAA ties.
 
 The posterior is sampled via NUTS (4 chains × 2,000 draws). Team strengths are then fed into a Monte Carlo simulator of 10,000 iterations that plays out full conference round-robins and single-elimination tournament brackets.
 
@@ -46,10 +46,15 @@ Possession quality persists across seasons despite roster turnover. Special team
 
 We train on season N and predict every game in season N+1, comparing the covariate-enhanced model against a base Whelan model with no covariates:
 
-| Train → Test | Base Whelan | Sticky (FF% + PP%) | $\Delta$ Brier |
-|:------------:|:-----------:|:-------------------:|:-------:|
-| 2022-23 → 2023-24 | 0.2456 | **0.2445** | −0.0010 |
-| 2023-24 → 2024-25 | 0.2319 | **0.2285** | −0.0033 |
+| Train → Test | Base Whelan | Sticky (FF% + PP%) | $\Delta$ Brier | DM Test (t-stat) | p-value |
+|:------------:|:-----------:|:-------------------:|:-------:|:----------------:|:-------:|
+| 2022-23 → 2023-24 | 0.2456 | **0.2445** | −0.0010 | 0.906 | 0.1826 |
+| 2023-24 → 2024-25 | 0.2319 | **0.2285** | −0.0033 | **2.265** | **0.0118** |
+
+*Note: The Diebold-Mariano (DM) paired t-test evaluates the significance of the squared prediction errors. The 2024-25 validation demonstrates highly significant structural alpha ($t(1093) = 2.265, p < 0.05$) despite the severe penalty of cross-season roster turnover.*
+
+**Aggregate Out-of-Sample Performance (2022–2025):**
+Across both test seasons (2,076 total out-of-sample predictions), the inclusion of possession and special teams covariates reduced the average Brier score from **0.2387** to **0.2365**. This represents an overall **0.9% reduction** in prediction error against an already optimized Bayesian baseline.
 
 The covariate model outperforms in both season pairs. The improvement is conservative due to full season-to-season prediction with roster churn, making this a very difficult test. Within season validation would show larger gains but requires play-by-play data unavailable at the college level as of right now.
 
